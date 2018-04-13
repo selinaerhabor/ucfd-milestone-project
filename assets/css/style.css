@@ -1,0 +1,37 @@
+/*-------------------------------------------- Font Settings*/
+body {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+/*-------------------------------------------- Navbar Settings*/
+.l-header{
+    padding: 0;
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+    
+.nav-tab:hover {
+    text-decoration: underline;
+}
+
+/*--------------------------------------------Callout Settings*/
+.callout {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    height: 95vh;
+    background: url('/assets/images/TheKinksFront.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    z-index: -1;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
