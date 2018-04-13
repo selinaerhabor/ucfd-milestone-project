@@ -4,9 +4,16 @@ body {
 }
 
 /*-------------------------------------------- Navbar Settings*/
-.l-header{
-    padding: 0;
-    margin: 0;
+nav {
+    background-color: #fff;
+}
+
+.navbar-success {
+    background: #151515;
+}
+
+.header-style {
+    height: 50px;
 }
 
 .uppercase {
@@ -15,15 +22,15 @@ body {
     
 .nav-tab:hover {
     text-decoration: underline;
+    
 }
 
 /*--------------------------------------------Callout Settings*/
 .callout {
     text-align: center;
-    padding: 0;
-    margin: 0;
-    height: 95vh;
-    background: url('/assets/images/TheKinksFront.png') no-repeat center center fixed;
+    height: 87.5vh;
+    background-clip: border-box;
+    background: url('/assets/images/TheKinks.jpg') no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -33,5 +40,40 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
-    
+}
+
+/*--------------------------------------------Footer Settings*/
+footer {
+    text-align: center;
+    height: 32.5px;
+    color: #000080;
+    background: #151515;
+    position: relative;
+    padding-top: 3px;
+    padding-bottom: 1px;
+    margin: 0;
+}
+
+/*--------------------------------------------Device-size Settings*/
+
+/*-------------------------------------------- Social Links*/
+
+.social-links li a i{
+    width: 45px;
+    height: 45px;
+    padding: 20px 0px;
+    border-radius: 50%;
+    font-size: 22px;
+    line-height: 4px;
+    text-align: center;
+    align-items: center;
+    color: #ffffff ;
+    background-color: #9a9a9a;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+.social-links li a i:hover {
+    color: blue;
 }
