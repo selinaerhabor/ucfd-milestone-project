@@ -30,7 +30,7 @@ nav {
     text-align: center;
     height: 100vh;
     background-clip: border-box;
-    background: url('/assets/images/99046594.jpg') no-repeat center fixed;
+    background: url('/assets/images/TheKinksIndex.jpg') no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -40,18 +40,6 @@ nav {
     align-items: center;
     justify-content: center;
     position: relative;
-}
-
-/*--------------------------------------------Footer Settings*/
-footer {
-    text-align: center;
-    height: 32.5px;
-    color: #000080;
-    background-color: #0e2f44;
-    position: relative;
-    padding-top: 3px;
-    padding-bottom: 1px;
-    margin: 0;
 }
 
 
@@ -86,6 +74,7 @@ footer {
     margin: 20px;
 }
 
+/*-------------------------------------------------Navbar Settings*/
 .navbar {
     margin-bottom: 0;
     position: absolute;
@@ -130,11 +119,54 @@ footer {
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
     color: white;
-    background: transparent;
+    background-color: transparent;
 }
 
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover {
     color: white;
 }
+
+
+.navbar-btn {
+    border: 10px;
+    border-radius: 50px;
+    width: 100px;
+    background-color: #f05f40;
+    color: white;
+    text-align: center;
+}
+
+.navbar-btn:hover {
+    background-color: #df4929;
+    border-color: #df4929;
+    color: white;
+}
+
+/*------------------------------------------Bottom of Page Settings*/
+.bottom {
+    text-align: center;
+    background-color: transparent;
+    background-image: url(/assets/images/TheKinksIndex.jpg);
+    position: relative;
+    opacity: 0.85;
+    border-color: lightgray;
+    border-width: thick;
+}
+
+.important-info:hover {
+    color: purple;
+    text-decoration: none;
+}
+
+.strong {
+    padding-top:1%;
+    padding-bottom: 0%;
+    color: white;
+}
+
+
+
+
+
 
