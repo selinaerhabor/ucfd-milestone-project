@@ -3,26 +3,6 @@ body {
     font-family: 'Fjalla One', sans-serif;
 }
 
-/*-------------------------------------------- Navbar Settings*/
-nav {
-    background-color: transparent;
-}
-
-.navbar-success {
-    background:  #0e2f44;
-}
-
-.header-style {
-    height: 50px;
-}
-
-.uppercase {
-    text-transform: uppercase;
-}
-    
-.nav-tab:hover {
-    text-decoration: underline;
-}
 
 /*--------------------------------------------Callout Settings*/
 
@@ -45,36 +25,28 @@ nav {
 
 /*--------------------------------------------Device-size Settings*/
 
-/*-------------------------------------------- Social Links*/
 
-.social{
-    padding-bottom: 15px;
+/*-------------------------------------------------Navigation Bar Settings*/
+nav {
+    background-color: transparent;
 }
 
-.social li a i{
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+.navbar-success {
+    background:  #0e2f44;
 }
 
-.social li a i:hover {
-    background: #e84610;
+.header-style {
+    height: 50px;
 }
 
-#footer-details {
-    margin: 20px;
+.uppercase {
+    text-transform: uppercase;
+}
+    
+.nav-tab:hover {
+    text-decoration: underline;
 }
 
-/*-------------------------------------------------Navbar Settings*/
 .navbar {
     margin-bottom: 0;
     position: absolute;
@@ -92,6 +64,10 @@ nav {
 
 .navbar-default .navbar-toggle {
     border: 0;
+}
+
+.navbar-tab {
+    color: lightgray;
 }
 
 .navbar-default .navbar-toggle:hover {
@@ -130,27 +106,31 @@ nav {
 
 .navbar-btn {
     border: 10px;
-    border-radius: 50px;
+    border-radius: 75px;
     width: 100px;
     background-color: #f05f40;
-    color: white;
+    color: #fff8dc;
     text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    
 }
 
 .navbar-btn:hover {
     background-color: #df4929;
     border-color: #df4929;
     color: white;
+    text-decoration: underline;
 }
 
-/*------------------------------------------Bottom of Page Settings*/
+/*------------------------------------------Footer Settings*/
 .bottom {
     text-align: center;
     background-color: transparent;
     background-image: url(/assets/images/TheKinksIndex.jpg);
     position: relative;
     opacity: 0.85;
-    border-color: lightgray;
+    border-color: #fff8dc;
     border-width: thick;
 }
 
