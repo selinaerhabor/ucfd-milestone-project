@@ -13,13 +13,9 @@
 </head>
 
 <body>
-    <header class="header-style">
-        <nav class="navbar-success">
-
+    <nav class="navbar navbar-default">
             <a href="index.html" class="navbar-brand uppercase">
                     The Kinks</a>
-
-
             <div class="navbar-collapse collapse" id="navbar">
                 <ul class="nav navbar-nav">
                     <li class="nav-tab"><a href="about.html">About</a></li>
@@ -33,26 +29,45 @@
                 </div>
             </div>
         </nav>
-    </header>
-    <div class="callout">
-        <div class="social"> 
-        <a href="https://www.facebook.com/TheKinksOfficial" class="fa fa-facebook" target="_blank"> <span></span> 
-        </a> 
-        <a href="https://twitter.com/TheKinks" class="instagram" target="_blank"> <span></span> 
-        </a> 
-        <a href="https://www.youtube.com/user/TheKinksMusic" class="twitter" target="_blank"> <span></span> 
-        </a>
-        </div>
-</div>
-
-    </section>
-    <footer class="footer-style Primary">
-        <p>The Kinks 2018</p>
-
-    </footer>
+        <div class="container-fluid callout">
+        <div class="opaque-overlay">&nbsp;</div>
+        <!-- callout -->
     </div>
-
-
+        
+    
+<div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Keep up-to-date with The Kinks!</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Email">
+                            <p class="help-block">We will never share your email address with anyone</p>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="passwordRepeat">Repeat Password</label>
+                            <input type="password" class="form-control" id="passwordRepeat" placeholder="Repeat Your Password">
+                        </div>
+                        <button type="submit" class="btn btn-success">Sign Up!</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+ </article>
+ 
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+     
 </body>
 
 </html>
