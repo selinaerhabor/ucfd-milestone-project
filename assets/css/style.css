@@ -155,4 +155,8 @@ a:hover {
     color: white;
 }
 
+.fa {
+    width: 75px;
+    font-size: 180%;
+}
 
