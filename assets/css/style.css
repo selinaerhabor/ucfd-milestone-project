@@ -4,7 +4,7 @@ body {
 }
 
 
-/*--------------------------------------------Callout Settings*/
+/*--------------------------------------------index.html body Settings*/
 
 .callout {
     text-align: center;
@@ -22,6 +22,39 @@ body {
     position: relative;
 }
 
+/*--------------------------------------------about.html body Settings*/
+.callout-about {
+    text-align: center;
+    height: 200vh;
+    background-color: lightgray;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    z-index: -1;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+
+/*--------------------------------------------music.html body Settings*/
+
+
+
+/*--------------------------------------------photos.html body Settings*/
+
+
+
+/*--------------------------------------------events.html body Settings*/
+
+
+
+/*--------------------------------------------store.html body Settings*/
+
+
 
 /*--------------------------------------------Device-size Settings*/
 
@@ -31,9 +64,6 @@ nav {
     background-color: transparent;
 }
 
-.navbar-success {
-    background:  #0e2f44;
-}
 
 .header-style {
     height: 50px;
@@ -53,6 +83,7 @@ nav {
     z-index: 1;
     background-color: rgba(0, 0, 0, 0.25);
     border: 0;
+    border-radius:0;
 }
 
 .navbar-default .navbar-collapse {
@@ -63,8 +94,8 @@ nav {
     border: 0;
 }
 
-.navbar-tab {
-    color: lightgray;
+.nav-tab {
+    color: blue;
 }
 
 .navbar-default .navbar-toggle:hover {
@@ -147,6 +178,8 @@ nav {
 a:hover {
     color: lightblue;
     text-decoration: none;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
 }
 
 .strong {
@@ -157,6 +190,12 @@ a:hover {
 
 .fa {
     width: 75px;
+    font-size: 170%;
+}
+
+.fa:hover {
     font-size: 180%;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
 }
 
