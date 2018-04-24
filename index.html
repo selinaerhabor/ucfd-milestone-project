@@ -15,6 +15,7 @@
     <nav class="navbar navbar-default">
             <a href="index.html" class="navbar-brand uppercase">
                     The Kinks</a>
+                    
             <div class="navbar-collapse collapse" id="navbar">
                 <ul class="nav navbar-nav">
                     <li class="nav-tab"><a href="about.html">About</a></li>
@@ -24,15 +25,29 @@
                     <li class="nav-tab"><a href="store.html">Store</a></li>
                 </ul>
                 <div class="navbar-header navbar-right hidden-xs">
-                    <a href="" class="btn btn-Primary navbar-btn">Login/Register</a>
+                    <button class="btn btn-Primary navbar-btn" data-toggle='modal' data-target='#loginModal'>Login</button>
                 </div>
                 </div>
         </nav>
         
         <!-- The Kinks Background Image -->
         <div class="container-fluid callout">
-        <div class="opaque-overlay">&nbsp;</div>
+        
+        <!-- Callout -->
+        <div class= "row">
+            <div class="col-xs-12">
+                
+                <section class="jumbotron text-center">
+                    <div><h1>Stay Connected with The Kinks</h1></div>
+                    <hr class='block-divider block-divider--blue'>
+                    <div class="lead">Subscribe for free to our mailing list for news on The Kinks every month.</div>
+                    <button class="btn btn-info" data-toggle='modal' data-target='#signUpModal'>Subscribe!</button>
+                </section>
+            </div>
+        </div>
+        <!-- /.callout -->
     </div>
+    
     <!-- /The Kinks Background Image -->
         
     <!-- Sign Up dialog -->
@@ -40,7 +55,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" ><span aria-hidden="true">×</span></button>
                     <h4 class="modal-title" id="myModalLabel">Subscribe to our mailing list!</h4>
                 </div>
                 <div class="modal-body">
@@ -66,8 +81,34 @@
     </div>
     <!-- /Sign Up dialog -->
     
+    <!--Login dialog-->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" ><span aria-hidden="true">×</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Login to your Account</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Your Registered Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                        <button type="submit" class="btn btn-success">Sign In</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/Login dialog-->
+    
 <footer class= "bottom container-fluid">
-    <h5><p class="strong">Stay Connected</p></h5>
+    <h5><p class="strong">Follow Us</p></h5>
     <div>
         <a class="fa" href="https://www.facebook.com/TheKinksOfficial" target=_blank><i class="fa fa-facebook-square"></i></a>
         <a class="fa" href="https://www.twitter.com/TheKinks" target=_blank><i class="fa fa-twitter-square"></i></a>

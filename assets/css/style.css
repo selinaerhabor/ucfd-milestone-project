@@ -22,10 +22,34 @@ body {
     position: relative;
 }
 
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #444;
+}
+
+.btn--info {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+
+.btn--info:hover,
+.btn--info:active,
+.btn--info:focus,
+.btn--info:active:focus {
+    background-color: #df4929;
+    border-color: #df4929;
+    color: white;
+}
+
 /*--------------------------------------------about.html body Settings*/
 .callout-about {
     text-align: center;
-    height: 200vh;
+    height: 150vh;
     background-color: lightgray;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -146,9 +170,9 @@ nav {
 
 
 .navbar-btn {
-    border: 10px;
-    border-radius: 75px;
-    width: 100px;
+    border: 5px;
+    border-radius: 50px;
+    width: 60px;
     background-color: #f05f40;
     color: #fff8dc;
     text-align: center;
@@ -162,6 +186,9 @@ nav {
     color: white;
     text-decoration: underline;
 }
+
+
+
 
 /*------------------------------------------Footer Settings*/
 .bottom {
@@ -194,7 +221,7 @@ a:hover {
 }
 
 .fa:hover {
-    font-size: 180%;
+    font-size: 175%;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
 }
