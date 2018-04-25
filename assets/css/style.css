@@ -28,8 +28,6 @@ body {
     height: 1px;
     background-color: lightgray;
     border: 0;
-    
-    
 }
 
 .btn--info {
@@ -48,13 +46,19 @@ body {
     color: white;
 }
 
+.main {
+    color: dimgray;
+}
 
+.jumbotron {
+    border-radius: 20px;
+}
 
 
 /*--------------------------------------------about.html body Settings*/
 .callout-about {
     text-align: center;
-    height: 200vh;
+    height: 225vh;
     background-color: lightgray;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -67,22 +71,38 @@ body {
     position: relative;
 }
 
+.bio {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+}
+
+.thumbnail {
+    height: 350px;
+    width: 300px;
+}
+
 .row-first {
     display: inline-block;
     text-align: center;
-    padding-top: 5px;
-    height: 450px;
+    margin-top: 5px;
 }
 
 .row-second {
     display: inline-block;
     text-align: center;
-    padding-top: 5px;
-    border-top: 5px;
-    align-items: center;
-    height: 250px;
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
+.row-third {
+    display: inline-block;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
 
 
 /*--------------------------------------------music.html body Settings*/
@@ -191,9 +211,10 @@ nav {
 
 
 .navbar-btn {
-    border: 5px;
-    border-radius: 25px;
-    width: 60px;
+    border-right: 5px;
+    margin-right: 20px;
+    border-radius: 5px;
+    width: 70px;
     background-color: #f05f40;
     color: #fff8dc;
     text-align: center;
@@ -236,13 +257,18 @@ a:hover {
     color: white;
 }
 
-.fa {
-    width: 75px;
-    font-size: 170%;
+.fa-sign-in {
+    font-size: 17px;
 }
 
-.fa:hover {
-    font-size: 175%;
+.icon {
+    width: 75px;
+    font-size: 40px;
+    padding: 15px;
+}
+
+.icon:hover {
+    font-size: 45px;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
 }
