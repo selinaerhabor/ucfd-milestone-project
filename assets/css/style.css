@@ -24,10 +24,12 @@ body {
 
 
 .block-divider {
-    width: 75px;
-    height: 5px;
+    width: 650px;
+    height: 1px;
+    background-color: lightgray;
     border: 0;
-    background-color: #444;
+    
+    
 }
 
 .btn--info {
@@ -46,10 +48,13 @@ body {
     color: white;
 }
 
+
+
+
 /*--------------------------------------------about.html body Settings*/
 .callout-about {
     text-align: center;
-    height: 150vh;
+    height: 200vh;
     background-color: lightgray;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -60,6 +65,22 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
+}
+
+.row-first {
+    display: inline-block;
+    text-align: center;
+    padding-top: 5px;
+    height: 450px;
+}
+
+.row-second {
+    display: inline-block;
+    text-align: center;
+    padding-top: 5px;
+    border-top: 5px;
+    align-items: center;
+    height: 250px;
 }
 
 
@@ -171,7 +192,7 @@ nav {
 
 .navbar-btn {
     border: 5px;
-    border-radius: 50px;
+    border-radius: 25px;
     width: 60px;
     background-color: #f05f40;
     color: #fff8dc;

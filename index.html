@@ -13,8 +13,16 @@
 </head>
 <body>
     <nav class="navbar navbar-default">
+        <div class="navbar-header">
             <a href="index.html" class="navbar-brand uppercase">
                     The Kinks</a>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                </div>
                     
             <div class="navbar-collapse collapse" id="navbar">
                 <ul class="nav navbar-nav">
@@ -24,33 +32,13 @@
                     <li class="nav-tab"><a href="events.html">Events</a></li>
                     <li class="nav-tab"><a href="store.html">Store</a></li>
                 </ul>
-                <div class="navbar-header navbar-right hidden-xs">
+                <div class="navbar-right hidden-xs">
                     <button class="btn btn-Primary navbar-btn" data-toggle='modal' data-target='#loginModal'>Login</button>
                 </div>
                 </div>
         </nav>
         
-        <!-- The Kinks Background Image -->
-        <div class="container-fluid callout">
-        
-        <!-- Callout -->
-        <div class= "row">
-            <div class="col-xs-12">
-                
-                <section class="jumbotron text-center">
-                    <div><h1>Stay Connected with The Kinks</h1></div>
-                    <hr class='block-divider block-divider--blue'>
-                    <div class="lead">Subscribe for free to our mailing list for news on The Kinks every month.</div>
-                    <button class="btn btn-info" data-toggle='modal' data-target='#signUpModal'>Subscribe!</button>
-                </section>
-            </div>
-        </div>
-        <!-- /.callout -->
-    </div>
-    
-    <!-- /The Kinks Background Image -->
-        
-    <!-- Sign Up dialog -->
+           <!-- Sign Up dialog -->
 <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -106,6 +94,28 @@
         </div>
     </div>
     <!--/Login dialog-->
+        
+        <!-- The Kinks Background Image -->
+        <div class="container-fluid callout">
+        
+        <!-- Callout -->
+        <div class= "row">
+            <div class="col-xs-12">
+                
+                <section class="jumbotron text-center">
+                    <div><h1>Stay Connected with The Kinks</h1></div>
+                    <hr class='block-divider block-divider--blue'>
+                    <div class="lead">Subscribe for free to our mailing list for news on The Kinks every month.</div>
+                    <button class="btn btn-info" data-toggle='modal' data-target='#signUpModal'>Subscribe!</button>
+                </section>
+            </div>
+        </div>
+        <!-- /.callout -->
+    </div>
+    
+    <!-- /The Kinks Background Image -->
+        
+ 
     
 <footer class= "bottom container-fluid">
     <h5><p class="strong">Follow Us</p></h5>
