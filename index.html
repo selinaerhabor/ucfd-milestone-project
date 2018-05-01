@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>The Kinks</title>
 </head>
-<body>
+ <body>
     <nav class="navbar navbar-default">
         <div class="navbar-header">
             <a href="index.html" class="navbar-brand uppercase">
@@ -38,37 +38,6 @@
                 </div>
                 </div>
         </nav>
-        
-           <!-- Sign Up dialog -->
-<div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" ><span aria-hidden="true">×</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Subscribe to our mailing list!</h4>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="form-group">
-                            <label for="email">Email address</label>
-                            <input type="email" class="form-control" id="email" placeholder="Email">
-                            <p class="help-block">We will never share your email address with anyone</p>
-                        </div>
-                        <div class="form-group">
-                            <label for="password">Password</label>
-                            <input type="password" class="form-control" id="password" placeholder="Password">
-                        </div>
-                        <div class="form-group">
-                            <label for="passwordRepeat">Confirm Password</label>
-                            <input type="password" class="form-control" id="passwordRepeat" placeholder="Confirm Password">
-                        </div>
-                        <button type="submit" class="btn btn-success">Submit</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- /Sign Up dialog -->
     
     <!--Login dialog-->
 <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -95,33 +64,68 @@
         </div>
     </div>
     <!--/Login dialog-->
-        
-        <!-- The Kinks Background Image -->
-        <div class="container-fluid callout">
-        
-        <!-- Callout -->
-        <section class="jumbotron text-center hidden-xs">
-            <div class= "row">
-            <div class="col-xs-12">
-                
-            
-                    <div class="main"><h1>Stay Connected with The Kinks</h1></div>
-                    <hr class='block-divider block-divider--blue'>
-                    <div class="lead main">Subscribe for free to our mailing list for news on The Kinks every month.</div>
-                    <nav>
-                    <button class="btn btn-info btn-lg" data-toggle='modal' data-target='#signUpModal'>Subscribe!</button>
-                    </nav>
-                
+    
+    <!-- Sign Up dialog -->
+<div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" ><span aria-hidden="true">×</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Subscribe to our mailing list!</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Email">
+                            <p class="help-block"><i>We will never share your details with anyone</i></p>
+                        </div>
+                        <div class="form-group">
+                            <label for="firstName">First Name</label>
+                            <input type="name" class="form-control" id="firstName" placeholder="First Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Last Name</label>
+                            <input type="name" class="form-control" id="LastName" placeholder="Last Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="passwordRepeat">Confirm Password</label>
+                            <input type="password" class="form-control" id="passwordRepeat" placeholder="Confirm Password">
+                        </div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </form>
+                </div>
             </div>
         </div>
-        </section>
-        <!-- /.callout -->
     </div>
+    <!-- /Sign Up dialog -->
     
+        
+        
+    <!-- The Kinks Background Image -->
+<div class="container-fluid callout-container">
+        <div class="row">
+            <div class="col-xs-12">
+        <!-- Callout -->
+            <section class="callout jumbotron text-center">
+                <div class="main"><h1>Stay Connected with The Kinks</h1></div>
+                    <hr class='block-divider block-divider--blue'>
+                        <div class="lead main">Subscribe for free to our mailing list for news on The Kinks every month.</div>
+                            <p>
+                                <button class="btn btn-info btn-lg callout-btn" data-toggle='modal' data-target='#signUpModal'>Subscribe!</button>
+                            </p>
+            </section>
+            </div>
+        </div>
+        <!-- /.callout -->
+</div>
     <!-- /The Kinks Background Image -->
         
- 
-    
+        
 <footer class= "bottom container-fluid">
     <h5><p class="strong">Follow Us</p></h5>
         <a class="icon" href="https://www.facebook.com/TheKinksOfficial" target=_blank><i class="fa fa-facebook-square"></i></a>
@@ -139,5 +143,5 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
      
-</body>
+ </body>
 </html>

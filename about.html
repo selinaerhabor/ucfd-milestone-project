@@ -9,87 +9,108 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fjalla+One" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <title>About - The Kinks</title>
+    <title>About | The Kinks</title>
 </head>
-<body>
+  <body>
     <nav class="navbar navbar-default">
       <div class="navbar-header">
-            <a href="index.html" class="navbar-brand uppercase">
-                    The Kinks</a>
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                </div>
-            <div class="navbar-collapse collapse" id="navbar">
-                <ul class="nav navbar-nav">
-                    <li class="nav-tab active"><a href="about.html">About</a></li>
-                    <li class="nav-tab"><a href="music.html">Music</a></li>
-                    <li class="nav-tab"><a href="photos.html">Photos</a></li>
-                    <li class="nav-tab"><a href="events.html">Events</a></li>
-                    <li class="nav-tab"><a href="store.html">Store</a></li>
-                </ul>
-                <div class="navbar-right hidden-xs">
-                    <button class="btn btn-Primary navbar-btn" data-toggle='modal' data-target='#jointloginregisterModal'>Login <i class="fa fa-sign-in"></i>
-                    </button>
-                </div>
-                </div>
-        </nav>
+        <a href="index.html" class="navbar-brand uppercase">The Kinks</a>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+      </div>
+      <div class="navbar-collapse collapse" id="navbar">
+        <ul class="nav navbar-nav">
+          <li class="nav-tab active"><a href="about.html">About</a></li>
+          <li class="nav-tab"><a href="music.html">Music</a></li>
+          <li class="nav-tab"><a href="photos.html">Photos</a></li>
+          <li class="nav-tab"><a href="events.html">Events</a></li>
+          <li class="nav-tab"><a href="store.html">Store</a></li>
+        </ul>
+      <div class="navbar-right hidden-xs">
+        <button class="btn btn-Primary navbar-btn" data-toggle='modal' data-target='#jointloginregisterModal'>Login <i class="fa fa-sign-in"></i>
+        </button>
+      </div>
+      </div>
+    </nav>
         
-    <!--jointloginregisterModal-->
+  <!--Joint Login & Register Form-->
 <div class="modal fade" id="jointloginregisterModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" ><span aria-hidden="true">×</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Login to your Account</h4>
-                </div>
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" >
+          <span aria-hidden="true">×</span>
+        </button>
+            <h4 class="modal-title" id="myModalLabel">Login to your Account
+            </h4>
+      </div>
                 <div class="modal-body">
-                      <form>
-                        <div class="form-group">
-                            <label for="email">Email address</label>
-                            <input type="email" class="form-control" id="email" placeholder="Your Registered Email">
-                        </div>
-                        <div class="form-group">
-                            <label for="password">Password</label>
+                  <form>
+                    <div class="form-group">
+                      <label for="email">Email address
+                      </label>
+                        <input type="email" class="form-control" id="email" placeholder="Your Registered Email">
+                    </div>
+                          <div class="form-group">
+                            <label for="password">Password
+                            </label>
                             <input type="password" class="form-control" id="password" placeholder="Password">
-                        </div>
-                        <button type="submit" class="btn btn-success">Sign In</button>
-                     </form>
-                      <div><hr class="divider"></div>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" ><span aria-hidden="true">×</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Not Registered yet?</h4> <div><h5>Subscribe to our mailing list!</h5></div>
-                </div>
+                          </div>
+                            <button type="submit" class="btn btn-success">Sign In
+                            </button>
+                  </form>
+                              <div>
+                                <hr class="divider">
+                              </div>
+  
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" ></button>
+          <h4 class="modal-title" id="myModalLabel">Not Registered yet?</h4> 
+            <div>
+              <h5>Subscribe to our mailing list!</h5>
+            </div>
+          </div>
                 <div class="modal-body">
-                    <form>
-                        <div class="form-group">
-                            <label for="email">Email address</label>
-                            <input type="email" class="form-control" id="email" placeholder="Email">
-                            <p class="help-block">We will never share your email address with anyone</p>
-                        </div>
-                        <div class="form-group">
-                            <label for="password">Password</label>
-                            <input type="password" class="form-control" id="password" placeholder="Password">
-                        </div>
-                        <div class="form-group">
-                            <label for="passwordRepeat">Confirm Password</label>
-                            <input type="password" class="form-control" id="passwordRepeat" placeholder="Confirm Password">
-                        </div>
+                  <form>
+                    <div class="form-group">
+                      <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Email">
+                          <p class="help-block"><i>We will never share your details with anyone</i></p>
+                    </div>
+                    <div class="form-group">
+                      <label for="firstName">First Name</label>
+                        <input type="name" class="form-control" id="firstName" placeholder="First Name">
+                    </div>
+                    <div class="form-group">
+                      <label for="lastName">Last Name</label>
+                        <input type="name" class="form-control" id="LastName" placeholder="Last Name">
+                    </div>
+                    <div class="form-group">
+                      <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                      <label for="passwordRepeat">Confirm Password</label>
+                        <input type="password" class="form-control" id="passwordRepeat" placeholder="Confirm Password">
+                    </div>
                         <button type="submit" class="btn btn-success">Submit</button>
-                    </form>
+                  </form>
                 </div>
             </div>
         </div>
     </div>
-    <!--/jointloginregisterModal -->
+  <!--/. Joint Login & Register Form -->
         
-    <!-- About's section Body -->
-        <div class="container-fluid callout-about">
-      <div class="row col-xs-12">
-        <div class="lead"><uppercase><u>Main Members of The Kinks</u></uppercase></div>
-        
+  <!-- About section Body -->
+<div class="container-fluid callout-about">
+  <div class="row col-xs-12">
+    
+  <!--Biography Text-->
+<div class="bio-text">
+  <div class="lead"><uppercase><u>Main Members of The Kinks</u></uppercase></div>
     <p class="bio">
         The Kinks were an English Rock band formed in Muswell Hill in 1963 by Ray and Dave Davies. Formerly known 
         as The Ravens when first formed in 1963, until later changing their name to The Kinks in 1964.
@@ -102,170 +123,191 @@
         British music hall and traditional pop, as well as incorporating elements of country, folk, and blues.
     </p>
     <p class="bio">
-        American record producer Sheldon "Shel" Talmy under contract to Pye Records,
+        American record producer, Sheldon "Shel" Talmy under contract to Pye Records,
         helped the band land a contract with Pye in 1964. Before signing to the label, Mick Avory joined the band as their drummer. 
         Other members including John Dalton and Jim Rodford covered bass after Pete Quaife left in 1969.
         John Gosling joined the band in 1970 as their keyboardist. From 1978, other members including Ian Gibbons covered the keyboardist role.
         Throughout their long and varied career, the core of the Kinks remained the Davies brothers.
     </p>
+</div>
+  <!--/.Biography Text-->
         
+  <!--Row 1-->
 <div class="row-first">
   <div class="col-sm-3">
     <div class="thumbnail">
+      <a href="https://" target="_blank">
       <img src="/assets/images/image_raydavies.jpg" alt="image_raydavies">
-      <div class="caption">
-        <h3>Ray Davies</h3>
-        <p>Ray Davies has been part of The Kinks since...
-        Born: June 21, 1944</p>
-        <p><a class="fa" href="https://www.facebook.com/TheKinksOfficial" target=_blank><i class="fa fa-facebook-square"></i></a>
-        <a class="fa" href="https://www.twitter.com/TheKinks" target=_blank><i class="fa fa-twitter-square"></i></a>
-        <a class="fa" href="https://www.youtube.com/TheKinksOfficial" target=_blank><i class="fa fa-youtube-square"></i></a></p>
-      </div>
-      </div>
-</div>
+      </a>
+        <div class="caption">
+          <h4><b>Ray Davies</b></h4>
+            <p>Raymond Douglas Davies was born on June 21, 1944 and has been part of The Kinks since 1963. 
+               He was the lead singer, chief songwriter, and rhythm guitarist in The Kinks.
+               He later went on to publish his semi-fictional 1995 memoir, X-Ray and
+               a second memoir, Americana, in 2013. 
+            </p>
+        </div>
+    </div>
+  </div>
     
   <div class="col-sm-3">
     <div class="thumbnail">
       <img src="/assets/images/image_davedavies.jpg" alt="image_davedavies">
-      <div class="caption">
-        <h3>Dave Davies</h3>
-        <p>Dave Davies has been part of The Kinks since...
-        Born: February 3, 1947</p>
-        <p><a class="fa" href="https://www.facebook.com/TheKinksOfficial" target=_blank><i class="fa fa-facebook-square"></i></a>
-        <a class="fa" href="https://www.twitter.com/TheKinks" target=_blank><i class="fa fa-twitter-square"></i></a>
-        <a class="fa" href="https://www.youtube.com/TheKinksOfficial" target=_blank><i class="fa fa-youtube-square"></i></a></p>
-      </div>
+        <div class="caption">
+          <h4><b>Dave Davies</b></h4>
+          <i class=""></i>
+            <p>David Russell Gordon Davies was born on 3 February, 1947 and founded The Kinks in 1963 with Pete Quaife.
+               He was the lead guitarist, backing and occasional lead singer.
+               Davies was solely responsible for the signature distorted power chord sound on the Kinks' first hit, "You Really Got Me".
+            </p>
+        </div>
     </div>
-</div>
+  </div>
 
 
   <div class="col-sm-3">
     <div class="thumbnail">
       <img src="/assets/images/image_petequaife.jpg" alt="image_petequaife">
-      <div class="caption">
-        <h3>Pete Quaife</h3>
-        <p>Pete Quaife has been part of The Kinks since...
-        Born: </p>
-        <p><a class="fa" href="https://www.facebook.com/TheKinksOfficial" target=_blank><i class="fa fa-facebook-square"></i></a>
-        <a class="fa" href="https://www.twitter.com/TheKinks" target=_blank><i class="fa fa-twitter-square"></i></a>
-        <a class="fa" href="https://www.youtube.com/TheKinksOfficial" target=_blank><i class="fa fa-youtube-square"></i></a></p>
-      </div>
-   </div>
+        <div class="caption">
+          <h4><b>Pete Quaife</b></h4>
+            <p>
+              <div>31 December 1943 - 23 June 2010</div>
+               Peter Alexander Greenlaw Kinnes founded The Kinks in 1963 with 
+               Dave Davies and was the original 
+               bass guitarist for The Kinks from 1963-1969.
+            </p>
+        </div>
+    </div>
   </div>
 
       
   <div class="col-sm-3">
     <div class="thumbnail">
       <img src="/assets/images/image_mickavory.jpg" alt="image_mickavory">
-      <div class="caption">
-        <h3>Mick Avory</h3>
-        <p>Mick Avory was part of The Kinks between...
-        Born: </p>
-        <p><a class="fa" href="https://www.facebook.com/TheKinksOfficial" target=_blank><i class="fa fa-facebook-square"></i></a>
-        <a class="fa" href="https://www.twitter.com/TheKinks" target=_blank><i class="fa fa-twitter-square"></i></a>
-        <a class="fa" href="https://www.youtube.com/TheKinksOfficial" target=_blank><i class="fa fa-youtube-square"></i></a></p>
-      </div>
-      </div>
+        <div class="caption">
+          <h4><b>Mick Avory</b></h4>
+          <p>
+            Michael Charles Avory born 15 February, 1944 and is best known as the longtime drummer and percussionist 
+            for The Kinks which he was a member of from 1964-1984.
+          </p>
+        </div>
+    </div>
   </div>
-  </div>
+</div>
+  <!--/.Row 1-->
   
-  <div class="row-second">
-<div class="col-sm-4">
+  
+  <!--Row 2-->
+<div class="row-second">
+  <div class="col-sm-4">
     <div class="thumbnail">
       <img src="/assets/images/image_iangibbons.jpg" alt="image_iangibbons">
-      <div class="caption">
-        <h3>Ian Gibbons</h3>
-        <p>Ian Gibbons was part of The Kinks since...
-        Born: </p>
-        <p><a class="fa" href="https://www.facebook.com/TheKinksOfficial" target=_blank><i class="fa fa-facebook-square"></i></a>
-        <a class="fa" href="https://www.twitter.com/TheKinks" target=_blank><i class="fa fa-twitter-square"></i></a>
-        <a class="fa" href="https://www.youtube.com/TheKinksOfficial" target=_blank><i class="fa fa-youtube-square"></i></a></p>
-      </div>
+        <div class="caption">
+          <h4><b>Ian Gibbons</b></h4>
+            <p>Ian Gibbons was born on 18 July, 1952 and he was the keyboardist for The Kinks from 1979-1989.
+               In 2008 he joined The Kast Off Kinks, a line-up which includes some past members from The Kinks -
+               Mick Avory, Jim Rodford, John Dalton and John Gosling.
+            </p>
+        </div>
     </div>
   </div>
     
-<div class="col-sm-4">
+  <div class="col-sm-4">
     <div class="thumbnail">
       <img src="/assets/images/image_jimrodford.jpg" alt="image_jimrodford">
-      <div class="caption">
-        <h3>Jim Rodford</h3>
-        <p>Jim Rodford was part of The Kinks between...
-        Born: </p>
-        <p><a class="fa" href="https://www.facebook.com/TheKinksOfficial" target=_blank><i class="fa fa-facebook-square"></i></a>
-        <a class="fa" href="https://www.twitter.com/TheKinks" target=_blank><i class="fa fa-twitter-square"></i></a>
-        <a class="fa" href="https://www.youtube.com/TheKinksOfficial" target=_blank><i class="fa fa-youtube-square"></i></a></p>
-      </div>
+        <div class="caption">
+          <h3>Jim Rodford</h3>
+            <p>Jim Rodford was part of The Kinks between...
+            Born: 
+            </p>
+              <p>
+                <a class="fa" href="https://www.facebook.com/TheKinksOfficial" target=_blank><i class="fa fa-facebook-square"></i></a>
+                <a class="fa" href="https://www.twitter.com/TheKinks" target=_blank><i class="fa fa-twitter-square"></i></a>
+                <a class="fa" href="https://www.youtube.com/TheKinksOfficial" target=_blank><i class="fa fa-youtube-square"></i></a>
+              </p>
+        </div>
     </div>
   </div>
 
-<div class="col-sm-4">
+  <div class="col-sm-4">
     <div class="thumbnail">
       <img src="/assets/images/image_bobhenrit.jpg" alt="image_bobhenrit">
-      <div class="caption">
-        <h3>Bob Henrit</h3>
-        <p>Bob Henrit was part of The Kinks between...
-        Born: </p>
-        <p><a class="fa" href="https://www.facebook.com/TheKinksOfficial" target=_blank><i class="fa fa-facebook-square"></i></a>
-        <a class="fa" href="https://www.twitter.com/TheKinks" target=_blank><i class="fa fa-twitter-square"></i></a>
-        <a class="fa" href="https://www.youtube.com/TheKinksOfficial" target=_blank><i class="fa fa-youtube-square"></i></a></p>
-      </div>
+        <div class="caption">
+          <h3>Bob Henrit</h3>
+            <p>Bob Henrit was part of The Kinks between...
+            Born: 
+            </p>
+              <p>
+                <a class="fa" href="https://www.facebook.com/TheKinksOfficial" target=_blank><i class="fa fa-facebook-square"></i></a>
+                <a class="fa" href="https://www.twitter.com/TheKinks" target=_blank><i class="fa fa-twitter-square"></i></a>
+                <a class="fa" href="https://www.youtube.com/TheKinksOfficial" target=_blank><i class="fa fa-youtube-square"></i></a>
+              </p>
+        </div>
     </div>
   </div>
-    </div>
+</div>
+  <!--/.Row 2-->
     
-   <div class="row-third">
+  <!--Row 3-->
+<div class="row-third">
   <div class="col-sm-6">
     <div class="thumbnail">
       <img src="/assets/images/image_johndalton.jpg" alt="image_johndalton">
-      <div class="caption">
-        <h3>John Dalton</h3>
-        <p>John Dalton has been part of The Kinks since...
-        Born: </p>
-        <p><a class="fa" href="https://www.facebook.com/TheKinksOfficial" target=_blank><i class="fa fa-facebook-square"></i></a>
-        <a class="fa" href="https://www.twitter.com/TheKinks" target=_blank><i class="fa fa-twitter-square"></i></a>
-        <a class="fa" href="https://www.youtube.com/TheKinksOfficial" target=_blank><i class="fa fa-youtube-square"></i></a></p>
-      </div>
-      </div>
+        <div class="caption">
+          <h3>John Dalton</h3>
+            <p>John Dalton has been part of The Kinks since...
+            Born: 
+            </p>
+              <p>
+                <a class="fa" href="https://www.facebook.com/TheKinksOfficial" target=_blank><i class="fa fa-facebook-square"></i></a>
+                <a class="fa" href="https://www.twitter.com/TheKinks" target=_blank><i class="fa fa-twitter-square"></i></a>
+                <a class="fa" href="https://www.youtube.com/TheKinksOfficial" target=_blank><i class="fa fa-youtube-square"></i></a>
+              </p>
+        </div>
+    </div>
   </div>
   
 
   <div class="col-sm-6">
     <div class="thumbnail">
       <img src="/assets/images/image_johngosling.jpg" alt="image_johngosling">
-      <div class="caption">
-        <h3>John Gosling</h3>
-        <p>John Gosling was part of The Kinks between...
-        Born: </p>
-        <p><a class="fa" href="https://www.facebook.com/TheKinksOfficial" target=_blank><i class="fa fa-facebook-square"></i></a>
-        <a class="fa" href="https://www.twitter.com/TheKinks" target=_blank><i class="fa fa-twitter-square"></i></a>
-        <a class="fa" href="https://www.youtube.com/TheKinksOfficial" target=_blank><i class="fa fa-youtube-square"></i></a></p>
-      </div>
+        <div class="caption">
+          <h3>John Gosling</h3>
+            <p>John Gosling was part of The Kinks between...
+            Born: 
+            </p>
+              <p>
+                <a class="fa" href="https://www.facebook.com/TheKinksOfficial" target=_blank><i class="fa fa-facebook-square"></i></a>
+                <a class="fa" href="https://www.twitter.com/TheKinks" target=_blank><i class="fa fa-twitter-square"></i></a>
+                <a class="fa" href="https://www.youtube.com/TheKinksOfficial" target=_blank><i class="fa fa-youtube-square"></i></a></p>
+        </div>
     </div>
   </div>
-  </div>
+</div>
+  <!--/.Row 3-->
   
-    </div>
-    </div>
-    <!-- /About's section Body -->
+  </div>
+</div>
+    <!-- /.About section Body -->
  
     
 <footer class= "bottom container-fluid">
-    <h5><p class="strong">Follow Us</p></h5>
-        <a class="icon" href="https://www.facebook.com/TheKinksOfficial" target=_blank><i class="fa fa-facebook-square"></i></a>
-        <a class="icon" href="https://www.twitter.com/TheKinks" target=_blank><i class="fa fa-twitter-square"></i></a>
-        <a class="icon" href="https://www.youtube.com/TheKinksOfficial" target=_blank><i class="fa fa-youtube-square"></i></a>
-    <p>
-    <div class="important-info"><a href="">Privacy Policy</a></div>
-    <div class="important-info"><a href="">Terms & Conditions</a></div>
-    <div class="important-info"><a href="">Store Help</a></div>
-    </p>
-    <div class="strong">2018</div>
+  <h5>
+    <p class="strong">Follow Us</p></h5>
+      <a class="icon" href="https://www.facebook.com/TheKinksOfficial" target=_blank><i class="fa fa-facebook-square"></i></a>
+      <a class="icon" href="https://www.twitter.com/TheKinks" target=_blank><i class="fa fa-twitter-square"></i></a>
+      <a class="icon" href="https://www.youtube.com/TheKinksOfficial" target=_blank><i class="fa fa-youtube-square"></i></a>
+        <p>
+          <div class="important-info"><a href="">Privacy Policy</a></div>
+          <div class="important-info"><a href="">Terms & Conditions</a></div>
+          <div class="important-info"><a href="">Store Help</a></div>
+        </p>
+          <div class="strong">2018</div>
     
 </footer>
 
- 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-     
-</body>
+    
+  </body>
 </html>

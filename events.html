@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fjalla+One" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <title>Events | The Kinks</title>
+</head>
+ <body>
+<nav class="navbar navbar-default">
+     <div class="navbar-header">
+        <a href="index.html" class="navbar-brand uppercase">The Kinks</a>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+      </div>
+      <div class="navbar-collapse collapse" id="navbar">
+        <ul class="nav navbar-nav">
+          <li class="nav-tab"><a href="about.html">About</a></li>
+          <li class="nav-tab"><a href="music.html">Music</a></li>
+          <li class="nav-tab"><a href="photos.html">Photos</a></li>
+          <li class="nav-tab active"><a href="events.html">Events</a></li>
+          <li class="nav-tab"><a href="store.html">Store</a></li>
+        </ul>
+      <div class="navbar-right hidden-xs">
+        <button class="btn btn-Primary navbar-btn" data-toggle='modal' data-target='#jointloginregisterModal'>Login <i class="fa fa-sign-in"></i>
+        </button>
+      </div>
+     </div>
+</nav>
+        
+  <!--Joint Login & Register Form-->
+<div class="modal fade" id="jointloginregisterModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" >
+          <span aria-hidden="true">×</span>
+        </button>
+            <h4 class="modal-title" id="myModalLabel">Login to your Account
+            </h4>
+      </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="form-group">
+                      <label for="email">Email address
+                      </label>
+                        <input type="email" class="form-control" id="email" placeholder="Your Registered Email">
+                    </div>
+                          <div class="form-group">
+                            <label for="password">Password
+                            </label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                          </div>
+                            <button type="submit" class="btn btn-success">Sign In
+                            </button>
+                  </form>
+                              <div>
+                                <hr class="divider">
+                              </div>
+  
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" ></button>
+          <h4 class="modal-title" id="myModalLabel">Not Registered yet?</h4> 
+            <div>
+              <h5>Subscribe to our mailing list!</h5>
+            </div>
+          </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="form-group">
+                      <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Email">
+                          <p class="help-block"><i>We will never share your details with anyone</i></p>
+                    </div>
+                    <div class="form-group">
+                      <label for="firstName">First Name</label>
+                        <input type="name" class="form-control" id="firstName" placeholder="First Name">
+                    </div>
+                    <div class="form-group">
+                      <label for="lastName">Last Name</label>
+                        <input type="name" class="form-control" id="LastName" placeholder="Last Name">
+                    </div>
+                    <div class="form-group">
+                      <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                      <label for="passwordRepeat">Confirm Password</label>
+                        <input type="password" class="form-control" id="passwordRepeat" placeholder="Confirm Password">
+                    </div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                  </form>
+                </div>
+            </div>
+        </div>
+    </div>
+  <!--/. Joint Login & Register Form -->
+
+  <!-- Events section Body -->
+<div class="container-fluid callout-events">
+ 
+</div>
+  <!-- /. Events section Body -->
+  
+<footer class= "bottom container-fluid">
+  <h5>
+    <p class="strong">Follow Us</p></h5>
+      <a class="icon" href="https://www.facebook.com/TheKinksOfficial" target=_blank><i class="fa fa-facebook-square"></i></a>
+      <a class="icon" href="https://www.twitter.com/TheKinks" target=_blank><i class="fa fa-twitter-square"></i></a>
+      <a class="icon" href="https://www.youtube.com/TheKinksOfficial" target=_blank><i class="fa fa-youtube-square"></i></a>
+        <p>
+          <div class="important-info"><a href="">Privacy Policy</a></div>
+          <div class="important-info"><a href="">Terms & Conditions</a></div>
+          <div class="important-info"><a href="">Store Help</a></div>
+        </p>
+          <div class="strong">2018</div>
+    
+</footer>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+ </body>
+</html>

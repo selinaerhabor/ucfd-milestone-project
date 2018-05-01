@@ -32,18 +32,22 @@ body {
 
 .btn--info {
     font-weight: bold;
-    border-radius: 23px;
+    border-radius: 25px;
     width: 160px;
 }
 
 
 .btn--info:hover,
-.btn--info:active,
-.btn--info:focus,
-.btn--info:active:focus {
+.btn--info:focus {
     background-color: #df4929;
     border-color: #df4929;
     color: white;
+}
+
+
+.callout-btn:hover {
+    color: white;
+    text-decoration: underline;
 }
 
 .main {
@@ -58,7 +62,7 @@ body {
 /*--------------------------------------------about.html body Settings*/
 .callout-about {
     text-align: center;
-    height: 225vh;
+    height: 250vh;
     background-color: lightgray;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -74,12 +78,19 @@ body {
 .bio {
     margin-left: 150px;
     margin-right: 150px;
+}
+
+.bio-text {
     margin-bottom: 50px;
+    color: darkslategray;
 }
 
 .thumbnail {
-    height: 350px;
+    height: 370px;
     width: 300px;
+    background-color: floralwhite;
+    border-radius: 10px;
+    padding-top: 15px;
 }
 
 .row-first {
@@ -106,19 +117,123 @@ body {
 
 
 /*--------------------------------------------music.html body Settings*/
+.callout-music {
+    text-align: center;
+    height: 250vh;
+    background-color: lightgray;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    z-index: -1;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
 
+
+.history-items {
+    margin-bottom: 10px;
+}
+
+.music-history-items {
+    color: darkslategray;
+    align-items: center;
+    text-align: center;
+    margin-left: 550px;
+    margin-right: 550px;
+}
+
+.timeline-item {
+    align-items: center;
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #fafafa;
+    border-left: 1px solid;
+}
+
+.timeline-item h4 {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item::before {
+    align-items: center;
+    content: attr(dates);
+    position: absolute;
+    left: 2.5em;
+    top: 2em;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item::after {
+    align-items: center;
+    width: 30px;
+    height: 2px;
+    display: inline-block;
+    top: 2.4em;
+    position: absolute;
+    left: 0px;
+    border-radius: 1px;
+    content:'';
+    background: #fafafa;
+}
 
 
 /*--------------------------------------------photos.html body Settings*/
-
+.callout-photos {
+    text-align: center;
+    height: 250vh;
+    background-color: lightgray;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    z-index: -1;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
 
 
 /*--------------------------------------------events.html body Settings*/
-
+.callout-events {
+    text-align: center;
+    height: 250vh;
+    background-color: lightgray;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    z-index: -1;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
 
 
 /*--------------------------------------------store.html body Settings*/
-
+.callout-store {
+    text-align: center;
+    height: 250vh;
+    background-color: lightgray;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    z-index: -1;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
 
 
 /*--------------------------------------------Device-size Settings*/
@@ -247,7 +362,7 @@ nav {
 a:hover {
     color: lightblue;
     text-decoration: none;
-    transition-duration: 0.2s;
+    transition-duration: 0.4s;
     transition-timing-function: ease-in-out;
 }
 
