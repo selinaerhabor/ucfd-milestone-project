@@ -24,7 +24,9 @@ body {
 
 
 .block-divider {
-    width: 650px;
+    width: 350px;
+    align-items: center;
+    padding-right: 250px;
     height: 1px;
     background-color: lightgray;
     border: 0;
@@ -188,7 +190,7 @@ body {
 /*--------------------------------------------photos.html body Settings*/
 .callout-photos {
     text-align: center;
-    height: 250vh;
+    height: 300vh;
     background-color: lightgray;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -201,24 +203,36 @@ body {
     position: relative;
 }
 
+.thumbnail-photo {
+    height: 370px;
+    width: 300px;
+    background-color: gainsboro;
+    border-radius: 10px;
+    padding-top: 15px;
+}
 
 /*--------------------------------------------events.html body Settings*/
-.callout-events {
+.Tours-container {
     text-align: center;
-    height: 250vh;
+    height: 75vh;
     background-color: lightgray;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    display: flex;
+    display: block;
     z-index: -1;
     align-items: center;
     justify-content: center;
     position: relative;
 }
 
-
+.request-container {
+    padding-top: 50px;
+    margin-left: 450px;
+    margin-right: 450px;
+    padding-bottom: 50px;
+}
 /*--------------------------------------------store.html body Settings*/
 .callout-store {
     text-align: center;

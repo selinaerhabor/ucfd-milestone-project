@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fjalla+One" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <title>About | The Kinks</title>
+    <title>Events | The Kinks</title>
 </head>
   <body>
     <nav class="navbar navbar-default">
@@ -24,10 +24,10 @@
       </div>
       <div class="navbar-collapse collapse" id="navbar">
         <ul class="nav navbar-nav">
-          <li class="nav-tab active"><a href="about.html">About</a></li>
+          <li class="nav-tab"><a href="about.html">About</a></li>
           <li class="nav-tab"><a href="music.html">Music</a></li>
           <li class="nav-tab"><a href="photos.html">Photos</a></li>
-          <li class="nav-tab"><a href="events.html">Events</a></li>
+          <li class="nav-tab active"><a href="events.html">Events</a></li>
           <li class="nav-tab"><a href="store.html">Store</a></li>
         </ul>
       <div class="navbar-right hidden-xs">
@@ -36,6 +36,73 @@
       </div>
       </div>
     </nav>
+    
+  <!--Joint Login & Register Form-->
+<div class="modal fade" id="jointloginregisterModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" >
+          <span aria-hidden="true">×</span>
+        </button>
+            <h4 class="modal-title" id="myModalLabel">Login to your Account
+            </h4>
+      </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="form-group">
+                      <label for="email">Email address
+                      </label>
+                        <input type="email" class="form-control" id="email" placeholder="Your Registered Email">
+                    </div>
+                          <div class="form-group">
+                            <label for="password">Password
+                            </label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                          </div>
+                            <button type="submit" class="btn btn-success">Sign In
+                            </button>
+                  </form>
+                              <div>
+                                <hr class="divider">
+                              </div>
+  
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" ></button>
+          <h4 class="modal-title" id="myModalLabel">Not Registered yet?</h4> 
+            <div>
+              <h5>Subscribe to our mailing list!</h5>
+            </div>
+          </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="form-group">
+                      <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Email">
+                          <p class="help-block"><i>We will never share your details with anyone</i></p>
+                    </div>
+                    <div class="form-group">
+                      <label for="firstName">First Name</label>
+                        <input type="name" class="form-control" id="firstName" placeholder="First Name">
+                    </div>
+                    <div class="form-group">
+                      <label for="lastName">Last Name</label>
+                        <input type="name" class="form-control" id="LastName" placeholder="Last Name">
+                    </div>
+                    <div class="form-group">
+                      <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                      <label for="passwordRepeat">Confirm Password</label>
+                        <input type="password" class="form-control" id="passwordRepeat" placeholder="Confirm Password">
+                    </div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                  </form>
+                </div>
+            </div>
+        </div>
+    </div>
+  <!--/. Joint Login & Register Form -->
 
 <div class="container-fluid Tours-container">
         <!-- Features -->
@@ -44,7 +111,6 @@
                     <div class="col-xs-12">
                         <div class="page-header">
                             <center><h2 class="text-uppercase">Upcoming Tours</h2></center>
-                            <hr class="block-divider block-divider--white">
                         </div>
                     </div>
                 </div>
@@ -52,29 +118,85 @@
                     <div class="col-xs-12 col-md-6 col-lg-4">
                         <div class="feature">
                             <center>
-                            <h3>Alabama: 21st August 2018 </h3>
-                            <p> Ray Davies featuring Kast Off Kinks
-                            </p>
-                            <p><a class="btn btn-sm btn-default" href="">Buy Tickets</a></p>
+                            <h3> PA, US: 10th November 2018 </h3>
+                              <p> 
+                                Ray Davies featuring Kast Off Kinks performing at the Frankford Stadium
+                                in Philadelphia, Pennyslvania, United States for one night only.
+                                Doors open 6.30pm!
+                              </p>
+                              <p>
+                                <a class="btn btn-sm btn-default" href="">Buy Tickets</a>
+                              </p>
                             </center>
                         </div>
                     </div>
                     <div class="col-xs-12 col-md-6 col-lg-4">
                         <div class="feature">
                             <center>
-                            <h3>New York: 23rd August 2018</h3>
-                            <p>Dave Davies featuring Kast Off Kinks
+                            <h3>NY, US: 11th November 2018</h3>
+                              <p>
+                                Dave Davies featuring Kast Off Kinks will be performing at the Frankford Stadium
+                                in Philadelphia, Pennyslvania, United States for one night only. Doors open 6.30pm!
                             </p>
-                            <p><a class="btn btn-sm btn-default" href="">Buy Tickets</a></p>
+                            <p>
+                              <a class="btn btn-sm btn-default" href="">Buy Tickets</a>
+                            </p>
                             </center>
                         </div>
                     </div>
                     <div class="col-xs-12 hidden-md col-lg-4">
                         <div class="feature">
-                            <center><h3>London: 28th August 2018</h3>
-                            <p>Featuring Ray Davies, Dave Davies and Kast Off Kinks
-                            </p>
-                            <p><a class="btn btn-sm btn-default" href="">Buy Tickets</a></p>
+                            <center>
+                              <h3>LA, US: 12th November 2018</h3>
+                                <p>
+                                Ray and Dave Davies featuring Kast Off Kinks will be performing at the Frankford Stadium
+                                in Philadelphia, Pennyslvania, United States for one night only. Doors open 6.30pm!
+                                </p>
+                                <p>
+                                  <a class="btn btn-sm btn-default" href="">Buy Tickets</a>
+                                </p>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-4">
+                        <div class="feature">
+                            <center>
+                              <h3>Manchester, UK: 24th November 2018</h3>
+                                <p>
+                                Ray and Dave Davies featuring Kast Off Kinks will be performing at the Frankford Stadium
+                                in Philadelphia, Pennyslvania, United States for one night only. Doors open 6.30pm!
+                                </p>
+                                <p>
+                                  <a class="btn btn-sm btn-default" href="">Buy Tickets</a>
+                                </p>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-4">
+                        <div class="feature">
+                            <center>
+                              <h3>Leicester, UK: 26th November 2018</h3>
+                                <p>
+                                Ray and Dave Davies featuring Kast Off Kinks will be performing at the Frankford Stadium
+                                in Philadelphia, Pennyslvania, United States for one night only. Doors open 6.30pm!
+                                </p>
+                                <p>
+                                  <a class="btn btn-sm btn-default" href="">Buy Tickets</a>
+                                </p>
+                            </center>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-lg-4">
+                        <div class="feature">
+                            <center>
+                              <h3>London, UK: 30th November 2018</h3>
+                                <p>
+                                Ray and Dave Davies featuring Kast Off Kinks will be performing at the Wembley SSE Arena
+                                in London, UK for one night only. Doors open 6.30pm!
+                                </p>
+                                <p>
+                                  <a class="btn btn-sm btn-default" href="">Buy Tickets</a>
+                                </p>
                             </center>
                         </div>
                     </div>
@@ -83,9 +205,53 @@
             <!-- /.Upcoming Tour -->
         </div>
     </div>
+
     <div class="container-fluid request-container">
         <section class="Request">
-            
+          <div class="modal-body">
+            <center><h2 class="text-uppercase">Want The Kinks at your own event?</h2></center>
+            <form>
+              
+              <p><center><h5>Please complete the online form below</h5></center></p>
+              <div class="form-group">
+                <label for="firstName">First Name</label>
+                  <input type="name" class="form-control" id="firstName" placeholder="First Name">
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name</label>
+                  <input type="name" class="form-control" id="LastName" placeholder="Last Name">
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                  <input type="phone" class="form-control" id="phone" placeholder="Phone">
+              </div>
+              <div class="form-group">
+                <label for="email">Email address</label>
+                  <input type="email" class="form-control" id="email" placeholder="Email">
+              </div>
+              <h5>Your Venue Details</h5>
+              <div class="form-group">
+                <label for="phone">Country</label>
+                  <input type="country" class="form-control" id="country" placeholder="Country">
+              </div>
+              <div class="dropdown-capacity">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" 
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Venue Capacity
+                  <span class="capacity"></span>
+                </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                      <li><a href="#">0-99</a></li>
+                      <li><a href="#">100-199</a></li>
+                      <li><a href="#">200-299</a></li>
+                      <li><a href="#">300-399</a></li>
+                      <li><a href="#">400+</a></li>
+                    </ul>
+              </div>
+              <p class="help-block"><i>You will be contacted regarding your request within 5 working days.</i></p>
+              <button type="submit" class="btn btn-success">Submit</button>
+            </form>
+          </div>
            
         </section>
         <!-- /.Request -->
