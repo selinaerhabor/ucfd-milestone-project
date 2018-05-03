@@ -117,9 +117,9 @@ body {
 
 
 /*--------------------------------------------music.html body Settings*/
-.callout-music {
+.background-music {
     text-align: center;
-    height: 250vh;
+    height: 350vh;
     background-color: lightgray;
     -webkit-background-size: cover;
     -moz-background-size: cover;
