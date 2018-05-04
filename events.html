@@ -104,13 +104,15 @@
     </div>
   <!--/. Joint Login & Register Form -->
 
-<div class="container-fluid Tours-container">
+<div class="container-fluid tours-container">
         <!-- Features -->
         <section class="Tours">
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="page-header">
-                            <center><h2 class="text-uppercase">Upcoming Tours</h2></center>
+                            <center>
+                              <h2 class="text-uppercase">Upcoming Tours</h2>
+                            </center>
                         </div>
                     </div>
                 </div>
@@ -204,7 +206,7 @@
             </section>
             <!-- /.Upcoming Tour -->
         </div>
-    </div>
+    
 
     <div class="container-fluid request-container">
         <section class="Request">
@@ -229,27 +231,76 @@
                 <label for="email">Email address</label>
                   <input type="email" class="form-control" id="email" placeholder="Email">
               </div>
-              <h5>Your Venue Details</h5>
+              <h5>Your Event Details:</h5>
               <div class="form-group">
-                <label for="phone">Country</label>
+                <label for="country">Country</label>
                   <input type="country" class="form-control" id="country" placeholder="Country">
               </div>
-              <div class="dropdown-capacity">
+              <small>Please select the appropriate options below</small>
+              
+              <div class="form-group">
+              <div class="dropdown">
                 <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" 
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                Venue Capacity
-                  <span class="capacity"></span>
+                  Event Type
+                  <span class="caret"></span>
                 </button>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                      <li><a href="#">0-99</a></li>
-                      <li><a href="#">100-199</a></li>
-                      <li><a href="#">200-299</a></li>
-                      <li><a href="#">300-399</a></li>
-                      <li><a href="#">400+</a></li>
-                    </ul>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                  <li><a href="#">Awards Ceremony</a></li>
+                  <li><a href="#">Birthday Celebration</a></li>
+                  <li><a href="#">Christmas/Seasonal Celebration</a></li>
+                  <li><a href="#">Wedding/Engagement Party</a></li>
+                  <li><a href="#">Other</a></li>
+                </ul>
+              
+              <span class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" 
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                  Venue Capacity
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                  <li><a href="#"><i class="fa fa-user"></i>0-99</a></li>
+                  <li><a href="#"><i class="fa fa-user"></i>100-199</a></li>
+                  <li><a href="#"><i class="fa fa-user"></i>200-299</a></li>
+                  <li><a href="#"><i class="fa fa-user"></i>300-399</a></li>
+                  <li><a href="#"><i class="fa fa-user"></i>400+</a></li>
+                </ul>
+              </span>
+              
+              <span class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" 
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                  Event Duration
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                  <li><a href="#">0-2 hours</a></li>
+                  <li><a href="#">2-4 hours</a></li>
+                  <li><a href="#">4-6 hours</a></li>
+                  <li><a href="#">6+ hours</a></li>
+                </ul>
+              </span>
+            </div>
+            </div>
+              <div class="form-group">
+                <label for="textarea">Any Further Details</label>
+                  <textarea class="form-control" rows="3"></textarea>
               </div>
-              <p class="help-block"><i>You will be contacted regarding your request within 5 working days.</i></p>
+              <div class="form-group">
+                <label for="InputFile">File input</label>
+                  <input type="file" id="InputFile">
+                    <p class="help-block"><small>Please upload here any relevant documents.</small></p>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox"> <small>I have read and understood the <a href=""><u>Privacy Policy</u></a> and <a href=""><u>Terms & Conditions</u></a></small>
+                </label>
+              </div>
+              <div class="bottom-of-form">
+              <p class="help-block"><i><small>You will be contacted regarding your request within 5 working days.</small></i></p>
               <button type="submit" class="btn btn-success">Submit</button>
+              </div>
             </form>
           </div>
            
@@ -257,7 +308,7 @@
         <!-- /.Request -->
         </div>
     
-<footer class= "bottom container-fluid">
+  <footer class= "bottom container-fluid">
   <h5>
     <p class="strong">Follow Us</p></h5>
       <a class="icon" href="https://www.facebook.com/TheKinksOfficial" target=_blank><i class="fa fa-facebook-square"></i></a>

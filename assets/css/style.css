@@ -98,13 +98,13 @@ body {
 .row-first {
     display: inline-block;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 3px;
 }
 
 .row-second {
     display: inline-block;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 3px;
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -112,7 +112,7 @@ body {
 .row-third {
     display: inline-block;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 3px;
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -212,9 +212,9 @@ body {
 }
 
 /*--------------------------------------------events.html body Settings*/
-.Tours-container {
+.tours-container {
     text-align: center;
-    height: 75vh;
+    height: 85vh;
     background-color: lightgray;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -225,14 +225,22 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
+    padding-top: 35px;
 }
 
 .request-container {
-    padding-top: 50px;
+    padding-top: 10px;
     margin-left: 450px;
     margin-right: 450px;
     padding-bottom: 50px;
 }
+
+.fa-user {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+
 /*--------------------------------------------store.html body Settings*/
 .callout-store {
     text-align: center;
