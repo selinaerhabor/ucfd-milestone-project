@@ -8,18 +8,16 @@ body {
 
 .callout {
     text-align: center;
+    align-items: center;
     height: 100vh;
-    background-clip: border-box;
     background: url('/assets/images/TheKinksIndex.jpg') no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    display: flex;
-    z-index: -1;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+    padding-top: 170px;
+    padding-left: 225px;
+    padding-right: 225px;
 }
 
 
@@ -121,17 +119,10 @@ body {
 /*--------------------------------------------music.html body Settings*/
 .background-music {
     text-align: center;
-    height: 350vh;
+    height: 200vh;
     background-color: lightgray;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    z-index: -1;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+    padding-top: 20px;
+    padding-bottom: 15px;
 }
 
 
