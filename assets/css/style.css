@@ -121,82 +121,25 @@ body {
     text-align: center;
     height: 200vh;
     background-color: lightgray;
-    padding-top: 20px;
+    padding-top: 65px;
     padding-bottom: 15px;
 }
 
-
-.history-items {
-    margin-bottom: 10px;
+.list-column1 {
+    text-decoration: none;
+    margin-left: 100px;
 }
-
-.music-history-items {
-    color: darkslategray;
-    align-items: center;
-    text-align: center;
-    margin-left: 550px;
-    margin-right: 550px;
-}
-
-.timeline-item {
-    align-items: center;
-    padding: 4em 2em 0em 2em;
-    position: relative;
-    color: #fafafa;
-    border-left: 1px solid;
-}
-
-.timeline-item h4 {
-    padding: 0;
-    margin: 0;
-}
-
-.timeline-item::before {
-    align-items: center;
-    content: attr(dates);
-    position: absolute;
-    left: 2.5em;
-    top: 2em;
-    display: inline-block;
-    font-weight: 500;
-    font-size: 1em;
-    padding: 0;
-    margin: 0;
-}
-
-.timeline-item::after {
-    align-items: center;
-    width: 30px;
-    height: 2px;
-    display: inline-block;
-    top: 2.4em;
-    position: absolute;
-    left: 0px;
-    border-radius: 1px;
-    content:'';
-    background: #fafafa;
-}
-
 
 /*--------------------------------------------photos.html body Settings*/
-.callout-photos {
+.background-photos {
     text-align: center;
     height: 300vh;
     background-color: lightgray;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    z-index: -1;
     align-items: center;
-    justify-content: center;
-    position: relative;
+    padding-top: 25px;
 }
 
 .thumbnail-photo {
-    height: 370px;
-    width: 300px;
     background-color: gainsboro;
     border-radius: 10px;
     padding-top: 15px;
@@ -205,17 +148,9 @@ body {
 /*--------------------------------------------events.html body Settings*/
 .tours-container {
     text-align: center;
-    height: 85vh;
+    height: 80vh;
     background-color: lightgray;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: block;
-    z-index: -1;
     align-items: center;
-    justify-content: center;
-    position: relative;
     padding-top: 35px;
 }
 
@@ -233,21 +168,37 @@ body {
 
 
 /*--------------------------------------------store.html body Settings*/
-.callout-store {
+.background-store {
     text-align: center;
     height: 250vh;
     background-color: lightgray;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    z-index: -1;
     align-items: center;
-    justify-content: center;
-    position: relative;
+    padding-top: 75px;
 }
 
+.thumbnail-store {
+    background-color: honeydew;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.store-row1 {
+    height: 1300px;
+    width: 1250px;
+    margin-left: 30px;
+}
+
+.store-row2 {
+    height: 1300px;
+    width: 1250px;
+    margin-left: 30px;
+}
+
+
+
+.fa-cart-arrow-down {
+    font-size: 15px;
+}
 
 /*--------------------------------------------Device-size Settings*/
 
