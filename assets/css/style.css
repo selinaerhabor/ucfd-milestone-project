@@ -170,35 +170,86 @@ body {
 /*--------------------------------------------store.html body Settings*/
 .background-store {
     text-align: center;
-    height: 250vh;
-    background-color: lightgray;
     align-items: center;
+    height: 550vh;
+    background-color: lightgray;
     padding-top: 75px;
+}
+
+.summary {
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 5px;
 }
 
 .thumbnail-store {
     background-color: honeydew;
-    padding: 5px;
-    border-radius: 5px;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 475px;
+    width: 300px;
+    margin-bottom: 50px;
 }
 
-.store-row1 {
-    height: 1300px;
-    width: 1250px;
-    margin-left: 30px;
+.store-row-first {
+    width: 1300px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    
 }
 
-.store-row2 {
-    height: 1300px;
-    width: 1250px;
-    margin-left: 30px;
+.store-row-second {
+    width: 1300px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.store-row-third {
+    width: 1300px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.store-row-fourth {
+    width: 1300px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.store-row-fifth {
+    width: 1300px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.store-row-sixth {
+    width: 1300px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.heading-row {
+    text-decoration: bold;
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    padding-top: 10px;
 }
 
 
+.caption {
+    margin-top: 2px;
+    padding-top: 5px;
+}
 
 .fa-cart-arrow-down {
     font-size: 15px;
 }
+
+
 
 /*--------------------------------------------Device-size Settings*/
 
