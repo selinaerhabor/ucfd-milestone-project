@@ -141,8 +141,15 @@ body {
 
 .thumbnail-photo {
     background-color: gainsboro;
-    border-radius: 10px;
+    border-radius: 20px;
+    margin-top: 20px;
     padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 275px;
+    width: 250px;
+    margin-bottom: 50px;
 }
 
 /*--------------------------------------------events.html body Settings*/
@@ -365,7 +372,7 @@ nav {
 .bottom {
     text-align: center;
     background-color: transparent;
-    background-image: url(/assets/images/TheKinksIndex.jpg);
+    background-image: url(/assets/images/footer_background.jpg);
     position: relative;
     opacity: 0.85;
     border-color: #fff8dc;
