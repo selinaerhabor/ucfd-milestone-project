@@ -6,7 +6,7 @@ body {
 
 /*--------------------------------------------index.html body Settings*/
 
-.callout {
+.background {
     text-align: center;
     align-items: center;
     height: 100vh;
@@ -26,7 +26,7 @@ body {
     align-items: center;
     padding-right: 250px;
     height: 1px;
-    background-color: lightgray;
+    background-color: lightslategray;
     border: 0;
 }
 
@@ -56,8 +56,9 @@ body {
 
 .jumbotron {
     border-radius: 20px;
+    background-color: lightgray;
+    opacity: 0.8;
 }
-
 
 /*--------------------------------------------about.html body Settings*/
 .callout-about {
@@ -303,9 +304,6 @@ nav {
     background-color: transparent;
 }
 
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: transparent;
-}
 
 .navbar .navbar-brand {
     font-weight: bold;
@@ -365,8 +363,13 @@ nav {
     text-decoration: underline;
 }
 
+.sr-only {
+    background-color: white;
+}
 
-
+.icon-bar {
+    background-color: white;
+}
 
 /*------------------------------------------Footer Settings*/
 .bottom {
@@ -391,6 +394,12 @@ a:hover {
     padding-top:1%;
     padding-bottom: 0%;
     color: white;
+}
+
+.copyright-info {
+    padding-top:1%;
+    padding-bottom: 0%;
+    color: lightgray;
 }
 
 .fa-sign-in {
