@@ -1,10 +1,12 @@
-/*-------------------------------------------- Font Settings*/
+/*-------------------------------------------- Main Body Settings*/
 body {
     font-family: 'Fjalla One', sans-serif;
 }
 
 body {margin:0px;}
-#navbar-header { margin: 0px auto; width:1000px; height:400px; padding:20px; }
+
+#navbar-header { margin: 0px auto}
+
 html {overflow-x: hidden; }
 
 /*--------------------------------------------Media Queries*/
@@ -26,12 +28,24 @@ html {overflow-x: hidden; }
     overflow-x: hidden; }
 }
 
+@media(min-width: 769px) and (max-width: 991px) {
+    .main h1 {font-size: 45px;}
+    #subscribe {max-width: 80%; text-align: center;}
+    .background {
+        padding-top: 100px; 
+        padding-bottom: 25px;
+        padding-left: 235px; 
+        border-top: 20px;
+        align-items: center; 
+        justify-content: center;
+    }
+}
+
 @media screen and (max-width: 768px) {
-    body { margin: 0px auto; width:100%; height:100%; }
-    #title_index h1{ font-size:0.9em; }
-    #main p{ font-size:0.7em; }
-    body, html {overflow-x: hidden; }
-    .block-divider {width: 0.25em;}
+    .main h1 {font-size: 30px;}
+    body, html {overflow-x: hidden;}
+    #subscribe {max-width: 80%; text-align: center;}
+    .background {padding-left: 100px; align-items: center;}
 }
 
 
@@ -47,9 +61,6 @@ html {overflow-x: hidden; }
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding-top: 170px;
-    padding-left: 225px;
-    padding-right: 225px;
     display: flex;
     z-index: -1;
     align-items: center;
@@ -86,6 +97,11 @@ html {overflow-x: hidden; }
     text-decoration: underline;
 }
 
+.fa-pencil-square-o {
+    font-size: 32px;
+    align-items: center;
+}
+
 .jumbotron {
     border-radius: 20px;
     background-color: lightgray;
@@ -94,6 +110,13 @@ html {overflow-x: hidden; }
 
 .main {
     color: dimgray;
+    padding-top: 0;
+}
+
+.Subscribe {
+    align-items: center;
+    padding-bottom: 0px;
+    height: 15px;
 }
 
 
@@ -412,8 +435,6 @@ nav {
     background-image: url(/assets/images/footer_background.jpg);
     position: relative;
     opacity: 0.85;
-    border-color: #fff8dc;
-    border-width: thick;
 }
 
 .important-info,
