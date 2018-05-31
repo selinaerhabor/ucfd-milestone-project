@@ -1,22 +1,39 @@
-/*--------------------------------------------Device-size Settings*/
-
-@media (min-width: $screen-sm-min) { // this is the 768px breakpoint
-    .modal-dialog {
-        max-width: 600px;
-        width: auto;
-    }
-}
-
-@media (min-width: $screen-md-min) { // this is the 992px breakpoint
-    .modal-dialog { 
-        max-width: 800px;
-    }
-}
-
 /*-------------------------------------------- Font Settings*/
 body {
     font-family: 'Fjalla One', sans-serif;
 }
+
+body {margin:0px;}
+#navbar-header { margin: 0px auto; width:1000px; height:400px; padding:20px; }
+html {overflow-x: hidden; }
+
+/*--------------------------------------------Media Queries*/
+
+@media(min-width: 992px) {
+    .section-column {
+        padding: 0 30px 30px;
+        float: none;
+        display: block;
+    }
+
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+    html {
+    overflow-x: hidden; }
+}
+
+@media screen and (max-width: 768px) {
+    body { margin: 0px auto; width:100%; height:100%; }
+    #title_index h1{ font-size:0.9em; }
+    #main p{ font-size:0.7em; }
+    body, html {overflow-x: hidden; }
+    .block-divider {width: 0.25em;}
+}
+
 
 
 /*--------------------------------------------index.html body Settings*/
@@ -37,14 +54,13 @@ body {
     z-index: -1;
     align-items: center;
     justify-content: center;
-   
 }
 
 
 .block-divider {
-    width: 350px;
     align-items: center;
     padding-right: 250px;
+    display: flex;
     height: 1px;
     background-color: lightslategray;
     border: 0;
@@ -70,15 +86,17 @@ body {
     text-decoration: underline;
 }
 
-.main {
-    color: dimgray;
-}
-
 .jumbotron {
     border-radius: 20px;
     background-color: lightgray;
     opacity: 0.8;
 }
+
+.main {
+    color: dimgray;
+}
+
+
 
 /*--------------------------------------------about.html body Settings*/
 .callout-about {
