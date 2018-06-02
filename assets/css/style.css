@@ -46,6 +46,8 @@ html {overflow-x: hidden; }
     body, html {overflow-x: hidden;}
     #subscribe {max-width: 80%; text-align: center;}
     .background {padding-left: 100px; align-items: center;}
+    .thumbnail {padding-left: 7px; height: 170px; width: 150px;}
+    .about {height: 1650vh;}
 }
 
 
@@ -122,19 +124,11 @@ html {overflow-x: hidden; }
 
 
 /*--------------------------------------------about.html body Settings*/
-.callout-about {
+.about {
     text-align: center;
     height: 250vh;
     background-color: lightgray;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    z-index: -1;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+    padding-top: 55px;
 }
 
 .bio {
@@ -143,8 +137,9 @@ html {overflow-x: hidden; }
 }
 
 .bio-text {
-    margin-bottom: 50px;
+    margin-bottom: 15px;
     color: darkslategray;
+    padding: 10px;
 }
 
 .thumbnail {
