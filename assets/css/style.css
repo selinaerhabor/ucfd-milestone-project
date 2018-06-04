@@ -47,7 +47,6 @@ html {overflow-x: hidden; }
     #subscribe {max-width: 80%; text-align: center;}
     .background {padding-left: 100px; align-items: center;}
     .thumbnail {padding-left: 7px; height: 170px; width: 150px;}
-    .about {height: 1650vh;}
 }
 
 
@@ -141,6 +140,7 @@ html {overflow-x: hidden; }
     color: darkslategray;
     padding: 10px;
 }
+
 
 .thumbnail {
     height: 370px;
