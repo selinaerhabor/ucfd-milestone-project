@@ -246,6 +246,7 @@ html {overflow-x: hidden;}
 }
 
 
+
 /*--------------------------------------------store.html body Settings*/
 .background-store {
     text-align: center;
@@ -445,7 +446,7 @@ nav {
     background-image: url(/assets/images/footer_background.jpg);
     position: relative;
     opacity: 0.85;
-    height: 210px;
+    height: 220px;
 }
 
 .important-info,
