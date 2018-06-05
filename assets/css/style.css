@@ -7,7 +7,7 @@ body {margin:0px;}
 
 #navbar-header { margin: 0px auto}
 
-html {overflow-x: hidden; }
+html {overflow-x: hidden;}
 
 /*--------------------------------------------Media Queries*/
 
@@ -39,6 +39,7 @@ html {overflow-x: hidden; }
         align-items: center; 
         justify-content: center;
     }
+    .about {height: 300vh;}
 }
 
 @media screen and (max-width: 768px) {
@@ -47,7 +48,6 @@ html {overflow-x: hidden; }
     #subscribe {max-width: 80%; text-align: center;}
     .background {padding-left: 100px; align-items: center;}
     .thumbnail {padding-left: 7px; height: 170px; width: 150px;}
-    .about {background: lightgray;}
 }
 
 
@@ -126,9 +126,9 @@ html {overflow-x: hidden; }
 /*--------------------------------------------about.html body Settings*/
 .about {
     text-align: center;
-    height: 250vh;
+    height: 500vh;
     background-color: lightgray;
-    padding-top: 55px;
+    padding-top: 75px;
 }
 
 .bio {
@@ -193,7 +193,7 @@ html {overflow-x: hidden; }
     text-align: center;
     height: 200vh;
     background-color: lightgray;
-    padding-top: 65px;
+    padding-top: 75px;
     padding-bottom: 15px;
 }
 
@@ -208,7 +208,7 @@ html {overflow-x: hidden; }
     height: 300vh;
     background-color: lightgray;
     align-items: center;
-    padding-top: 25px;
+    padding-top: 75px;
 }
 
 .thumbnail-photo {
@@ -230,7 +230,7 @@ html {overflow-x: hidden; }
     height: 80vh;
     background-color: lightgray;
     align-items: center;
-    padding-top: 35px;
+    padding-top: 75px;
 }
 
 .request-container {
@@ -445,6 +445,7 @@ nav {
     background-image: url(/assets/images/footer_background.jpg);
     position: relative;
     opacity: 0.85;
+    height: 210px;
 }
 
 .important-info,
