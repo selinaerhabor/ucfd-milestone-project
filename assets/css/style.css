@@ -469,6 +469,10 @@ a:hover {
     transition-timing-function: ease-in-out;
 }
 
+.important-info {
+    padding-bottom: 7px;
+}
+
 .strong {
     padding-top:1%;
     padding-bottom: 0%;
