@@ -9,6 +9,7 @@ body {margin:0px;}
 
 html {overflow-x: hidden;}
 
+
 /*--------------------------------------------Media Queries*/
 
 @media(min-width: 992px) {
@@ -24,8 +25,7 @@ html {overflow-x: hidden;}
         margin: 0 auto;
         max-width: 50%;
     }
-    html {
-    overflow-x: hidden; }
+   
 }
 
 @media(min-width: 769px) and (max-width: 991px) {
@@ -48,6 +48,7 @@ html {overflow-x: hidden;}
     #subscribe {max-width: 80%; text-align: center;}
     .background {padding-left: 100px; align-items: center;}
     .thumbnail {padding-left: 7px; height: 170px; width: 150px;}
+    
 }
 
 
@@ -157,7 +158,8 @@ html {overflow-x: hidden;}
     background-color: floralwhite;
     border-radius: 10px;
     padding-top: 15px;
-    padding-bottom: 5px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .row-first {
@@ -171,8 +173,8 @@ html {overflow-x: hidden;}
     display: inline-block;
     text-align: center;
     margin-top: 3px;
-    margin-left: 50px;
-    margin-right: 50px;
+    align-items: center;
+    padding-left: 85px;
     margin-bottom: 50px;
 }
 
@@ -180,23 +182,20 @@ html {overflow-x: hidden;}
     display: inline-block;
     text-align: center;
     margin-top: 3px;
-    margin-left: 50px;
-    margin-right: 50px;
+    align-items: center;
+    padding-left: 215px;
     margin-bottom: 50px;
 }
 
-.briefMembers {
-    margin-bottom: 30px;
-}
 
 .text-uppercase {
-    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-bottom: 15px;
 }
 
 .quote {
     font-size: 12px;
     font-weight: lighter;
-    
 }
 
 
@@ -458,7 +457,7 @@ nav {
     background-image: url(/assets/images/footer_background.jpg);
     position: relative;
     opacity: 0.85;
-    height: 220px;
+    height: 225px;
 }
 
 .important-info,
@@ -470,7 +469,8 @@ a:hover {
 }
 
 .important-info {
-    padding-bottom: 7px;
+    padding-top: 4px;
+    padding-bottom: 3px;
 }
 
 .strong {
@@ -480,8 +480,7 @@ a:hover {
 }
 
 .copyright-info {
-    padding-top:1%;
-    padding-bottom: 0%;
+    padding-top: 15px;
     color: lightgray;
 }
 
