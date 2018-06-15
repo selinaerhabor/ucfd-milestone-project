@@ -127,7 +127,7 @@ html {overflow-x: hidden;}
 /*--------------------------------------------about.html body Settings*/
 .about {
     text-align: center;
-    height: 500vh;
+    height: 538vh;
     background-color: lightgray;
     padding-top: 75px;
 }
@@ -212,7 +212,7 @@ html {overflow-x: hidden;}
 /*--------------------------------------------music.html body Settings*/
 .background-music {
     text-align: center;
-    height: 200vh;
+    height: 250vh;
     background-color: lightgray;
     padding-top: 75px;
     padding-bottom: 15px;
@@ -223,6 +223,27 @@ html {overflow-x: hidden;}
     margin-left: 100px;
 }
 
+.first-row {
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: center;
+}
+
+.second-row {
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: center;
+}
+
+.third-row {
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: center;
+}
+
+.audioTitle {
+    align-items: center;
+}
 /*--------------------------------------------photos.html body Settings*/
 .background-photos {
     text-align: center;
