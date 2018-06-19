@@ -25,6 +25,10 @@ html {overflow-x: hidden;}
         margin: 0 auto;
         max-width: 50%;
     }
+    .box_link {
+    padding-top: 2050px;
+    margin-left: 50%;
+}
    
 }
 
@@ -40,6 +44,10 @@ html {overflow-x: hidden;}
         justify-content: center;
     }
     .about {height: 300vh;}
+    .box_link {
+    padding-top: 55px;
+    margin-left: 40%;
+}
 }
 
 @media screen and (max-width: 768px) {
@@ -219,14 +227,25 @@ html {overflow-x: hidden;}
     padding-bottom: 15px;
 }
 
-.box-link {
-    align-items: center;
+.boxLink {
+    height: 75px;
+    width: 150px;
+    background-color: white;
     border-color: gray;
-    border-radius: 0.5;
+    border-width: medium;
+    border-radius: 50px;
+    padding-top: 5px;
 }
 
-.box-link:hover {
-    color: lightblue;
+.boxLink:hover {
+    background-color: darkgray;
+}
+
+.box_link {
+    margin-top: 75px;
+    align-items: center;
+    text-align: center;
+    margin-left: 25%;
 }
 
 .list-column1 {
@@ -246,6 +265,7 @@ html {overflow-x: hidden;}
 
 .musicBar {
     width: 250px;
+    margin-bottom: 40px;
 }
 
 .musicObject {
