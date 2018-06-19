@@ -48,6 +48,7 @@ html {overflow-x: hidden;}
     #subscribe {max-width: 80%; text-align: center;}
     .background {padding-left: 100px; align-items: center;}
     .thumbnail {padding-left: 7px; height: 170px; width: 150px;}
+    .media-left {padding-bottom: 15px;}
     
 }
 
@@ -212,10 +213,20 @@ html {overflow-x: hidden;}
 /*--------------------------------------------music.html body Settings*/
 .background-music {
     text-align: center;
-    height: 250vh;
+    height: 375vh;
     background-color: lightgray;
     padding-top: 75px;
     padding-bottom: 15px;
+}
+
+.box-link {
+    align-items: center;
+    border-color: gray;
+    border-radius: 0.5;
+}
+
+.box-link:hover {
+    color: lightblue;
 }
 
 .list-column1 {
@@ -224,26 +235,45 @@ html {overflow-x: hidden;}
 }
 
 .first-row {
-    padding-left: 15px;
-    padding-right: 15px;
+    height: 1500px;
+    width: 425px;
+    margin-left:0;
+    padding-left: 70px;
+    margin-top: 5px;
+    margin-bottom: 40px;
     align-items: center;
 }
 
+.musicObject {
+    margin-top: 10px;
+    margin-bottom: 60px;
+    align-items: center;
+    text-align: center;
+}
+
+.musicTitle {
+    align-items: center;
+    text-transform: uppercase;
+}
+
 .second-row {
-    padding-left: 15px;
-    padding-right: 15px;
+    height: 1500px;
+    width: 425px;
+    padding-left: 70px;
+    margin-top: 5px;
+    margin-bottom: 40px;
     align-items: center;
 }
 
 .third-row {
-    padding-left: 15px;
-    padding-right: 15px;
+    height: 1500px;
+    width: 425px;
+    padding-left: 70px;
+    margin-top: 5px;
+    margin-bottom: 40px;
     align-items: center;
 }
 
-.audioTitle {
-    align-items: center;
-}
 /*--------------------------------------------photos.html body Settings*/
 .background-photos {
     text-align: center;
