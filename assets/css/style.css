@@ -213,7 +213,7 @@ html {overflow-x: hidden;}
 /*--------------------------------------------music.html body Settings*/
 .background-music {
     text-align: center;
-    height: 375vh;
+    height: 360vh;
     background-color: lightgray;
     padding-top: 75px;
     padding-bottom: 15px;
@@ -234,14 +234,18 @@ html {overflow-x: hidden;}
     margin-left: 100px;
 }
 
-.first-row {
-    height: 1500px;
+.first-column {
+    height: 1950px;
     width: 425px;
     margin-left:0;
     padding-left: 70px;
     margin-top: 5px;
     margin-bottom: 40px;
     align-items: center;
+}
+
+.musicBar {
+    width: 250px;
 }
 
 .musicObject {
@@ -256,8 +260,8 @@ html {overflow-x: hidden;}
     text-transform: uppercase;
 }
 
-.second-row {
-    height: 1500px;
+.second-column {
+    height: 1950px;
     width: 425px;
     padding-left: 70px;
     margin-top: 5px;
@@ -265,8 +269,8 @@ html {overflow-x: hidden;}
     align-items: center;
 }
 
-.third-row {
-    height: 1500px;
+.third-column {
+    height: 1950px;
     width: 425px;
     padding-left: 70px;
     margin-top: 5px;
