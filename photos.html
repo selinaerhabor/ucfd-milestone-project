@@ -1,189 +1,279 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fjalla+One" type="text/css" />
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <title>Photos | The Kinks</title>
-</head>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fjalla+One" type="text/css" />
+      <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+      <title>Photos | The Kinks</title>
+  </head>
  <body>
-<nav class="navbar navbar-default">
-     <div class="navbar-header">
-        <a href="index.html" class="navbar-brand uppercase">The Kinks</a>
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-      </div>
-      <div class="navbar-collapse collapse" id="navbar">
-        <ul class="nav navbar-nav">
-          <li class="nav-tab"><a href="about.html">About</a></li>
-          <li class="nav-tab"><a href="music.html">Music</a></li>
-          <li class="nav-tab active"><a href="photos.html">Photos</a></li>
-          <li class="nav-tab"><a href="events.html">Events</a></li>
-          <li class="nav-tab"><a href="store.html">Store<i class="fa fa-cart-arrow-down"></i></a></li>
-        </ul>
-      <div class="navbar-right hidden-xs">
-        <button class="btn btn-Primary navbar-btn" data-toggle='modal' data-target='#jointloginregisterModal'>Login <i class="fa fa-sign-in"></i>
-        </button>
-      </div>
-     </div>
-</nav>
-        
-  <!--Joint Login & Register Form-->
-<div class="modal fade" id="jointloginregisterModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close" >
-          <span aria-hidden="true">×</span>
-        </button>
-            <h4 class="modal-title" id="myModalLabel">Login to your Account
-            </h4>
-      </div>
-                <div class="modal-body">
-                  <form>
-                    <div class="form-group">
-                      <label for="email">Email address
-                      </label>
-                        <input type="email" class="form-control" id="email" placeholder="Your Registered Email">
-                    </div>
-                          <div class="form-group">
-                            <label for="password">Password
-                            </label>
-                            <input type="password" class="form-control" id="password" placeholder="Password">
-                          </div>
-                            <button type="submit" class="btn btn-success">Sign In
-                            </button>
-                  </form>
-                              <div>
-                                <hr class="divider">
-                              </div>
-  
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close" ></button>
-          <h4 class="modal-title" id="myModalLabel">Not Registered yet?</h4> 
-            <div>
-              <h5>Subscribe to our mailing list!</h5>
-            </div>
-          </div>
-                <div class="modal-body">
-                  <form>
-                    <div class="form-group">
-                      <label for="email">Email address</label>
-                        <input type="email" class="form-control" id="email" placeholder="Email">
-                          <p class="help-block"><i>We will never share your details with anyone</i></p>
-                    </div>
-                    <div class="form-group">
-                      <label for="firstName">First Name</label>
-                        <input type="name" class="form-control" id="firstName" placeholder="First Name">
-                    </div>
-                    <div class="form-group">
-                      <label for="lastName">Last Name</label>
-                        <input type="name" class="form-control" id="LastName" placeholder="Last Name">
-                    </div>
-                    <div class="form-group">
-                      <label for="password">Password</label>
-                        <input type="password" class="form-control" id="password" placeholder="Password">
-                    </div>
-                    <div class="form-group">
-                      <label for="passwordRepeat">Confirm Password</label>
-                        <input type="password" class="form-control" id="passwordRepeat" placeholder="Confirm Password">
-                    </div>
-                        <button type="submit" class="btn btn-success">Submit</button>
-                  </form>
-                </div>
-            </div>
+  <nav class="navbar navbar-default">
+       <div class="navbar-header">
+          <a href="index.html" class="navbar-brand uppercase">The Kinks</a>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
         </div>
-    </div>
-  <!--/. Joint Login & Register Form -->
+        <div class="navbar-collapse collapse" id="navbar">
+          <ul class="nav navbar-nav">
+            <li class="nav-tab"><a href="about.html">About</a></li>
+            <li class="nav-tab"><a href="music.html">Music</a></li>
+            <li class="nav-tab active"><a href="photos.html">Photos</a></li>
+            <li class="nav-tab"><a href="events.html">Events</a></li>
+            <li class="nav-tab"><a href="store.html">Store<i class="fa fa-cart-arrow-down"></i></a></li>
+          </ul>
+        <div class="navbar-right hidden-xs">
+          <button class="btn btn-Primary navbar-btn" data-toggle='modal' data-target='#jointloginregisterModal'>Login <i class="fa fa-sign-in"></i>
+          </button>
+        </div>
+       </div>
+  </nav>
+          
+    <!--Joint Login & Register Form-->
+  <div class="modal fade" id="jointloginregisterModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" >
+            <span aria-hidden="true">×</span>
+          </button>
+              <h4 class="modal-title" id="myModalLabel">Login to your Account
+              </h4>
+        </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="form-group">
+                        <label for="email">Email address
+                        </label>
+                          <input type="email" class="form-control" id="email" placeholder="Your Registered Email">
+                      </div>
+                            <div class="form-group">
+                              <label for="password">Password
+                              </label>
+                              <input type="password" class="form-control" id="password" placeholder="Password">
+                            </div>
+                              <button type="submit" class="btn btn-success">Sign In
+                              </button>
+                    </form>
+                                <div>
+                                  <hr class="divider">
+                                </div>
+    
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" ></button>
+            <h4 class="modal-title" id="myModalLabel">Not Registered yet?</h4> 
+              <div>
+                <h5>Subscribe to our mailing list!</h5>
+              </div>
+            </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="form-group">
+                        <label for="email">Email address</label>
+                          <input type="email" class="form-control" id="email" placeholder="Email">
+                            <p class="help-block"><i>We will never share your details with anyone</i></p>
+                      </div>
+                      <div class="form-group">
+                        <label for="firstName">First Name</label>
+                          <input type="name" class="form-control" id="firstName" placeholder="First Name">
+                      </div>
+                      <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                          <input type="name" class="form-control" id="LastName" placeholder="Last Name">
+                      </div>
+                      <div class="form-group">
+                        <label for="password">Password</label>
+                          <input type="password" class="form-control" id="password" placeholder="Password">
+                      </div>
+                      <div class="form-group">
+                        <label for="passwordRepeat">Confirm Password</label>
+                          <input type="password" class="form-control" id="passwordRepeat" placeholder="Confirm Password">
+                      </div>
+                          <button type="submit" class="btn btn-success">Submit</button>
+                    </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+    <!--/. Joint Login & Register Form -->
 
   <!-- Photos section Body -->
 <div class="background-photos container-fluid">
   <div class="row col-xs-12">
     <h2 class="text-uppercase">Photos</h2>
     
-<div class="row-first">
-  <div class="col-md-3">
-    <div class="thumbnail-photo">
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <h3>1960s & 1970s</h3>
+    <div class="center col-xs-12">
         <a href="./assets/images/photo_thekinks1.jpg" target="_blank">
           <img src="./assets/images/photo_thekinks1.jpg" alt="photo_thekinks1">
         </a>
-    </div>
-  </div>
-  <div class="col-sm-3">
-    <div class="thumbnail-photo">
+      </div>
+      <div class="center col-xs-12">
         <a href="./assets/images/photo_thekinks2.jpg" target="_blank">
           <img src="./assets/images/photo_thekinks2.jpg" alt="photo_thekinks2">
         </a>
+      </div>
+    <div class="center col-xs-12">
+          <a href="./assets/images/photo_thekinks3.jpg" target="_blank">
+            <img src="./assets/images/photo_thekinks3.jpg" alt="photo_thekinks3">
+          </a>
+      </div>
+      <div class="center col-xs-12">
+          <a href="./assets/images/photo_thekinks4.jpg" target="_blank">
+            <img src="./assets/images/photo_thekinks4.jpg" alt="photo_thekinks4">
+          </a>
+      </div>
+    <div class="center col-xs-12">
+          <a href="./assets/images/photo_thekinks5.jpg" target="_blank">
+            <img src="./assets/images/photo_thekinks5.jpg" alt="photo_thekinks5">
+          </a>
+      </div>
+      <div class="center col-xs-12">
+          <a href="./assets/images/photo_thekinks6.jpg" target="_blank">
+            <img src="./assets/images/photo_thekinks6.jpg" alt="photo_thekinks6">
+          </a>
     </div>
-  </div>
-  <div class="col-sm-3">
-    <div class="thumbnail-photo">
-        <a href="./assets/images/photo_thekinks3.jpg" target="_blank">
-          <img src="./assets/images/photo_thekinks3.jpg" alt="photo_thekinks3">
+    <div class="center col-xs-12">
+          <a href="./assets/images/photo_thekinks7.jpg" target="_blank">
+            <img src="./assets/images/photo_thekinks7.png" alt="photo_thekinks7">
+          </a>
+      </div>
+      <div class="center col-xs-12">
+          <a href="./assets/images/photo_thekinks8.jpg" target="_blank">
+            <img src="./assets/images/photo_thekinks8.jpg" alt="photo_thekinks8">
+          </a>
+    </div>
+    <div class="center col-xs-12">
+          <a href="./assets/images/photo_thekinks9.jpg" target="_blank">
+            <img src="./assets/images/photo_thekinks9.jpg" alt="photo_thekinks9">
+          </a>
+      </div>
+    <div class="center col-xs-12">
+          <a href="./assets/images/photo_thekinks10.jpg" target="_blank">
+            <img src="./assets/images/photo_thekinks10.jpeg" alt="photo_thekinks10">
+          </a>
+     </div>
+    </div>
+    
+  <div class="col-xs-12 col-sm-6 col-md-4">
+      <h3>1980s & 1990s</h3>
+    <div class="center col-xs-12">
+        <a href="./assets/images/photo_thekinks1.jpg" target="_blank" height=400 width=400>
+          <img src="./assets/images/photo_thekinks1.jpg" alt="photo_thekinks1">
         </a>
-    </div>
-  </div>
-  <div class="col-sm-3">
-    <div class="thumbnail-photo">
-        <a href="./assets/images/photo_thekinks4.jpg" target="_blank">
-          <img src="./assets/images/photo_thekinks4.jpg" alt="photo_thekinks4">
+      </div>
+      <div class="center col-xs-12">
+        <a href="./assets/images/photo_thekinks2.jpg" target="_blank">
+          <img src="./assets/images/photo_thekinks2.jpg" alt="photo_thekinks2">
         </a>
+      </div>
+    <div class="center col-xs-12">
+          <a href="./assets/images/photo_thekinks3.jpg" target="_blank">
+            <img src="./assets/images/photo_thekinks3.jpg" alt="photo_thekinks3">
+          </a>
+      </div>
+      <div class="center col-xs-12">
+          <a href="./assets/images/photo_thekinks4.jpg" target="_blank">
+            <img src="./assets/images/photo_thekinks4.jpg" alt="photo_thekinks4">
+          </a>
+      </div>
+    <div class="center col-xs-12">
+          <a href="./assets/images/photo_thekinks5.jpg" target="_blank">
+            <img src="./assets/images/photo_thekinks5.jpg" alt="photo_thekinks5">
+          </a>
+      </div>
+      <div class="center col-xs-12">
+          <a href="./assets/images/photo_thekinks6.jpg" target="_blank">
+            <img src="./assets/images/photo_thekinks6.jpg" alt="photo_thekinks6">
+          </a>
     </div>
-  </div>
-  <div class="col-sm-3">
-    <div class="thumbnail-photo">
-        <a href="./assets/images/photo_thekinks5.jpg" target="_blank">
-          <img src="./assets/images/photo_thekinks5.jpg" alt="photo_thekinks5">
+    <div class="center col-xs-12">
+          <a href="./assets/images/photo_thekinks7.jpg" target="_blank">
+            <img src="./assets/images/photo_thekinks7.png" alt="photo_thekinks7">
+          </a>
+      </div>
+      <div class="center col-xs-12">
+          <a href="./assets/images/photo_thekinks8.jpg" target="_blank">
+            <img src="./assets/images/photo_thekinks8.jpg" alt="photo_thekinks8">
+          </a>
+    </div>
+    <div class="center col-xs-12">
+          <a href="./assets/images/photo_thekinks9.jpg" target="_blank">
+            <img src="./assets/images/photo_thekinks9.jpg" alt="photo_thekinks9">
+          </a>
+      </div>
+    <div class="center col-xs-12">
+          <a href="./assets/images/photo_thekinks10.jpg" target="_blank">
+            <img src="./assets/images/photo_thekinks10.jpeg" alt="photo_thekinks10">
+          </a>
+     </div>
+    </div>
+    
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <h3>2000 - Present</h3>
+    <div class="center col-xs-12">
+        <a href="./assets/images/photo_thekinks1.jpg" target="_blank" height=400 width=400>
+          <img src="./assets/images/photo_thekinks1.jpg" alt="photo_thekinks1">
         </a>
-    </div>
-  </div>
-  <div class="col-sm-3">
-    <div class="thumbnail-photo">
-        <a href="./assets/images/photo_thekinks6.jpg" target="_blank">
-          <img src="./assets/images/photo_thekinks6.jpg" alt="photo_thekinks6">
+      </div>
+      <div class="center col-xs-12">
+        <a href="./assets/images/photo_thekinks2.jpg" target="_blank">
+          <img src="./assets/images/photo_thekinks2.jpg" alt="photo_thekinks2">
         </a>
+      </div>
+    <div class="center col-xs-12">
+          <a href="./assets/images/photo_thekinks3.jpg" target="_blank">
+            <img src="./assets/images/photo_thekinks3.jpg" alt="photo_thekinks3">
+          </a>
+      </div>
+      <div class="center col-xs-12">
+          <a href="./assets/images/photo_thekinks4.jpg" target="_blank">
+            <img src="./assets/images/photo_thekinks4.jpg" alt="photo_thekinks4">
+          </a>
+      </div>
+    <div class="center col-xs-12">
+          <a href="./assets/images/photo_thekinks5.jpg" target="_blank">
+            <img src="./assets/images/photo_thekinks5.jpg" alt="photo_thekinks5">
+          </a>
+      </div>
+      <div class="center col-xs-12">
+          <a href="./assets/images/photo_thekinks6.jpg" target="_blank">
+            <img src="./assets/images/photo_thekinks6.jpg" alt="photo_thekinks6">
+          </a>
     </div>
-  </div>
-  <div class="col-sm-3">
-    <div class="thumbnail-photo">
-        <a href="./assets/images/photo_thekinks7.jpg" target="_blank">
-          <img src="./assets/images/photo_thekinks7.jpg" alt="photo_thekinks7">
-        </a>
+    <div class="center col-xs-12">
+          <a href="./assets/images/photo_thekinks7.jpg" target="_blank">
+            <img src="./assets/images/photo_thekinks7.png" alt="photo_thekinks7">
+          </a>
+      </div>
+      <div class="center col-xs-12">
+          <a href="./assets/images/photo_thekinks8.jpg" target="_blank">
+            <img src="./assets/images/photo_thekinks8.jpg" alt="photo_thekinks8">
+          </a>
     </div>
-  </div>
-  <div class="col-sm-3">
-    <div class="thumbnail-photo">
-        <a href="./assets/images/photo_thekinks8.jpg" target="_blank">
-          <img src="./assets/images/photo_thekinks8.jpg" alt="photo_thekinks8">
-        </a>
+    <div class="center col-xs-12">
+          <a href="./assets/images/photo_thekinks9.jpg" target="_blank">
+            <img src="./assets/images/photo_thekinks9.jpg" alt="photo_thekinks9">
+          </a>
+      </div>
+    <div class="center col-xs-12">
+          <a href="./assets/images/photo_thekinks10.jpg" target="_blank">
+            <img src="./assets/images/photo_thekinks10.jpeg" alt="photo_thekinks10">
+          </a>
+     </div>
     </div>
-  </div>
-  <div class="col-sm-3">
-    <div class="thumbnail-photo">
-        <a href="./assets/images/photo_thekinks9.jpg" target="_blank">
-          <img src="./assets/images/photo_thekinks9.jpg" alt="photo_thekinks9">
-        </a>
-    </div>
-  </div>
-  <div class="col-sm-3">
-    <div class="thumbnail-photo">
-        <a href="./assets/images/photo_thekinks10.jpg" target="_blank">
-          <img src="./assets/images/photo_thekinks10.jpg" alt="photo_thekinks10">
-        </a>
-    </div>
-  </div>
 
   </div>
  </div>
-</div>
+
   <!-- /. Photos section Body -->
   
 <footer class= "bottom container-fluid">

@@ -301,7 +301,7 @@ html {overflow-x: hidden;}
 /*--------------------------------------------photos.html body Settings*/
 .background-photos {
     text-align: center;
-    height: 300vh;
+    height: 325vh;
     background-color: lightgray;
     align-items: center;
     padding-top: 75px;
@@ -309,15 +309,15 @@ html {overflow-x: hidden;}
 
 .thumbnail-photo {
     background-color: gainsboro;
-    border-radius: 20px;
+    border-radius: 2px;
     margin-top: 20px;
     padding-top: 15px;
     padding-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    height: 275px;
-    width: 250px;
+    height: 200px;
+    width: 100px;
     margin-bottom: 50px;
+    align-items: center;
+    text-align: center;
 }
 
 /*--------------------------------------------events.html body Settings*/
