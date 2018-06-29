@@ -311,8 +311,7 @@ html {overflow-x: hidden;}
 
 /*--------------------------------------------events.html body Settings*/
 .tours-container {
-    text-align: center;
-    height: 600px;
+    height: 300vh;
     background-color: lightgray;
     align-items: center;
     padding-top: 75px;
@@ -323,10 +322,13 @@ html {overflow-x: hidden;}
 }
 
 .fa-user {
-    margin-left: 10px;
+    margin-left: 5px;
     margin-right: 5px;
 }
 
+.form-control {
+    width: auto;
+}
 
 
 /*--------------------------------------------store.html body Settings*/
