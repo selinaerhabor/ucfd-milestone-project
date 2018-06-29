@@ -307,18 +307,6 @@ html {overflow-x: hidden;}
     padding-top: 75px;
 }
 
-.thumbnail-photo {
-    background-color: gainsboro;
-    border-radius: 2px;
-    margin-top: 20px;
-    padding-top: 15px;
-    padding-bottom: 5px;
-    height: 200px;
-    width: 100px;
-    margin-bottom: 50px;
-    align-items: center;
-    text-align: center;
-}
 
 /*--------------------------------------------events.html body Settings*/
 .tours-container {
