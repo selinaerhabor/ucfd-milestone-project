@@ -57,6 +57,7 @@ html {overflow-x: hidden;}
     .background {padding-left: 100px; align-items: center;}
     .thumbnail {padding-left: 7px; height: 170px; width: 150px;}
     .media-left {padding-bottom: 15px;}
+}
     
 }
 
@@ -301,7 +302,7 @@ html {overflow-x: hidden;}
 /*--------------------------------------------photos.html body Settings*/
 .background-photos {
     text-align: center;
-    height: 230vh;
+    height: 240vh;
     background-color: lightgray;
     align-items: center;
     padding-top: 75px;
@@ -311,17 +312,14 @@ html {overflow-x: hidden;}
 /*--------------------------------------------events.html body Settings*/
 .tours-container {
     text-align: center;
-    height: 80vh;
+    height: 600px;
     background-color: lightgray;
     align-items: center;
     padding-top: 75px;
 }
 
 .request-container {
-    padding-top: 10px;
-    margin-left: 450px;
-    margin-right: 450px;
-    padding-bottom: 50px;
+    align-items: center;
 }
 
 .fa-user {
