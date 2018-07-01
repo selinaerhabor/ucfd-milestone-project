@@ -57,7 +57,6 @@ html {overflow-x: hidden;}
     .background {padding-left: 100px; align-items: center;}
     .thumbnail {padding-left: 7px; height: 170px; width: 150px;}
     .media-left {padding-bottom: 15px;}
-}
     
 }
 
@@ -222,7 +221,7 @@ html {overflow-x: hidden;}
 /*--------------------------------------------music.html body Settings*/
 .background-music {
     text-align: center;
-    height: 360vh;
+    background-size: cover;
     background-color: lightgray;
     padding-top: 75px;
     padding-bottom: 15px;
@@ -302,7 +301,7 @@ html {overflow-x: hidden;}
 /*--------------------------------------------photos.html body Settings*/
 .background-photos {
     text-align: center;
-    height: 240vh;
+    background-size: cover;
     background-color: lightgray;
     align-items: center;
     padding-top: 75px;
@@ -311,7 +310,7 @@ html {overflow-x: hidden;}
 
 /*--------------------------------------------events.html body Settings*/
 .tours-container {
-    height: 300vh;
+    background-size: cover;
     background-color: lightgray;
     align-items: center;
     padding-top: 75px;
@@ -335,7 +334,7 @@ html {overflow-x: hidden;}
 .background-store {
     text-align: center;
     align-items: center;
-    height: 650vh;
+    background-size: cover;
     background-color: lightgray;
     padding-top: 75px;
 }
@@ -356,40 +355,41 @@ html {overflow-x: hidden;}
     height: 475px;
     width: 300px;
     margin-bottom: 50px;
+    font-size: small;
 }
 
 .store-row-first {
-    width: 1300px;
+    width: auto;
     padding-top: 10px;
     padding-bottom: 15px;
 }
 
 .store-row-second {
-    width: 1300px;
+    width: auto;
     padding-top: 10px;
     padding-bottom: 15px;
 }
 
 .store-row-third {
-    width: 1300px;
+    width: auto;
     padding-top: 10px;
     padding-bottom: 15px;
 }
 
 .store-row-fourth {
-    width: 1300px;
+    width: auto;
     padding-top: 10px;
     padding-bottom: 15px;
 }
 
 .store-row-fifth {
-    width: 1300px;
+    width: auto;
     padding-top: 10px;
     padding-bottom: 15px;
 }
 
 .store-row-sixth {
-    width: 1300px;
+    width: auto;
     padding-top: 10px;
     padding-bottom: 15px;
 }
@@ -530,7 +530,7 @@ nav {
     background-image: url(/assets/images/footer_background.jpg);
     position: relative;
     opacity: 0.85;
-    height: 225px;
+    background-size: cover;
 }
 
 .important-info,
