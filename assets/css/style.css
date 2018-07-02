@@ -314,12 +314,11 @@ html {overflow-x: hidden;}
     background-color: lightgray;
     align-items: center;
     padding-top: 75px;
+    padding-bottom: 15px;
 }
 
 <--/* Setting for the last image on photos page */-->
-.photoLast {
-    margin-bottom: 20px;
-}
+
 
 
 /*--------------------------------------------events.html body Settings*/
@@ -554,6 +553,7 @@ nav {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+
 }
 
 .important-info,
