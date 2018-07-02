@@ -316,6 +316,7 @@ html {overflow-x: hidden;}
     padding-top: 75px;
 }
 
+<--/* Setting for the last image on photos page */-->
 .photoLast {
     margin-bottom: 20px;
 }
@@ -341,7 +342,7 @@ html {overflow-x: hidden;}
     margin-right: 5px;
 }
 
-.form-control {
+.form-events {
     width: auto;
 }
 
