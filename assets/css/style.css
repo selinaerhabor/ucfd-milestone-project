@@ -68,7 +68,7 @@ html {overflow-x: hidden;}
     text-align: center;
     align-items: center;
     height: 100vh;
-    background: url('/assets/images/TheKinksIndex.jpg') no-repeat center center fixed;
+    background: url('assets/images/TheKinksIndex.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -540,7 +540,7 @@ nav {
 /*------------------------------------------Footer Settings*/
 .bottom {
     text-align: center;
-    background-image: url(/assets/images/footer_background.jpg);
+    background-image: url('assets/images/footer_background.jpg');
     position: relative;
     opacity: 0.85;
     background-size: cover;
