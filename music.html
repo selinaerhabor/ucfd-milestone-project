@@ -12,7 +12,10 @@
     <title>Music | The Kinks</title>
 </head>
  <body>
-<nav class="navbar navbar-default">
+  <!--NAVIGATION BAR-->
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="navbar navbar-default">
      <div class="navbar-header">
         <a href="index.html" class="navbar-brand uppercase">The Kinks</a>
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
@@ -36,18 +39,21 @@
       </div>
      </div>
 </nav>
-        
-  <!--Joint Login & Register Form-->
-<div class="modal fade" id="jointloginregisterModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close" >
-          <span aria-hidden="true">×</span>
-        </button>
-            <h4 class="modal-title" id="myModalLabel">Login to your Account
-            </h4>
-      </div>
+    </div>
+  </div>
+  <!--/NAVIGATION BAR-->
+  
+  <!--JOINT LOGIN & REGISTER FORM-->
+  <div class="modal fade" id="jointloginregisterModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" >
+            <span aria-hidden="true">×</span>
+          </button>
+              <h4 class="modal-title" id="myModalLabel">Login to your Account
+              </h4>
+        </div>
                 <div class="modal-body">
                   <form>
                     <div class="form-group">
@@ -102,395 +108,439 @@
             </div>
         </div>
     </div>
-  <!--/. Joint Login & Register Form -->
+  <!--/JOINT LOGIN & REGISTER FORM-->
 
-  <!-- Music section Body -->
+
   <div class="container-fluid background-music">
-    <div class="col-md-12">
-        
-    <div class="bio-text">
-        <center>
-          <h2 class="text-uppercase">The Kinks Music History Highlights</h2>
-        </center>
-    </div>
     
     <div class="row">
-    <div class="media first-column col-xs-12 visible-lg">
-          <a href="">
-            <img class="media-object" src="assets/images/cover_youreallygotme.jpg" alt="youreallygotme">
-          </a>
-          <div class="musicObject">
-          <div class="musicTitle">You Really Got Me Now</div>
-          <audio controls>
-            <source src="assets/audio/audio_youReallyGotMe.mp3" type="audio/mpeg">
-          </audio>
-          </div>
-        
-        
-          <a href="">
-            <img class="media-object" src="assets/images/cover_alldayandallofthenight.jpg" alt="alldayandallofthenight">
-          </a>
-          <div class="musicObject">
-          <div class="musicTitle">All Day And All Of The Night</div>
-          <audio controls>
-            <source src="assets/audio/audio_allDayAndAllOfTheNight.mp3" type="audio/mpeg">
-          </audio>
-          </div>
-
-          
-          <a href="">
-            <img class="media-object" src="assets/images/cover_autumnalmanac.jpg" alt="autumnalmanac">
-          </a>
-          <div class="musicObject">
-          <div class="musicTitle">Autumn Almanac</div>
-          <audio controls>
-            <source src="assets/audio/audio_autumnAlmanac.mp3" type="audio/mpeg">
-          </audio>
-          </div>
-          
-          <a href="">
-            <img class="media-object" src="assets/images/cover_strangers.jpg" alt="strangers">
-          </a>
-          <div class="musicObject">
-          <div class="musicTitle">Strangers</div>
-          <audio controls>
-            <source src="assets/audio/audio_strangers.mp3" type="audio/mpeg">
-          </audio>
-          </div>
+      <div class="col-xs-12">
+        <div class="bio-text">
+          <center>
+            <h2 class="text-uppercase">The Kinks Music History Highlights</h2>
+          </center>
         </div>
+      </div>
     </div>
-    
-    <div class="media second-column col-xs-4 visible-lg">
-        <div class="row">
+      
+    <div class="container visible-lg">
+      <div class="row">
+        <div class="col-xs-4">
+            <img class="media-object" src="assets/images/cover_awellrespectedman.jpg" alt="awellrespectedman">
+        </div>
+        <div class="col-xs-4">
+            <img class="media-object" src="assets/images/cover_alldayandallofthenight.jpg" alt="alldayandallofthenight">
+        </div>
+        <div class="col-xs-4">
+            <img class="media-object" src="assets/images/cover_autumnalmanac.jpg" alt="autumnalmanac">
+        </div>
+      </div>
+    </div>
+        
+    <div class="container visible-lg">
+      <div class="row">
+        <div class="col-xs-4">
+          <div class="musicTitle">A Well Respected Man</div>
+            <audio controls class="musicAudio">
+              <source src="assets/audio/audio_aWellRespectedMan.mp3" type="audio/mpeg">
+          </audio>
+        </div>
+        <div class="col-xs-4">
+          <div class="musicTitle">All Day And All Of The Night</div>
+            <audio controls class="musicAudio">
+              <source src="assets/audio/audio_allDayAndAllOfTheNight.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+        <div class="col-xs-4">
+          <div class="musicTitle">Autumn Almanac</div>
+            <audio controls class="musicAudio">
+              <source src="assets/audio/audio_autumnAlmanac.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+      </div>
+    </div>
           
-          <a href="">
-            <img class="media-object" src="assets/images/cover_waterloosunset.jpg" alt="waterloosunset">
-          </a>
-          <div class="musicObject">
-          <div class="musicTitle">Waterloo Sunset</div>
-          <audio controls>
-            <source src="assets/audio/audio_waterlooSunset.mp3" type="audio/mpeg">
-          </audio>
-          </div>
-        
-        
-          <a href="">
+    <div class="container visible-lg">
+      <div class="row">
+        <div class="col-xs-4">
+            <img class="media-object" src="assets/images/cover_dedicatedfolloweroffashion.jpg" alt="dedicatedfolloweroffashion">
+        </div>
+        <div class="col-xs-4">
             <img class="media-object" src="assets/images/cover_lola.jpg" alt="lola">
-          </a>
-          <div class="musicObject">
-          <div class="musicTitle">Lola</div>
-          <audio controls>
-            <source src="assets/audio/audio_lola.mp3" type="audio/mpeg">
-          </audio>
         </div>
-        
-        
-          <a href="">
-            <img class="media-object" src="assets/images/cover_sunnyafternoon.jpg" alt="sunnyafternoon">
-          </a>
-          <div class="musicObject">
-          <div class="musicTitle">Sunny Afternoon</div>
-          <audio controls>
-            <source src="assets/audio/audio_sunnyAfternoon.mp3" type="audio/mpeg">
-          </audio>
+        <div class="col-xs-4">
+            <img class="media-object" src="assets/images/cover_strangers.jpg" alt="strangers">
         </div>
-        
-        <a href="">
-            <img class="media-object" src="assets/images/cover_thistimetomorrow.jpg" alt="thisTimeTomorrow">
-          </a>
-          <div class="musicObject">
-          <div class="musicTitle">This Time Tomorrow</div>
-          <audio controls>
-            <source src="assets/audio/audio_thisTimeTomorrow.mp3" type="audio/mpeg">
-          </audio>
-          </div>
       </div>
     </div>
     
-    <div class="media third-column col-xs-4 visible-lg">
-        <div class="row">
-          <a href="">
+    <div class="container visible-lg">
+      <div class="row">
+        <div class="col-xs-4">
+          <div class="musicTitle">Dedicated Follower of Fashion</div>
+            <audio controls class="musicAudio">
+              <source src="assets/audio/audio_dedicatedFollowerOfFashion.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+        <div class="col-xs-4">
+          <div class="musicTitle">Lola</div>
+            <audio controls class="musicAudio">
+              <source src="assets/audio/audio_lola.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+        <div class="col-xs-4">
+          <div class="musicTitle">Strangers</div>
+            <audio controls class="musicAudio">
+              <source src="assets/audio/audio_strangers.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container visible-lg">
+      <div class="row">
+        <div class="col-xs-4">
+            <img class="media-object" src="assets/images/cover_sunnyafternoon.jpg" alt="sunnyafternoon">
+        </div>
+        <div class="col-xs-4">
+            <img class="media-object" src="assets/images/cover_thistimetomorrow.jpg" alt="thisTimeTomorrow">
+        </div>
+        <div class="col-xs-4">
+            <img class="media-object" src="assets/images/cover_victoria.jpg" alt="victoria">
+        </div>
+      </div>
+    </div>
+    
+    <div class="container visible-lg">
+      <div class="row">
+        <div class="col-xs-4">
+          <div class="musicTitle">Sunny Afternoon</div>
+            <audio controls>
+              <source src="assets/audio/audio_sunnyAfternoon.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+        <div class="col-xs-4">
+          <div class="musicTitle">This Time Tomorrow</div>
+            <audio controls class="musicAudio">
+              <source src="assets/audio/audio_thisTimeTomorrow.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+        <div class="col-xs-4">
+          <div class="musicTitle">Victoria</div>
+            <audio controls class="musicAudio">
+              <source src="assets/audio/audio_victoria.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+      </div>
+    </div>
+  
+        
+    <div class="container visible-lg">
+      <div class="row">
+        <div class="col-xs-4">
+            <img class="media-object" src="assets/images/cover_waterloosunset.jpg" alt="waterloosunset">
+        </div>
+        <div class="col-xs-4">
             <img class="media-object" src="assets/images/cover_wherehaveallthegoodtimesgone.jpg" alt="WhereHaveAllTheGoodTimesGone">
-          </a>
-          <div class="musicObject">
+        </div>
+        <div class="col-xs-4">
+            <img class="media-object" src="assets/images/cover_youreallygotme.jpg" alt="youreallygotme">
+        </div>
+      </div>
+    </div>
+    
+    <div class="container visible-lg">
+      <div class="row">
+        <div class="col-xs-4">
+          <div class="musicTitle">Waterloo Sunset</div>
+          <audio controls class="musicAudio">
+            <source src="assets/audio/audio_waterlooSunset.mp3" type="audio/mpeg">
+          </audio>
+        </div>
+        <div class="col-xs-4">
           <div class="musicTitle">Where Have All The Good Times Gone</div>
-          <audio controls>
+          <audio controls class="musicAudio">
             <source src="assets/audio/audio_whereHaveAllTheGoodTimesGone.mp3" type="audio/mpeg">
           </audio>
         </div>
+        <div class="col-xs-4">
+          <div class="musicTitle">You Really Got Me Now</div>
+          <audio controls class="musicAudio">
+            <source src="assets/audio/audio_youReallyGotMe.mp3" type="audio/mpeg">
+          </audio>
+        </div>
+      </div>
+    </div>  
+  
+    
+  <!--THIS DISPLAY LAYOUT IS VISIBLE ON SMALLER DEVICE SIZES (xs, sm, md)-->
+    <div class="hidden-lg">
       
-          <a href="">
-            <img class="media-object" src="assets/images/cover_awellrespectedman.jpg" alt="awellrespectedman">
-          </a>
-          <div class="musicObject">
-          <div class="musicTitle">A Well Respected Man</div>
-          <audio controls>
-            <source src="assets/audio/audio_aWellRespectedMan.mp3" type="audio/mpeg">
-          </audio>
+      <div class="row">
+        <div class="col-xs-12 col-md-6">
+          <div class="media-left hidden-xs">
+            <blockquote class="quote">
+              <img src="assets/images/cover_alldayandallofthenight.jpg" class="img-square media-object" height=100 width=100>
+          </div>
+          <div class="media-body">
+            <div class="musicTitle">
+              <a href="assets/images/cover_alldayandallofthenight.jpg" target="_blank">
+                <h4 class="visible-xs-*">All Day and All of the Night</h4>
+              </a>
+            </div>
+              <audio controls class="musicBar">
+                <source src="assets/audio/audio_allDayAndAllOfTheNight.mp3" type="audio/mpeg">
+              </audio>
+            </blockquote>
+          </div>
         </div>
-        
-          <a href="">
-            <img class="media-object" src="assets/images/cover_dedicatedfolloweroffashion.jpg" alt="dedicatedfolloweroffashion">
-          </a>
-          <div class="musicObject">
-          <div class="musicTitle">Dedicated Follower of Fashion</div>
-          <audio controls>
-            <source src="assets/audio/audio_dedicatedFollowerOfFashion.mp3" type="audio/mpeg">
-          </audio>
+      
+    
+      <div class="col-xs-12 col-md-6">
+        <div class="media-left hidden-xs">
+          <blockquote class="quote">
+            <img src="assets/images/cover_autumnalmanac.jpg" class="img-square media-object" height=100 width=100>
         </div>
-        
-        <a href="">
-            <img class="media-object" src="assets/images/cover_victoria.jpg" alt="victoria">
-          </a>
-          <div class="musicObject">
-          <div class="musicTitle">Victoria</div>
-          <audio controls>
-            <source src="assets/audio/audio_victoria.mp3" type="audio/mpeg">
-          </audio>
+        <div class="media-body">
+          <div class="musicTitle">
+            <a href="assets/images/cover_autumnalmanac.jpg" target="_blank">
+              <h4 class="visible-xs-*">Autumn Almanac</h4>
+            </a>
+          </div>
+            <audio controls class="musicBar">
+              <source src="assets/audio/audio_autumnAlmanac.mp3" type="audio/mpeg">
+            </audio>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+
+      
+    <div class="row">
+      <div class="col-xs-12 col-md-6">
+        <div class="media-left hidden-xs">
+          <blockquote class="quote">
+            <img src="assets/images/cover_awellrespectedman.jpg" class="img-square media-object" height=100 width=100>
+        </div>
+        <div class="media-body">
+          <div class="musicTitle">
+            <a href="assets/images/cover_awellrespectedman.jpg" target="_blank">
+              <h4 class="visible-xs-*">A Well Respected Man</h4>
+            </a>
+          </div>
+            <audio controls class="musicBar">
+              <source src="assets/audio/audio_aWellRespectedMan.mp3" type="audio/mpeg">
+            </audio>
+          </blockquote>
+        </div>
+      </div>
+    
+    
+      <div class="col-xs-12 col-md-6">
+        <div class="media-left hidden-xs">
+          <blockquote class="quote">
+            <img src="assets/images/cover_dedicatedfolloweroffashion.jpg" class="img-square media-object" height=100 width=100>
+        </div>
+        <div class="media-body">
+          <div class="musicTitle">
+            <a href="assets/images/cover_dedicatedfolloweroffashion.jpg" target="_blank">
+              <h4 class="visible-xs-*">Dedicated Follower Of Fashion</h4>
+            </a>
+          </div>
+              <audio controls class="musicBar">
+                <source src="assets/audio/audio_dedicatedFollowerOfFashion.mp3" type="audio/mpeg">
+              </audio>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  
+  
+    <div class="row">
+      <div class="col-xs-12 col-md-6">
+        <div class="media-left hidden-xs">
+          <blockquote class="quote">
+            <img src="assets/images/cover_lola.jpg" class="img-square media-object" height=100 width=100>
+        </div>
+        <div class="media-body">
+          <div class="musicTitle">
+            <a href="assets/images/cover_lola.jpg" target="_blank">
+              <h4 class="visible-xs-*">Lola</h4>
+            </a>
+          </div>
+              <audio controls class="musicBar">
+                <source src="assets/audio/audio_lola.mp3" type="audio/mpeg">
+              </audio>
+          </blockquote>
+        </div>
+      </div>
+      
+      <div class="col-xs-12 col-md-6">
+        <div class="media-left hidden-xs">
+          <blockquote class="quote">
+            <img src="assets/images/cover_strangers.jpg" class="img-square media-object" height=100 width=100>
+        </div>
+        <div class="media-body">
+          <div class="musicTitle">
+            <a href="assets/images/cover_strangers.jpg" target="_blank">
+              <h4 class="visible-xs-*">Strangers</h4>
+            </a>
+          </div>
+              <audio controls class="musicBar">
+                <source src="assets/audio/audio_strangers.mp3" type="audio/mpeg">
+              </audio>
+          </blockquote>
         </div>
       </div>
     </div>
     
-    <!-- This display layout is visible on smaller devices (xs, sm, md)-->
-            <div class="row hidden-lg">
-                <div class="col-xs-12 col-md-6">
-                    <div class="media">
-                        <div class="media-left hidden-xs">
-                          <blockquote class="quote">
-                            <img src="assets/images/cover_alldayandallofthenight.jpg" class="img-square media-object" height=100 width=100>
-                        </div>
-                        <div class="media-body">
-                            <div class="musicTitle">
-                              <a href="assets/images/cover_alldayandallofthenight.jpg" target="_blank"><h4 class="visible-xs-*">All Day and All of the Night</h4></div></a>
-                                <audio controls class="musicBar">
-                                  <source src="assets/audio/audio_allDayAndAllOfTheNight.mp3" type="audio/mpeg">
-                                </audio>
-                            </blockquote>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-6">
-                    <div class="media">
-                        <div class="media-left hidden-xs">
-                          <blockquote class="quote">
-                            <img src="assets/images/cover_autumnalmanac.jpg" class="img-square media-object" height=100 width=100>
-                        </div>
-                        <div class="media-body">
-                          <div class="musicTitle">
-                            <a href="assets/images/cover_autumnalmanac.jpg" target="_blank"><h4 class="visible-xs-*">Autumn Almanac</h4></div></a>
-                                <audio controls class="musicBar">
-                                  <source src="assets/audio/audio_autumnAlmanac.mp3" type="audio/mpeg">
-                                </audio>
-                            </blockquote>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="row hidden-lg">
-                <div class="col-xs-12 col-md-6">
-                    <div class="media">
-                        <div class="media-left hidden-xs">
-                          <blockquote class="quote">
-                            <img src="assets/images/cover_awellrespectedman.jpg" class="img-square media-object" height=100 width=100>
-                        </div>
-                        <div class="media-body">
-                            <div class="musicTitle">
-                              <a href="assets/images/cover_awellrespectedman.jpg" target="_blank"><h4 class="visible-xs-*">A Well Respected Man</h4></div></a>
-                                <audio controls class="musicBar">
-                                  <source src="assets/audio/audio_aWellRespectedMan.mp3" type="audio/mpeg">
-                                </audio>
-                            </blockquote>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-6">
-                    <div class="media">
-                        <div class="media-left hidden-xs">
-                          <blockquote class="quote">
-                            <img src="assets/images/cover_dedicatedfolloweroffashion.jpg" class="img-square media-object" height=100 width=100>
-                        </div>
-                        <div class="media-body">
-                          <div class="musicTitle">
-                            <a href="assets/images/cover_dedicatedfolloweroffashion.jpg" target="_blank"><h4 class="visible-xs-*">Dedicated Follower Of Fashion</h4></div></a>
-                                <audio controls class="musicBar">
-                                  <source src="assets/audio/audio_dedicatedFollowerOfFashion.mp3" type="audio/mpeg">
-                                </audio>
-                            </blockquote>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="row hidden-lg">
-                <div class="col-xs-12 col-md-6">
-                    <div class="media">
-                        <div class="media-left hidden-xs">
-                          <blockquote class="quote">
-                            <img src="assets/images/cover_lola.jpg" class="img-square media-object" height=100 width=100>
-                        </div>
-                        <div class="media-body">
-                            <div class="musicTitle">
-                              <a href="assets/images/cover_lola.jpg" target="_blank"><h4 class="visible-xs-*">Lola</h4></div></a>
-                                <audio controls class="musicBar">
-                                  <source src="assets/audio/audio_lola.mp3" type="audio/mpeg">
-                                </audio>
-                            </blockquote>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-6">
-                    <div class="media">
-                        <div class="media-left hidden-xs">
-                          <blockquote class="quote">
-                            <img src="assets/images/cover_strangers.jpg" class="img-square media-object" height=100 width=100>
-                        </div>
-                        <div class="media-body">
-                          <div class="musicTitle">
-                            <a href="assets/images/cover_strangers.jpg" target="_blank"><h4 class="visible-xs-*">Strangers</h4></div></a>
-                                <audio controls class="musicBar">
-                                  <source src="assets/audio/audio_strangers.mp3" type="audio/mpeg">
-                                </audio>
-                            </blockquote>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="row hidden-lg">
-                <div class="col-xs-12 col-md-6">
-                    <div class="media">
-                        <div class="media-left hidden-xs">
-                          <blockquote class="quote">
-                            <img src="assets/images/cover_sunnyafternoon.jpg" class="img-square media-object" height=100 width=100>
-                        </div>
-                        <div class="media-body">
-                            <div class="musicTitle">
-                              <a href="assets/images/cover_sunnyafternoon.jpg" target="_blank"><h4 class="visible-xs-*">Sunny Afternoon</h4></div></a>
-                                <audio controls class="musicBar">
-                                  <source src="assets/audio/audio_sunnyAfternoon.mp3" type="audio/mpeg">
-                                </audio>
-                            </blockquote>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-6">
-                    <div class="media">
-                        <div class="media-left hidden-xs">
-                          <blockquote class="quote">
-                            <img src="assets/images/cover_thistimetomorrow.jpg" class="img-square media-object" height=100 width=100>
-                        </div>
-                        <div class="media-body">
-                          <div class="musicTitle">
-                            <a href="assets/images/cover_thistimetomorrow.jpg" target="_blank"><h4 class="visible-xs-*">This Time Tomorrow</h4></div></a>
-                                <audio controls class="musicBar">
-                                  <source src="assets/audio/audio_thisTimeTomorrow.mp3" type="audio/mpeg">
-                                </audio>
-                            </blockquote>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="row hidden-lg">
-                <div class="col-xs-12 col-md-6">
-                    <div class="media">
-                        <div class="media-left hidden-xs">
-                          <blockquote class="quote">
-                            <img src="assets/images/cover_victoria.jpg" class="img-square media-object" height=100 width=100>
-                        </div>
-                        <div class="media-body">
-                            <div class="musicTitle">
-                              <a href="assets/images/cover_victoria.jpg" target="_blank"><h4 class="visible-xs-*">Victoria</h4></div></a>
-                                <audio controls class="musicBar">
-                                  <source src="assets/audio/audio_victoria.mp3" type="audio/mpeg">
-                                </audio>
-                            </blockquote>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-6">
-                    <div class="media">
-                        <div class="media-left hidden-xs">
-                          <blockquote class="quote">
-                            <img src="assets/images/cover_waterloosunset.jpg" class="img-square media-object" height=100 width=100>
-                        </div>
-                        <div class="media-body">
-                          <div class="musicTitle">
-                            <a href="assets/images/cover_waterloosunset.jpg" target="_blank"><h4 class="visible-xs-*">Waterloo Sunset</h4></div></a>
-                                <audio controls class="musicBar">
-                                  <source src="assets/audio/audio_waterlooSunset.mp3" type="audio/mpeg">
-                                </audio>
-                            </blockquote>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="row hidden-lg">
-                <div class="col-xs-12 col-md-6">
-                    <div class="media">
-                        <div class="media-left hidden-xs">
-                          <blockquote class="quote">
-                            <img src="assets/images/cover_wherehaveallthegoodtimesgone.jpg" class="img-square media-object" height=100 width=100>
-                        </div>
-                        <div class="media-body">
-                            <div class="musicTitle">
-                              <a href="assets/images/cover_wherehaveallthegoodtimesgone.jpg" target="_blank"><h4 class="visible-xs-*">Where Have All The Good Times Gone</h4></div></a>
-                                <audio controls class="musicBar">
-                                  <source src="assets/audio/audio_whereHaveAllTheGoodTimesGone.mp3" type="audio/mpeg">
-                                </audio>
-                            </blockquote>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-6">
-                    <div class="media">
-                        <div class="media-left hidden-xs">
-                          <blockquote class="quote">
-                            <img src="assets/images/cover_youreallygotme.jpg" class="img-square media-object" height=100 width=100>
-                        </div>
-                        <div class="media-body">
-                          <div class="musicTitle">
-                            <a href="assets/images/cover_youreallygotme.jpg" target="_blank"><h4 class="visible-xs-*">You Really Got Me</h4></div></a>
-                                <audio controls class="musicBar">
-                                  <source src="assets/audio/audio_youReallyGotMe.mp3" type="audio/mpeg">
-                                </audio>
-                            </blockquote>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- END This display layout is visible on smaller devices (xs, sm, md)-->
-      
-       </div>
-        
-        <section class="box_link">
-          <center><a href="https://itunes.apple.com/ca/artist/the-kinks/1179227" target="_blank">
-              <div class="boxLink">
-                    <h3>More Music?</h3>
-              </div>
-          </a></center>
-        </section>
+  
+    <div class="row">
+      <div class="col-xs-12 col-md-6">
+        <div class="media-left hidden-xs">
+          <blockquote class="quote">
+            <img src="assets/images/cover_sunnyafternoon.jpg" class="img-square media-object" height=100 width=100>
+        </div>
+        <div class="media-body">
+          <div class="musicTitle">
+            <a href="assets/images/cover_sunnyafternoon.jpg" target="_blank">
+              <h4 class="visible-xs-*">Sunny Afternoon</h4>
+            </a>
+          </div>
+            <audio controls class="musicBar">
+              <source src="assets/audio/audio_sunnyAfternoon.mp3" type="audio/mpeg">
+            </audio>
+          </blockquote>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-md-6">
+        <div class="media-left hidden-xs">
+          <blockquote class="quote">
+            <img src="assets/images/cover_thistimetomorrow.jpg" class="img-square media-object" height=100 width=100>
+        </div>
+        <div class="media-body">
+          <div class="musicTitle">
+            <a href="assets/images/cover_thistimetomorrow.jpg" target="_blank">
+              <h4 class="visible-xs-*">This Time Tomorrow</h4>
+            </a>
+          </div>
+            <audio controls class="musicBar">
+              <source src="assets/audio/audio_thisTimeTomorrow.mp3" type="audio/mpeg">
+            </audio>
+          </blockquote>
+        </div>
+      </div>
     </div>
 
+
+    <div class="row">
+      <div class="col-xs-12 col-md-6">
+        <div class="media-left hidden-xs">
+          <blockquote class="quote">
+            <img src="assets/images/cover_victoria.jpg" class="img-square media-object" height=100 width=100>
+        </div>
+        <div class="media-body">
+          <div class="musicTitle">
+            <a href="assets/images/cover_victoria.jpg" target="_blank">
+              <h4 class="visible-xs-*">Victoria</h4>
+            </a>
+          </div>
+            <audio controls class="musicBar">
+              <source src="assets/audio/audio_victoria.mp3" type="audio/mpeg">
+            </audio>
+          </blockquote>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-md-6">
+        <div class="media-left hidden-xs">
+          <blockquote class="quote">
+            <img src="assets/images/cover_waterloosunset.jpg" class="img-square media-object" height=100 width=100>
+        </div>
+        <div class="media-body">
+          <div class="musicTitle">
+            <a href="assets/images/cover_waterloosunset.jpg" target="_blank">
+              <h4 class="visible-xs-*">Waterloo Sunset</h4>
+            </a>
+          </div>
+            <audio controls class="musicBar">
+              <source src="assets/audio/audio_waterlooSunset.mp3" type="audio/mpeg">
+            </audio>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-xs-12 col-md-6">
+        <div class="media-left hidden-xs">
+          <blockquote class="quote">
+            <img src="assets/images/cover_wherehaveallthegoodtimesgone.jpg" class="img-square media-object" height=100 width=100>
+        </div>
+        <div class="media-body">
+          <div class="musicTitle">
+            <a href="assets/images/cover_wherehaveallthegoodtimesgone.jpg" target="_blank">
+              <h4 class="visible-xs-*">Where Have All The Good Times Gone</h4>
+            </a>
+          </div>
+            <audio controls class="musicBar">
+              <source src="assets/audio/audio_whereHaveAllTheGoodTimesGone.mp3" type="audio/mpeg">
+                </audio>
+          </blockquote>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-md-6">
+        <div class="media-left hidden-xs">
+          <blockquote class="quote">
+            <img src="assets/images/cover_youreallygotme.jpg" class="img-square media-object" height=100 width=100>
+        </div>
+        <div class="media-body">
+          <div class="musicTitle">
+            <a href="assets/images/cover_youreallygotme.jpg" target="_blank">
+              <h4 class="visible-xs-*">You Really Got Me</h4>
+            </a>
+          </div>
+            <audio controls class="musicBar">
+              <source src="assets/audio/audio_youReallyGotMe.mp3" type="audio/mpeg">
+            </audio>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!--/THIS DISPLAY LAYOUT IS VISIBLE ON SMALLER DEVICE SIZES (xs, sm, md)-->
+      
+          <center>
+            <div class="row">
+              <div class="col-xs-12">
+                <a href="https://itunes.apple.com/ca/artist/the-kinks/1179227" target="_blank">
+                  <div class="boxLink">
+                    <h3>More Music?</h3>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </center>
+          
+  </div>
                 
-  <!-- /. Music section Body -->
-  
-<footer class= "bottom container-fluid">
-  <h5>
-    <p class="strong">Follow Us</p></h5>
-      <a class="icon" href="https://www.facebook.com/TheKinksOfficial" target=_blank><i class="fa fa-facebook-square"></i></a>
-      <a class="icon" href="https://www.twitter.com/TheKinks" target=_blank><i class="fa fa-twitter-square"></i></a>
-      <a class="icon" href="https://www.youtube.com/TheKinksOfficial" target=_blank><i class="fa fa-youtube-square"></i></a>
+  <footer class="container-fluid bottom">
+    <h5>
+      <p class="strong">Follow Us</p></h5>
+        <a class="icon" href="https://www.facebook.com/TheKinksOfficial" target=_blank><i class="fa fa-facebook-square"></i></a>
+        <a class="icon" href="https://www.twitter.com/TheKinks" target=_blank><i class="fa fa-twitter-square"></i></a>
+        <a class="icon" href="https://www.youtube.com/TheKinksOfficial" target=_blank><i class="fa fa-youtube-square"></i></a>
         
           <div class="important-info"><a href="">Privacy Policy</a></div>
           <div class="important-info"><a href="">Terms & Conditions</a></div>
           <div class="important-info"><a href="">Store Help</a></div>
         
           <div class="copyright-info">&copy; 2018 Selina Erhabor</div>
-    
-</footer>
+  </footer>
 
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>

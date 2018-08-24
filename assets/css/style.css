@@ -1,13 +1,16 @@
 /*-------------------------------------------- Main Body Settings*/
 body {
     font-family: 'Fjalla One', sans-serif;
+    margin: 0px;
 }
 
-body {margin:0px;}
+#navbar-header { 
+    margin: 0px auto;
+}
 
-#navbar-header { margin: 0px auto}
-
-html {overflow-x: hidden;}
+html {
+    overflow-x: hidden;
+}
 
 
 /*--------------------------------------------Media Queries*/
@@ -65,21 +68,15 @@ html {overflow-x: hidden;}
 /*--------------------------------------------index.html body Settings*/
 
 .background {
-    text-align: center;
-    align-items: center;
     height: 100vh;
-    background: url('assets/images/TheKinksIndex.jpg') no-repeat center center fixed;
+    background: url("/assets/images/TheKinksIndex.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    display: flex;
     z-index: -1;
-    align-items: center;
-    justify-content: center;
 }
-
-
+    
 .block-divider {
     align-items: center;
     padding-right: 250px;
@@ -109,12 +106,17 @@ html {overflow-x: hidden;}
     text-decoration: underline;
 }
 
+.callout {
+    align-items: center;
+    text-align: center;
+} 
+
 .fa-pencil-square-o {
     font-size: 32px;
     align-items: center;
 }
 
-.jumbotron {
+.jumbotron {  
     border-radius: 20px;
     background-color: lightgray;
     opacity: 0.8;
@@ -125,10 +127,10 @@ html {overflow-x: hidden;}
     padding-top: 0;
 }
 
-.Subscribe {
+#subscribe {
     align-items: center;
     padding-bottom: 0px;
-    height: 15px;
+    height: 50px;
 }
 
 
@@ -241,27 +243,12 @@ html {overflow-x: hidden;}
     border-width: medium;
     border-radius: 50px;
     padding-top: 5px;
-}
-
-.boxLink:hover {
-    background-color: darkgray;
-}
-
-.box_link {
-    margin-top: 105px;
     align-items: center;
     text-align: center;
 }
 
-
-.first-column {
-    height: 2000px;
-    width: 410px;
-    margin-left:0;
-    padding-left: 70px;
-    margin-top: 5px;
-    margin-bottom: 40px;
-    align-items: center;
+.boxLink:hover {
+    background-color: darkgray;
 }
 
 .musicBar {
@@ -279,24 +266,12 @@ html {overflow-x: hidden;}
 .musicTitle {
     align-items: center;
     text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 
-.second-column {
-    height: 2000px;
-    width: 410px;
-    padding-left: 70px;
-    margin-top: 5px;
-    margin-bottom: 40px;
-    align-items: center;
-}
-
-.third-column {
-    height: 2000px;
-    width: 410px;
-    padding-left: 70px;
-    margin-top: 5px;
-    margin-bottom: 40px;
-    align-items: center;
+.musicAudio {
+   margin-bottom: 60px;
 }
 
 /*--------------------------------------------photos.html body Settings*/
@@ -311,8 +286,6 @@ html {overflow-x: hidden;}
     padding-top: 75px;
     padding-bottom: 20px;
 }
-
-
 
 
 /*--------------------------------------------events.html body Settings*/
@@ -540,7 +513,7 @@ nav {
 /*------------------------------------------Footer Settings*/
 .bottom {
     text-align: center;
-    background-image: url('assets/images/footer_background.jpg');
+    background-image: url('/assets/images/footer_background.jpg');
     position: relative;
     opacity: 0.85;
     background-size: cover;
