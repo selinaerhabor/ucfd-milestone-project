@@ -312,6 +312,14 @@ html {
     width: auto;
 }
 
+.text{
+    font-size: 12px;
+}
+
+.feature {
+    margin-bottom: 30px;
+}
+
 
 /*--------------------------------------------store.html body Settings*/
 .background-store {
