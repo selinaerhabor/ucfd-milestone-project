@@ -69,7 +69,7 @@ html {
 
 .background {
     height: 100vh;
-    background: url("/assets/images/TheKinksIndex.jpg") no-repeat center center;
+    background: url("assets/images/TheKinksIndex.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -92,7 +92,6 @@ html {
     width: 160px;
 }
 
-
 .btn--info:hover,
 .btn--info:focus {
     background-color: #df4929;
@@ -100,31 +99,51 @@ html {
     color: white;
 }
 
+.btn-lgn {
+    -webkit-transition: background-color 0.3s, border-color 0.3s;
+    -moz-transition: background-color 0.3s, border-color 0.3s;
+    -o-transition: background-color 0.3s, border-color 0.3s;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-lgn:hover {
+    background-color: red;
+    border-color: gray; 
+}
+
+.btn-sub {
+    -webkit-transition: background-color 0.3s, border-color 0.3s;
+    -moz-transition: background-color 0.3s, border-color 0.3s;
+    -o-transition: background-color 0.3s, border-color 0.3s;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-sub:hover {
+    background-color: blue;
+    border-color: gray;
+}
+
+.callout {
+    align-items: center;
+    text-align: center;
+}
 
 .callout-btn:hover {
     color: white;
     text-decoration: underline;
 }
 
-.callout {
-    align-items: center;
-    text-align: center;
-} 
-
 .fa-pencil-square-o {
     font-size: 32px;
     align-items: center;
 }
 
+
 .jumbotron {  
+    color: dimgray;
     border-radius: 20px;
     background-color: lightgray;
     opacity: 0.8;
-}
-
-.main {
-    color: dimgray;
-    padding-top: 0;
 }
 
 #subscribe {
@@ -245,6 +264,10 @@ html {
     padding-top: 5px;
     align-items: center;
     text-align: center;
+    -webkit-transition: background-color 0.3s, color 0.3s;
+    -moz-transition: background-color 0.3s, color 0.3s;
+    -o-transition: background-color 0.3s, color 0.3s;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .boxLink:hover {
@@ -308,6 +331,31 @@ html {
     margin-right: 5px;
 }
 
+.btn-sm {
+    margin-bottom: 20px;
+    -webkit-transition: background-color 0.3s, border-color 0.3s; 
+    -moz-transition: background-color 0.3s, border-color 0.3s;
+    -o-transition: background-color 0.3s, border-color 0.3s; 
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-sm:hover {
+    background-color: lightblue;
+    border-color: gray;
+}
+
+.btn-success {
+    -webkit-transition: background-color 0.3s, border-color 0.3s; 
+    -moz-transition: background-color 0.3s, border-color 0.3s;
+    -o-transition: background-color 0.3s, border-color 0.3s; 
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-success:hover {
+    background-color: green;
+    border-color: gray;
+}
+
 .form-events {
     width: auto;
 }
@@ -318,6 +366,10 @@ html {
 
 .feature {
     margin-bottom: 30px;
+}
+
+.dropdown-menu {
+    margin-top: 7px;
 }
 
 
@@ -406,13 +458,23 @@ html {
     font-size: 15px;
 }
 
+.btn-s {
+    margin-top: 10px;
+    -webkit-transition: background-color 0.3s, border-color 0.3s; 
+    -moz-transition: background-color 0.3s, border-color 0.3s;
+    -o-transition: background-color 0.3s, border-color 0.3s; 
+    transition: background-color 0.3s, border-color 0.3s;
+}
 
+.btn-s:hover {
+    background-color: lightblue;
+    border-color: gray;
+}
 
 /*-------------------------------------------------Navigation Bar Settings*/
 nav {
     background-color: transparent;
 }
-
 
 .header-style {
     height: 50px;
@@ -421,7 +483,6 @@ nav {
 .uppercase {
     text-transform: uppercase;
 }
-    
 
 .navbar {
     margin-bottom: 0;
@@ -430,6 +491,7 @@ nav {
     left: 0;
     width: 100%;
     z-index: 1;
+    color: lightgray;
     background-color: rgba(0, 0, 0, 0.25);
     border: 0;
     border-radius:0;
@@ -443,14 +505,10 @@ nav {
     border: 0;
 }
 
-.nav-tab {
-    color: blue;
-}
 
 .navbar-default .navbar-toggle:hover {
     background-color: transparent;
 }
-
 
 .navbar .navbar-brand {
     font-weight: bold;
@@ -463,11 +521,14 @@ nav {
     text-decoration: underline;
 }
 
+.nav-tab {
+    color: lightgray;
+}
+
 .nav-tab:hover {
     font-weight: bold;
     color: white;
     text-decoration: underline;
-    
 }
 
 .navbar .navbar-brand:hover {
@@ -489,7 +550,6 @@ nav {
 .navbar-default .navbar-nav>li>a:hover {
     color: white;
 }
-
 
 .navbar-btn {
     border-right: 5px;
@@ -521,7 +581,7 @@ nav {
 /*------------------------------------------Footer Settings*/
 .bottom {
     text-align: center;
-    background-image: url('/assets/images/footer_background.jpg');
+    background-image: url("assets/images/footer_background.jpg");
     position: relative;
     opacity: 0.85;
     background-size: cover;
@@ -531,17 +591,18 @@ nav {
 
 }
 
-.important-info,
-a:hover {
-    color: lightblue;
-    text-decoration: none;
-    transition-duration: 0.4s;
-    transition-timing-function: ease-in-out;
-}
-
 .important-info {
     padding-top: 4px;
     padding-bottom: 3px;
+    -webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    -o-transition: color 1s;
+    transition: color 1s;
+}
+
+.important-info, a:hover {
+    color: lightblue;
+    text-decoration: none;
 }
 
 .strong {
@@ -563,11 +624,18 @@ a:hover {
     width: 75px;
     font-size: 40px;
     padding: 15px;
+    -webkit-transition: font-size 0.5s, color 1.5s;
+    -moz-transition: font-size 0.5s, color 1.5s;
+    -o-transition: font-size 0.5s, color 1.5s;
+    transition: font-size 0.5s, color 1.5s;
+}
+
+#a5 {
+    transition-timing-function: ease-in-out;
 }
 
 .icon:hover {
     font-size: 45px;
-    transition-duration: 0.2s;
-    transition-timing-function: ease-in-out;
+    color: lightblue;
 }
 
