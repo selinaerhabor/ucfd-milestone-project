@@ -1,16 +1,10 @@
 /*-------------------------------------------- Main Body Settings*/
-body {
+
+html, body {
     font-family: 'Fjalla One', sans-serif;
-    margin: 0px;
-}
-
-#navbar-header { 
-    margin: 0px auto;
-}
-
-html {
     overflow-x: hidden;
 }
+
 
 
 /*--------------------------------------------Media Queries*/
@@ -21,116 +15,65 @@ html {
         float: none;
         display: block;
     }
-
     .center-form {
         padding-top: 30px;
         min-height: 240px;
         margin: 0 auto;
         max-width: 50%;
     }
-    .box_link {
-    padding-top: 2050px;
-    margin-left: 50%;
-}
-   
 }
 
 @media(min-width: 769px) and (max-width: 991px) {
-    .main h1 {font-size: 45px;}
+    .main-msg {font-size: 45px;}
     #subscribe {max-width: 80%; text-align: center;}
-    .background {
-        padding-top: 100px; 
-        padding-bottom: 25px;
-        padding-left: 235px; 
-        border-top: 20px;
-        align-items: center; 
-        justify-content: center;
-    }
-    .about {height: 300vh;}
-    .box_link {
-    padding-top: 55px;
-    margin-left: 40%;
-}
 }
 
 @media screen and (max-width: 768px) {
-    .main h1 {font-size: 30px;}
-    body, html {overflow-x: hidden;}
-    #subscribe {max-width: 80%; text-align: center;}
-    .background {padding-left: 100px; align-items: center;}
-    .thumbnail {padding-left: 7px; height: 170px; width: 150px;}
-    .media-left {padding-bottom: 15px;}
-    
+    .main-msg {font-size: 25px;}
+    #subscribe {max-width: 60%; text-align: center;}
+    .navbar-brand {padding-left: 0px;}
+    .navbar-toggle {padding-right: 0px;}
 }
-
 
 
 /*--------------------------------------------index.html body Settings*/
 
-.background {
-    height: 100vh;
-    background: url("assets/images/TheKinksIndex.jpg") no-repeat center center;
+.background-container {
+    background: url("../../assets/images/TheKinksIndex.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    z-index: -1;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    min-height: 90vh;
 }
     
 .block-divider {
     align-items: center;
-    padding-right: 250px;
     display: flex;
     height: 1px;
     background-color: lightslategray;
-    border: 0;
-}
-
-.btn--info {
-    font-weight: bold;
-    border-radius: 25px;
-    width: 160px;
-}
-
-.btn--info:hover,
-.btn--info:focus {
-    background-color: #df4929;
-    border-color: #df4929;
-    color: white;
-}
-
-.btn-lgn {
-    -webkit-transition: background-color 0.3s, border-color 0.3s;
-    -moz-transition: background-color 0.3s, border-color 0.3s;
-    -o-transition: background-color 0.3s, border-color 0.3s;
-    transition: background-color 0.3s, border-color 0.3s;
-}
-
-.btn-lgn:hover {
-    background-color: red;
-    border-color: gray; 
 }
 
 .btn-sub {
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #e9967a;
+    width: 120px;
     -webkit-transition: background-color 0.3s, border-color 0.3s;
     -moz-transition: background-color 0.3s, border-color 0.3s;
     -o-transition: background-color 0.3s, border-color 0.3s;
     transition: background-color 0.3s, border-color 0.3s;
 }
 
-.btn-sub:hover {
-    background-color: blue;
-    border-color: gray;
-}
-
-.callout {
-    align-items: center;
-    text-align: center;
-}
-
-.callout-btn:hover {
+.btn-sub:hover,
+.btn-sub:focus {
     color: white;
-    text-decoration: underline;
+    background-color: red;
+    border-color: gray; 
 }
 
 .fa-pencil-square-o {
@@ -138,37 +81,46 @@ html {
     align-items: center;
 }
 
+.img-square {
+    align-items: center;
+}
 
 .jumbotron {  
+    align-items: center;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 50px;
     color: dimgray;
-    border-radius: 20px;
+    border-radius: 25px;
     background-color: lightgray;
     opacity: 0.8;
 }
 
+.main_msg {
+    text-align: center;
+    align-items: center;
+}
+
 #subscribe {
     align-items: center;
-    padding-bottom: 0px;
-    height: 50px;
+    text-align: center;
 }
 
 
 
 /*--------------------------------------------about.html body Settings*/
 .about {
-    text-align: center;
-    background-size: cover;
     background-color: lightgray;
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    z-index: -1;
     padding-top: 75px;
+    text-align: center;
+    align-items: center;
 }
 
-.bio {
-    margin-left: 150px;
-    margin-right: 150px;
-}
 
 .bio-text {
     margin-bottom: 15px;
@@ -177,13 +129,16 @@ html {
 }
 
 .briefMembers {
-    padding-top: 100px;
-    padding-bottom: 15px;
-
+    padding-bottom: 25px;
+    align-items: center;
+    text-align: center;
 }
 
 .media-body {
     font-size: 12px;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
 }
 
 .name {
@@ -196,15 +151,14 @@ html {
     width: 300px;
     background-color: floralwhite;
     border-radius: 10px;
-    padding-top: 5px;
-    padding-bottom: 50px;
-    padding-left: 5px;
-    padding-right: 5px;
+    align-items: center;
+    text-align: center;
+    margin: 15px auto;
 }
-
 
 .row-first {
     display: inline-block;
+    align-items: center;
     text-align: center;
     margin-top: 3px;
     margin-bottom: 50px;
@@ -230,17 +184,16 @@ html {
     margin-bottom: 50px;
 }
 
-
 .text-uppercase {
     padding-top: 25px;
     padding-bottom: 15px;
+    text-align: center;
 }
 
 .quote {
     font-size: 12px;
     font-weight: lighter;
 }
-
 
 /*--------------------------------------------music.html body Settings*/
 .background-music {
@@ -262,28 +215,28 @@ html {
     border-width: medium;
     border-radius: 50px;
     padding-top: 5px;
-    align-items: center;
-    text-align: center;
+    cursor: pointer;
     -webkit-transition: background-color 0.3s, color 0.3s;
     -moz-transition: background-color 0.3s, color 0.3s;
     -o-transition: background-color 0.3s, color 0.3s;
     transition: background-color 0.3s, color 0.3s;
+    align-items: center;
+    text-align: center;
+    margin: auto;
 }
 
 .boxLink:hover {
     background-color: darkgray;
 }
 
+.musicCover {
+    align-items: center;
+    margin: auto;
+}
+
 .musicBar {
     width: 250px;
     margin-bottom: 40px;
-}
-
-.musicObject {
-    margin-top: 10px;
-    margin-bottom: 60px;
-    align-items: center;
-    text-align: center;
 }
 
 .musicTitle {
@@ -295,7 +248,11 @@ html {
 
 .musicAudio {
    margin-bottom: 60px;
+   align-items: center;
+   text-align: center;
+   cursor: pointer;
 }
+
 
 /*--------------------------------------------photos.html body Settings*/
 .background-photos {
@@ -308,6 +265,10 @@ html {
     align-items: center;
     padding-top: 75px;
     padding-bottom: 20px;
+}
+
+.photo {
+    margin-bottom: 5px;
 }
 
 
@@ -324,6 +285,7 @@ html {
 
 .request-container {
     align-items: center;
+    text-align: center;
 }
 
 .fa-user {
@@ -356,9 +318,12 @@ html {
     border-color: gray;
 }
 
-.form-events {
+.form-events{
+    align-items: center;
+    margin: 0px auto;
     width: auto;
 }
+
 
 .text{
     font-size: 12px;
@@ -366,6 +331,8 @@ html {
 
 .feature {
     margin-bottom: 30px;
+    align-items: center;
+    text-align: center;
 }
 
 .dropdown-menu {
@@ -375,14 +342,14 @@ html {
 
 /*--------------------------------------------store.html body Settings*/
 .background-store {
-    text-align: center;
-    align-items: center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-color: lightgray;
     padding-top: 75px;
+    text-align: center;
+    align-items: center;
 }
 
 .summary {
@@ -392,7 +359,7 @@ html {
 }
 
 .thumbnail-store {
-    background-color: honeydew;
+    background-color: whitesmoke;
     border-radius: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -402,43 +369,15 @@ html {
     width: 300px;
     margin-bottom: 50px;
     font-size: small;
+    align-items: center;
 }
 
-.store-row-first {
-    width: auto;
-    padding-top: 10px;
-    padding-bottom: 15px;
+.store-row {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    margin: 0px auto;
 }
 
-.store-row-second {
-    width: auto;
-    padding-top: 10px;
-    padding-bottom: 15px;
-}
-
-.store-row-third {
-    width: auto;
-    padding-top: 10px;
-    padding-bottom: 15px;
-}
-
-.store-row-fourth {
-    width: auto;
-    padding-top: 10px;
-    padding-bottom: 15px;
-}
-
-.store-row-fifth {
-    width: auto;
-    padding-top: 10px;
-    padding-bottom: 15px;
-}
-
-.store-row-sixth {
-    width: auto;
-    padding-top: 10px;
-    padding-bottom: 15px;
-}
 
 .heading-row {
     text-decoration: bold;
@@ -491,10 +430,9 @@ nav {
     left: 0;
     width: 100%;
     z-index: 1;
-    color: lightgray;
     background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 0;
     border: 0;
-    border-radius:0;
 }
 
 .navbar-default .navbar-collapse {
@@ -504,7 +442,6 @@ nav {
 .navbar-default .navbar-toggle {
     border: 0;
 }
-
 
 .navbar-default .navbar-toggle:hover {
     background-color: transparent;
@@ -523,6 +460,10 @@ nav {
 
 .nav-tab {
     color: lightgray;
+    -webkit-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+    -o-transition: color 0.3s;
+    transition: color 0.3s;
 }
 
 .nav-tab:hover {
@@ -551,23 +492,27 @@ nav {
     color: white;
 }
 
-.navbar-btn {
-    border-right: 5px;
-    margin-right: 20px;
-    border-radius: 5px;
-    width: 70px;
-    background-color: #f05f40;
-    color: #fff8dc;
+.navbar-right {
+    margin-right: 0px;
     text-align: center;
-    padding-left: 5%;
-    padding-right: 5%;
+}
+
+.navbar-btn {
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #e9967a;
+    color: lightslategray;
+    width: 70px;
+    -webkit-transition: background-color 0.3s, border-color 0.3s;
+    -moz-transition: background-color 0.3s, border-color 0.3s;
+    -o-transition: background-color 0.3s, border-color 0.3s;
+    transition: background-color 0.3s, border-color 0.3s;
 }
 
 .navbar-btn:hover {
-    background-color: #df4929;
+    background-color: red;
     border-color: #df4929;
     color: white;
-    text-decoration: underline;
 }
 
 .sr-only {
@@ -579,16 +524,17 @@ nav {
 }
 
 /*------------------------------------------Footer Settings*/
+
 .bottom {
-    text-align: center;
-    background-image: url("assets/images/footer_background.jpg");
-    position: relative;
+    background-image: url("../../assets/images/footer_background.jpg");
     opacity: 0.85;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .important-info {
@@ -614,6 +560,7 @@ nav {
 .copyright-info {
     padding-top: 15px;
     color: lightgray;
+    margin-bottom: 0;
 }
 
 .fa-sign-in {
@@ -638,4 +585,3 @@ nav {
     font-size: 45px;
     color: lightblue;
 }
-
