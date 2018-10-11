@@ -25,6 +25,26 @@ been created for the band.
 Website Page Names: Index, About, Music, Photos, Events and Store.
 
 
+## Running the tests
+
+Explain how to run the automated tests for this system
+
+### Break down into end to end tests
+
+Explain what these tests test and why
+
+Give an example
+
+
+### And coding style tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+
 ## Built With
 
 * **Bootstrap Version 3.3.7 CSS Framework**(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css)
@@ -35,5 +55,3 @@ Website Page Names: Index, About, Music, Photos, Events and Store.
 * Youtube's Share Embed code for the biography video on The Kinks in the about.html page: 
     <iframe width="auto" height="auto" src="https://www.youtube.com/embed/5FhaF0I3gv0" 
     frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>.
-
-
