@@ -254,6 +254,21 @@ html, body {
 }
 
 
+/*Smaller screen view music.html*/
+
+.songTitle {
+    -webkit-transition: color 0.3s; 
+    -moz-transition: color 0.3s;
+    -o-transition: color 0.3s; 
+    transition: color 0.3s;
+}
+
+.songTitle:hover {
+    color: slategray;
+    border-color: gray;
+}
+
+
 /*--------------------------------------------photos.html body Settings*/
 .background-photos {
     text-align: center;
