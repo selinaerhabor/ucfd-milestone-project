@@ -2,56 +2,33 @@
 
 Site is live at **https://selinaerhabor.github.io/ucfd-milestone-project/**.
 
-## Design Brief
-
-* **CREATE A WEBSITE FOR A BAND**: Build a static (front-end only) website for a band.
-* Band is a 1960s rock band with ~50 years experience performing live.
-
-### Requirements
-
-* Primary Target audience - Their fans & potential fans who want to hear their previous music and any new material.
-* Site should showcase their music.
-* Site should publicise their availability to perform at events.
-* Site should showcase photos of the band members.
-* Site should showcase a video clip.
-* Site should showcase audio clips.
-* Site should add links to their Facebook, Twitter and YouTube pages.
-
-## Description 
-
-The Kinks were an English rock band formed in the 1960s and this website has
-been created for the band.
+The User Centric Front-End Development (UCFD) Milestone project was to build a static front-end only website for a 1960s Rock band
+with around 50 years experience performing live. The chosen Rock band is the English music group - The Kinks.
 
 Website Page Names: Index, About, Music, Photos, Events and Store.
 
 
-## Running the tests
+## User Experience Design
 
-Explain how to run the automated tests for this system
+The band's main requirements for this site: 
+* Photos of the band members
+* A video clip
+* Audio clips
+* Showcase their music and increase awareness of their availability to perform at events
+* Provide links to their social media pages to improve their social media presence
 
-### Break down into end to end tests
+The primary target audience of this website are fans and potential fans of the rock 
+band who are interested in viewing clips of the band and the band’s work. 
 
-Explain what these tests test and why
+Firstly, I gathered users’ opinions on what they feel a 1960s band website should showcase. 
+From the ease of navigation to old fashioned photos, I collected several user stories:
 
-Give an example
-
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-
-## Built With
-
-* **Bootstrap Version 3.3.7 CSS Framework**(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css)
-
-
-## References & Acknowledgments
-
-* Youtube's Share Embed code for the biography video on The Kinks in the about.html page: 
-    <iframe width="auto" height="auto" src="https://www.youtube.com/embed/5FhaF0I3gv0" 
-    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>.
+As a user, I’ll be interested in... 
+* "Simple and easy access through navigation across the website”
+* "Old fashioned photos – black and white style”
+* "1960s Culture/dressing/outfit/wears”
+* "Obsolete/old musical instruments and equipment”
+* "Seeing how the band relates to audience, introduction speeches/stage performances”
+* "Ease to buy The Kinks’ merchandise”
+* "Ease to send request for booking to perform at weddings/other parties”
+* "Ease of using website on mobile phones as well as desktops or other devices”
