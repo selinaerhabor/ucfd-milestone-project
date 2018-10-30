@@ -27,8 +27,8 @@ As a user, I’ll be interested in...
 * "Simple and easy access through navigation across the website”
 * "Old fashioned photos – black and white style”
 * "1960s Culture/dressing/outfit/wears”
-* "Obsolete/old musical instruments and equipment”
+* "Seeing obsolete/old musical instruments and equipment”
 * "Seeing how the band relates to audience, introduction speeches/stage performances”
 * "Ease to buy The Kinks’ merchandise”
-* "Ease to send request for booking to perform at weddings/other parties”
+* "Ease to send requests for booking to perform at weddings/other parties”
 * "Ease of using website on mobile phones as well as desktops or other devices”

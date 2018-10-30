@@ -387,19 +387,20 @@ html, body {
     align-items: center;
 }
 
-.store-row {
+.store-item {
     padding-top: 15px;
     padding-bottom: 20px;
-    margin: 0px auto;
+    align-items: center;
 }
 
 
-.heading-row {
+.heading-item {
     text-decoration: bold;
     text-align: center;
     align-items: center;
     font-size: 25px;
     padding-top: 10px;
+    margin-top: 15px;
 }
 
 
@@ -502,6 +503,10 @@ nav {
     background-color: transparent;
 }
 
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+}
 
 .navbar-right {
     margin-right: 0px;
