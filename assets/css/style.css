@@ -394,8 +394,9 @@ html, body {
 
 
 .caption {
-    margin-top: 2px;
-    padding-top: 5px;
+    position: absolute;
+    bottom: 135px;
+    width: 88%;
 }
 
 .fa-cart-arrow-down {
@@ -413,6 +414,12 @@ html, body {
 .btn-s:hover {
     background-color: lightgreen;
     border-color: gray;
+}
+
+.order-item {
+    position: absolute;
+    bottom: 50px;
+    width: 88%;
 }
 
 /*-------------------------------------------------Navigation Bar Settings*/
