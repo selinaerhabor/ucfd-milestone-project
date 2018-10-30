@@ -134,6 +134,10 @@ html, body {
     text-align: center;
 }
 
+.caption-about {
+    padding-top: 10px;
+}
+
 .media-body {
     font-size: 12px;
     align-items: center;
@@ -393,7 +397,7 @@ html, body {
 }
 
 
-.caption {
+.caption-store {
     position: absolute;
     bottom: 135px;
     width: 88%;
