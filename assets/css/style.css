@@ -158,6 +158,7 @@ html, body {
     align-items: center;
     text-align: center;
     margin: 15px auto;
+    margin-bottom: 50px;
 }
 
 .row-first {
@@ -377,9 +378,6 @@ html, body {
     padding-bottom: 5px;
 }
 
-.thumbnail{
-    margin-bottom: 50px;
-}
 
 .store-item {
     padding-top: 15px;
