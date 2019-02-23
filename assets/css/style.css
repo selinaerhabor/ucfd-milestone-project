@@ -396,9 +396,7 @@ html, body {
 
 
 .caption-store {
-    position: absolute;
-    bottom: 135px;
-    width: 88%;
+    padding: 10px;
 }
 
 .fa-cart-arrow-down {
@@ -419,9 +417,9 @@ html, body {
 }
 
 .order-item {
-    position: absolute;
+    position: static;
     bottom: 50px;
-    width: 88%;
+    text-align: center;
 }
 
 /*-------------------------------------------------Navigation Bar Settings*/
