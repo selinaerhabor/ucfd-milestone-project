@@ -19,13 +19,23 @@ html, body {
         padding-top: 30px;
         min-height: 240px;
         margin: 0 auto;
-        max-width: 50%;
+        max-width: 30%;
     }
 }
 
 @media(min-width: 769px) and (max-width: 991px) {
     .main-msg {font-size: 45px;}
     #subscribe {max-width: 80%; text-align: center;}
+    .section-column {
+        padding: 0 30px 30px;
+        float: none;
+        display: block;
+    }
+    .center-form {
+        padding-top: 10px;
+        margin: 0 auto;
+        max-width: 70%;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -33,6 +43,16 @@ html, body {
     #subscribe {max-width: 60%; text-align: center;}
     .navbar-brand {padding-left: 0px;}
     .navbar-toggle {padding-right: 0px;}
+    .section-column {
+        padding: 0 30px 30px;
+        float: none;
+        display: block;
+    }
+    .center-form {
+        padding-top: 10px;
+        margin: 0 auto;
+        max-width: 70%;
+    }
 }
 
 
@@ -338,12 +358,6 @@ html, body {
     border-color: gray;
 }
 
-.form-events{
-    align-items: center;
-    margin: 0px auto;
-    width: auto;
-}
-
 
 .text{
     font-size: 12px;
@@ -357,6 +371,10 @@ html, body {
 
 .dropdown-menu {
     margin-top: 7px;
+}
+
+#form-link:hover {
+    color: blue;
 }
 
 
