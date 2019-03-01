@@ -175,7 +175,7 @@
                     <h4 class="visible-xs">Cornwall, UK: 12 Jul '19</h4>
                 </div>
                 <div class="col-xs-6">
-                  <h3 class="hidden-xs">Witham Public Hall, Witham, UK: Fri. 13th September 2019</h3>
+                  <h3 class="hidden-xs">Witham Public Hall, Witham: Fri. 13th September 2019</h3>
                     <h4 class="visible-xs">Witham, UK: 13 Sept '19</h4>
                 </div>
               </div>
@@ -233,30 +233,31 @@
           <div class="modal-body">
             <section class="request-container">
               <h2 class="text-uppercase">Want The Kinks at your event?</h2>
+              <div class="center-form">
                 <form>
                   <p>
                     <h5>Please complete the online form below</h5>
                   </p>
                     <div class="form-group">
                       <label for="firstName">First Name</label>
-                        <input type="name" class="form-control form-events" id="firstName" placeholder="First Name" autocorrect=off autocapitalize=words>
+                        <input type="text" class="form-control" id="firstName" placeholder="First Name" required/>
                     </div>
                     <div class="form-group">
                       <label for="lastName">Last Name</label>
-                        <input type="name" class="form-control form-events" id="LastName" placeholder="Last Name" autocorrect=off autocapitalize=words>
+                        <input type="text" class="form-control" id="LastName" placeholder="Last Name" required/>
                     </div>
                     <div class="form-group">
                       <label for="phone">Phone Number</label>
-                        <input type="phone" class="form-control form-events" id="phone" placeholder="Phone">
+                        <input type="tel" class="form-control" id="phone" placeholder="Phone" required/>
                     </div>
                     <div class="form-group">
                       <label for="email">Email address</label>
-                        <input type="email" class="form-control form-events" id="email" placeholder="Email">
+                        <input type="email" class="form-control" id="email" placeholder="Email" required/>
                     </div>
                       <h5>Your Event Details:</h5>
                         <div class="form-group">
                           <label for="country">Country</label>
-                            <input type="country" class="form-control form-events" id="country" placeholder="Country">
+                            <input type="country" class="form-control" id="country" placeholder="Country" required/>
                         </div>
                           <small>Please select the appropriate options below</small>
                             <div class="form-group">
@@ -266,7 +267,7 @@
                                   Event Type
                                   <span class="caret"></span>
                                 </button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1" required/>
                                   <li><a href="#">Awards Ceremony</a></li>
                                   <li><a href="#">Birthday Celebration</a></li>
                                   <li><a href="#">Christmas/Seasonal Celebration</a></li>
@@ -276,11 +277,11 @@
                                 </span>
                                 <span class="dropdown">
                                   <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" 
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" required/>
                                     Venue Capacity
                                     <span class="caret"></span>
                                   </button>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1" required/>
                                       <li><a href="#"><i class="fa fa-user"></i>0-99</a></li>
                                       <li><a href="#"><i class="fa fa-user"></i>100-199</a></li>
                                       <li><a href="#"><i class="fa fa-user"></i>200-299</a></li>
@@ -294,7 +295,7 @@
                                     Event Duration
                                     <span class="caret"></span>
                                   </button>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1" required/>
                                       <li><a href="#">0-2 hours</a></li>
                                       <li><a href="#">2-4 hours</a></li>
                                       <li><a href="#">4-6 hours</a></li>
@@ -305,17 +306,17 @@
                             <div class="form-group">
                               <label for="textarea">Any Further Details</label>
                               <div>
-                                <textarea class="form-control form-events" rows="3"></textarea>
+                                <textarea class="form-control" rows="3"></textarea>
                                 </div>
                             </div>
                             <div class="form-group">
                               <label for="InputFile">File input</label>
-                                <input type="file" class="form-control form-events" id="InputFile">
+                                <input type="file" class="form-control" id="InputFile" >
                                   <p class="help-block"><small>Please upload here any relevant documents.</small></p>
                             </div>
                             <div class="checkbox">
                               <label>
-                                <input type="checkbox"> <small>I have read and understood the <a href=""><u>Privacy Policy</u></a> and <a href=""><u>Terms & Conditions</u></a></small>
+                                <input type="checkbox" required/> <small>I have read and understood the <a id="form-link" data-toggle="modal" data-target="#privacy-policy" href="#privacy-policy"><u>Privacy Policy</u></a> and <a id="form-link" data-toggle="modal" data-target="#terms-conditions" href="#terms-conditions"><u>Terms & Conditions</u></a></small>
                               </label>
                             </div>
                             <div class="bottom-of-form">
