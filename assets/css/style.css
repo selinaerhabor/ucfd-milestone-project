@@ -377,6 +377,10 @@ html, body {
     color: blue;
 }
 
+.select-option {
+    color: gray;
+}
+
 
 /*--------------------------------------------store.html body Settings*/
 .background-store {
