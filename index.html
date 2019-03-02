@@ -35,12 +35,7 @@
                     <li class="nav-tab"><a href="photos.html">Photos</a></li>
                     <li class="nav-tab"><a href="events.html">Events</a></li>
                     <li class="nav-tab"><a href="store.html">Store<i class="fa fa-cart-arrow-down"></i></a></li>
-                    <li class="nav-tab visible-xs"><a data-toggle="modal" data-target="#jointloginregisterModal" href="#jointloginregisterModal">Login/Register</a></li>
                   </ul>
-                  <div class="navbar-right hidden-xs">
-                    <button class="btn navbar-btn" data-toggle="modal" data-target="#loginModal">Login <i class="fa fa-sign-in"></i>
-                    </button>
-                  </div>
               </div>
             </div>
           </div>
@@ -48,13 +43,14 @@
       </nav>
     </header>
     <!--/NAVIGATION BAR-->
-            
+    
+    <!--PROMOTE SUBSCRIPTION MESSAGE CONTAINER-->
     <div class="container-fluid background-container">
       <div class="row">
         <div class="col-xs-12">
           <div class="row">
             <div class="col-xs-6 col-xs-offset-3">
-              <section class="callout jumbotron">
+              <section class="jumbotron">
                 <h1 class="main_msg hidden-xs">Stay Connected with The Kinks</h1>
                 <h3 class="main_msg visible-xs">Stay Connected with The Kinks</h3>
                 <hr class="block-divider">
@@ -69,7 +65,9 @@
         </div>
       </div>
     </div>
-      
+    <!--/PROMOTE SUBSCRIPTION MESSAGE CONTAINER-->
+    
+    <!--FOOTER-->
     <footer class="container-fluid bottom">
       <div class="row">
         <div class="col-xs-12">
@@ -92,34 +90,9 @@
         </div>
       </div>
     </footer>
+    <!--/FOOTER-->
     
-     <!--LOGIN FORM-->
-    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close" ><span aria-hidden="true">×</span></button>
-              <h4 class="modal-title" id="myModalLabel">Login to your Account</h4>
-                </div>
-                  <div class="modal-body">
-                    <form>
-                      <div class="form-group">
-                        <label for="email">Email address</label>
-                          <input type="email" class="form-control" id="login_email" placeholder="Your Registered Email">
-                      </div>
-                      <div class="form-group">
-                        <label for="password">Password</label>
-                          <input type="password" class="form-control" id="login_password" placeholder="Password">
-                      </div>
-                        <button type="submit" class="btn btn-success">Sign In</button>
-                    </form>
-                  </div>
-        </div>
-      </div>
-    </div>
-    <!--/LOGIN FORM-->
-    
-    <!--SIGN UP FORM -->
+    <!--SUBSCRIBE FORM -->
     <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -128,27 +101,19 @@
               <h4 class="modal-title" id="myModalLabel">Subscribe to our mailing list!</h4>
           </div>
           <div class="modal-body">
-            <form>
+            <form method="GET" action="subscribed.html">
               <div class="form-group">
                 <label for="email">Email address</label>
-                  <input type="email" class="form-control" id="sign_up_email" placeholder="Email">
+                  <input type="email" class="form-control" id="sign_up_email" placeholder="Email" required/>
                     <p class="help-block"><i>We will never share your details with anyone</i></p>
               </div>
               <div class="form-group">
                 <label for="firstName">First Name</label>
-                  <input type="name" class="form-control" id="firstName" placeholder="First Name">
+                  <input type="name" class="form-control" id="firstName" placeholder="First Name" required/>
               </div>
               <div class="form-group">
                 <label for="lastName">Last Name</label>
-                  <input type="name" class="form-control" id="lastName" placeholder="Last Name">
-              </div>
-              <div class="form-group">
-                <label for="password">Password</label>
-                  <input type="password" class="form-control" id="signUp_password" placeholder="Password">
-              </div>
-              <div class="form-group">
-                <label for="passwordRepeat">Confirm Password</label>
-                  <input type="password" class="form-control" id="signUp_passwordRepeat" placeholder="Confirm Password">
+                  <input type="name" class="form-control" id="lastName" placeholder="Last Name" required/>
               </div>
                 <button type="submit" class="btn btn-success">Submit</button>
             </form>
@@ -156,71 +121,8 @@
         </div>
       </div>
     </div>
-    <!--/SIGN UP FORM -->
+    <!--/SUBSCRIBE FORM -->
     
-    <!--JOINT LOGIN & REGISTER FORM-->
-    <div class="modal fade" id="jointloginregisterModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close" >
-              <span aria-hidden="true">×</span>
-            </button>
-                <h4 class="modal-title" id="myModalLabel">Login to your Account</h4>
-          </div>
-          <div class="modal-body">
-            <form>
-              <div class="form-group">
-                <label for="email">Email address</label>
-                  <input type="email" class="form-control" id="email" placeholder="Your Registered Email">
-              </div>
-              <div class="form-group">
-                <label for="password">Password</label>
-                  <input type="password" class="form-control" id="password" placeholder="Password">
-              </div>
-                <button type="submit" class="btn btn-success">Sign In</button>
-            </form>
-            <div>
-              <hr class="divider">
-            </div>
-    
-            <h4 class="modal-title" id="myModalLabel">Not Registered yet?</h4> 
-              <div>
-                <h5>Subscribe to our mailing list!</h5>
-              </div>
-          </div>
-          <div class="modal-body">
-            <form>
-              <div class="form-group">
-                <label for="email">Email address</label>
-                  <input type="email" class="form-control" id="email" placeholder="Email">
-                    <p class="help-block">
-                      <i>We will never share your details with anyone</i>
-                    </p>
-              </div>
-              <div class="form-group">
-                <label for="firstName">First Name</label>
-                  <input type="name" class="form-control" id="firstName" placeholder="First Name">
-              </div>
-              <div class="form-group">
-                <label for="lastName">Last Name</label>
-                  <input type="name" class="form-control" id="LastName" placeholder="Last Name">
-              </div>
-              <div class="form-group">
-                <label for="password">Password</label>
-                  <input type="password" class="form-control" id="password" placeholder="Password">
-              </div>
-              <div class="form-group">
-                <label for="passwordRepeat">Confirm Password</label>
-                  <input type="password" class="form-control" id="passwordRepeat" placeholder="Confirm Password">
-              </div>
-                <button type="submit" class="btn btn-success">Submit</button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--/JOINT LOGIN & REGISTER FORM-->
     
     <!--FOOTER LINKS-->
     <div class="modal fade" id="privacy-policy" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
