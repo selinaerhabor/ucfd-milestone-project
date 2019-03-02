@@ -126,6 +126,15 @@ html, body {
     text-align: center;
 }
 
+.callout-form {
+    background-color: white;
+   padding: 40px;
+}
+
+.subscribed {
+    background-color: lightblue;
+}
+
 
 
 /*--------------------------------------------about.html body Settings*/
@@ -382,6 +391,27 @@ html, body {
 }
 
 
+.callout-form {
+    border-radius: 10px;
+    margin: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+#return-events {
+    margin-top: 85px;
+    -webkit-transition: background-color 0.3s; 
+    -moz-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s; 
+    transition: background-color 0.3s;
+}
+
+#return-events:hover {
+    background-color: lightblue;
+}
+
+
+
 /*--------------------------------------------store.html body Settings*/
 .background-store {
     background-size: cover;
@@ -536,7 +566,7 @@ nav {
     border-radius: 5px;
     background-color: #e9967a;
     color: lightslategray;
-    width: 70px;
+    width: 75px;
     -webkit-transition: background-color 0.3s, border-color 0.3s;
     -moz-transition: background-color 0.3s, border-color 0.3s;
     -o-transition: background-color 0.3s, border-color 0.3s;
