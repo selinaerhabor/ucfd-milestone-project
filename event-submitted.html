@@ -34,13 +34,7 @@
                 <li class="nav-tab"><a href="photos.html">Photos</a></li>
                 <li class="nav-tab active"><a href="events.html">Events</a></li>
                 <li class="nav-tab"><a href="store.html">Store<i class="fa fa-cart-arrow-down"></i></a></li>
-                <li class="nav-tab visible-xs"><a data-toggle='modal' data-target='#jointloginregisterModal' 
-                  href='#jointloginregisterModal'>Login/Register</a></li>
               </ul>
-              <div class="navbar-right hidden-xs">
-                <button class="btn navbar-btn" data-toggle='modal' data-target='#jointloginregisterModal'>Login <i class="fa fa-sign-in"></i>
-                </button>
-              </div>
             </div>
           </div>
         </div>
@@ -48,26 +42,32 @@
     </nav>
     <!--/NAVIGATION BAR-->
 
-
+    <!--THANKS FOR COMPLETING FORM MESSAGE-->
     <div class="container-fluid tours-container">
       <div class="row">
         <div class="col-xs-12">
-          <div class="col-xs-6 col-xs-offset-3">
-            <div class="callout-form">
-              <h2>Thanks for completing our Events form!</h2>
-                <h4>We aim to get back to you within 7 working days.</h4>
-                  <a href="events.html">
-                    <button id="return-events" class="btn btn-lg">
-                      Return to Events Page
-                    </button>
-                  </a>
+          <div class="row">
+            <div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3">
+              <section class="jumbotron callout-form">
+                <h2 class="main_msg hidden-xs visible-sm-*">Thanks for completing our Events form!</h2>
+                  <h3 class="main_msg visible-xs">Thanks for completing our Events form!</h3>
+                    <hr class="block-divider">
+                      <h4 class="lead" id="feed2">We have received your details and aim to get back to you within 7 working days.</h4>
+                        <a href="events.html">
+                          <button id="return-events" class="btn btn-lg">
+                            <h4 class="hidden-xs">Return to Events Page</h4>
+                            <h5 class="visible-xs">Return to Events</h5>
+                          </button>
+                        </a>
+              </section>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <!--/THANKS FOR COMPLETING FORM MESSAGE-->
     
-                  
+    <!--FOOTER-->              
     <footer class="container-fluid bottom">
       <div class="row">
         <div class="col-xs-12">
@@ -90,7 +90,7 @@
         </div>
       </div>
     </footer>
-    
+    <!--/FOOTER--> 
     
     <!--FOOTER LINKS-->
     <div class="modal fade" id="privacy-policy" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">

@@ -131,7 +131,7 @@ html, body {
    padding: 40px;
 }
 
-.subscribed {
+.completed {
     background-color: lightblue;
 }
 
@@ -400,6 +400,7 @@ html, body {
 
 #return-events {
     margin-top: 85px;
+    padding: 10px;
     -webkit-transition: background-color 0.3s; 
     -moz-transition: background-color 0.3s;
     -o-transition: background-color 0.3s; 
@@ -410,6 +411,9 @@ html, body {
     background-color: lightblue;
 }
 
+.fa-home {
+    margin-top: 0px;
+}
 
 
 /*--------------------------------------------store.html body Settings*/
