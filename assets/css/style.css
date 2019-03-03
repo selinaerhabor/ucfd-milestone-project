@@ -180,8 +180,8 @@ html, body {
 }
 
 .thumbnail {
-    height: 400px;
-    width: 300px;
+    height: 450px;
+    width: 200px;
     background-color: floralwhite;
     border-radius: 10px;
     align-items: center;
@@ -227,6 +227,7 @@ html, body {
 .quote {
     font-size: 12px;
     font-weight: lighter;
+    height: 320px;
 }
 
 /*--------------------------------------------music.html body Settings*/
@@ -473,9 +474,8 @@ html, body {
 }
 
 .order-item {
-    position: static;
-    bottom: 50px;
-    text-align: center;
+    position: relative;
+    bottom: 5px;
 }
 
 /*-------------------------------------------------Navigation Bar Settings*/
