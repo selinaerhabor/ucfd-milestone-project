@@ -21,7 +21,13 @@ html, body {
         margin: 0 auto;
         max-width: 30%;
     }
+    .order-item {
+        position: absolute;
+        bottom: 50px;
+        right: 17%;
+    }
 }
+
 
 @media(min-width: 769px) and (max-width: 991px) {
     .main-msg {font-size: 45px;}
@@ -35,6 +41,11 @@ html, body {
         padding-top: 10px;
         margin: 0 auto;
         max-width: 50%;
+    }
+    .order-item {
+        position: absolute;
+        bottom: 50px;
+        right: 17%;
     }
 }
 
@@ -51,6 +62,11 @@ html, body {
         margin: 0 auto;
         max-width: 60%;
     }
+    .order-item {
+        position: absolute;
+        bottom: 50px;
+        right: 17%;
+    }
 }
 
 @media screen and (max-width: 468px) {
@@ -65,6 +81,11 @@ html, body {
         padding-top: 10px;
         margin: 0 auto;
         max-width: 80%;
+    }
+    .order-item {
+        position: absolute;
+        bottom: 50px;
+        right: 17%;
     }
 }
 
@@ -508,8 +529,9 @@ across different browsers when user tries to submit empty form--*/
 }
 
 .order-item {
-    position: relative;
-    bottom: 0px;
+    position: absolute;
+    bottom: 50px;
+    width: 65%;
 }
 
 
