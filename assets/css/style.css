@@ -1,4 +1,4 @@
-/*-------------------------------------------- Main Body Settings*/
+/*----------------------------------------------------------Main Body Settings*/
 
 html, body {
     font-family: 'Fjalla One', sans-serif;
@@ -7,7 +7,7 @@ html, body {
 
 
 
-/*--------------------------------------------Media Queries*/
+/*---------------------------------------------------------------Media Queries*/
 
 @media(min-width: 992px) {
     .section-column {
@@ -34,15 +34,13 @@ html, body {
     .center-form {
         padding-top: 10px;
         margin: 0 auto;
-        max-width: 70%;
+        max-width: 50%;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media(min-width: 469px) and (max-width: 768px) {
     .main-msg {font-size: 25px;}
     #subscribe {max-width: 60%; text-align: center;}
-    .navbar-brand {padding-left: 0px;}
-    .navbar-toggle {padding-right: 0px;}
     .section-column {
         padding: 0 30px 30px;
         float: none;
@@ -51,12 +49,27 @@ html, body {
     .center-form {
         padding-top: 10px;
         margin: 0 auto;
-        max-width: 70%;
+        max-width: 60%;
+    }
+}
+
+@media screen and (max-width: 468px) {
+    .main-msg {font-size: 25px;}
+    #subscribe {max-width: 60%; text-align: center;}
+    .section-column {
+        padding: 0 30px 30px;
+        float: none;
+        display: block;
+    }
+    .center-form {
+        padding-top: 10px;
+        margin: 0 auto;
+        max-width: 80%;
     }
 }
 
 
-/*--------------------------------------------index.html body Settings*/
+/*----------------------------------------------------index.html body Settings*/
 
 .background-container {
     background: url("../../assets/images/TheKinksIndex.jpg") no-repeat center center fixed;
@@ -137,7 +150,7 @@ html, body {
 
 
 
-/*--------------------------------------------about.html body Settings*/
+/*----------------------------------------------------about.html body Settings*/
 .about {
     background-color: lightgray;
     background-size: cover;
@@ -181,13 +194,14 @@ html, body {
 
 .thumbnail {
     height: 450px;
-    width: 200px;
+    width: 220px;
     background-color: floralwhite;
     border-radius: 10px;
     align-items: center;
     text-align: center;
     margin: 15px auto;
     margin-bottom: 50px;
+    padding: 5px;
 }
 
 .row-first {
@@ -230,7 +244,7 @@ html, body {
     height: 320px;
 }
 
-/*--------------------------------------------music.html body Settings*/
+/*----------------------------------------------------music.html body Settings*/
 .background-music {
     text-align: center;
     background-size: cover;
@@ -303,8 +317,13 @@ html, body {
     border-color: gray;
 }
 
+.quote-music {
+    font-size: 12px;
+    font-weight: lighter;
+}
 
-/*--------------------------------------------photos.html body Settings*/
+
+/*---------------------------------------------------photos.html body Settings*/
 .background-photos {
     text-align: center;
     background-size: cover;
@@ -322,7 +341,7 @@ html, body {
 }
 
 
-/*--------------------------------------------events.html body Settings*/
+/*---------------------------------------------------events.html body Settings*/
 .tours-container {
     background-size: cover;
     -webkit-background-size: cover;
@@ -383,6 +402,13 @@ html, body {
     margin-top: 7px;
 }
 
+#form-link{
+    -webkit-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+    -o-transition: color 0.3s;
+    transition: color 0.3s;
+}
+
 #form-link:hover {
     color: blue;
 }
@@ -416,8 +442,16 @@ html, body {
     margin-top: 0px;
 }
 
+/*---Allows Placeholder and required error messages to appear on 
+across different browsers when user tries to submit empty form--*/ 
 
-/*--------------------------------------------store.html body Settings*/
+:-webkit-input-placeholder {color: #4a4a4a; }
+:-moz-placeholder {color: #4a4a4a; }
+:-o-placeholder {color: #4a4a4a;}
+:-ms-input-placeholder {color: #4a4a4a; }
+
+
+/*----------------------------------------------------store.html body Settings*/
 .background-store {
     background-size: cover;
     -webkit-background-size: cover;
@@ -475,10 +509,11 @@ html, body {
 
 .order-item {
     position: relative;
-    bottom: 5px;
+    bottom: 0px;
 }
 
-/*-------------------------------------------------Navigation Bar Settings*/
+
+/*-----------------------------------------------------Navigation Bar Settings*/
 nav {
     background-color: transparent;
 }
@@ -511,9 +546,6 @@ nav {
     border: 0;
 }
 
-.navbar-default .navbar-toggle:hover {
-    background-color: transparent;
-}
 
 .navbar .navbar-brand {
     font-weight: bold;
@@ -591,7 +623,7 @@ nav {
     background-color: white;
 }
 
-/*------------------------------------------Footer Settings*/
+/*------------------------------------------------------------Footer Settings*/
 
 .bottom {
     background-image: url("../../assets/images/footer_background.jpg");
