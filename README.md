@@ -150,7 +150,7 @@ This section discusses the results from testing the website and its features. Te
 * Button hover style comes into effect - changing the button to a light green background
 * Clicked "Buy Now" button and redirected to where I can actually purchase the item.
 
-## 4.2 Device Screen Size and Browser Compatibility Testing:
+## 4.2 Device Screen Size and Browser Compatibility Test Results:
 The website has been tested on various browsers including Internet Explorer, Safari, Firefox and Google Chrome at the various screen sizes using [Browsershots.org]. This website allowed me to test each page of The Kinks' website on Linux, Windows and Mac operating systems.
 
 > "Ease of using website on mobile phones as well as desktops or other devices"
@@ -189,6 +189,7 @@ The results of the tests above show that the website works well across key opera
 :-o-placeholder {color: #4a4a4a;}
 :-ms-input-placeholder {color: #4a4a4a; }
 ```
+* Initially I had planned to include icons with the dropdown option for venue capacity, I tried using the <i> tags and then unicode in the code, but the icons still were not appearing. I have added the text "people" to give a sense of the size measurement for venue capacity and removed the code for the icon.
 
 * Centering of the Store Item's price and "Buy Now" buttons in store.html were initially slightly tricky as the details of each store item differed in length. The Store item's price and the Buy Now buttons are inside a <div> with the class `order-item`. In order to center the features despite the length of the text above it, I set the position to absolute and declared ppropriate sizes for bottom and width in the style.css file.
 ```sh
