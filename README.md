@@ -20,7 +20,7 @@ The Kinks' Main Requirements for the Site:
 
 ## 1.1 User Stories
 Firstly, I gathered users’ opinions on what they feel a 1960s band website should showcase. From the ease of navigation to the band’s merchandise to old fashioned photos, I collected several user stories discussing potential features that should be included on the website... 
->"Simple and easy access through navigation across the website"
+> "Simple and easy access through navigation across the website"
 > "Old fashioned photos – black and white style"
 > "1960s Culture/dressing/outfit/wears"
 > "Seeing obsolete/old musical instruments and equipment"
@@ -39,9 +39,10 @@ components of the website.
 
 ### 2.1.1 [Home] Page and Standard Features:
 *	**Navigation Bar** - allows users to navigate through the website. This navigation bar is available on all the pages of the website and also on all forms of screen sizes. On smaller screen sizes the navigation bar is collapsed/minimised to save space on smaller screen sizes. When clicked, the burger icon on the right top end of the screen will then expand the list of the different pages of the website vertically downwards. 
-*	**Subscribe Features** - users are welcomed to subscribe to The Kinks' Newsletter if they would like to. Clicking the "Subscribe" button opens up a form which allows users to fill in their details (email, first name and last name) on the website. Users are redirected to "Thanks for Subscribing" page upon successful completion. When user hovers the cursor over the "Subscribe" button, it changes gradually from light orange background with grey text to a red background with white text and returns back to the original state when cursor is removed from button.
+*	**Subscribe Features** - users are welcomed to subscribe to The Kinks' Newsletter if they would like to. Clicking the "Subscribe" button opens up a form which allows users to fill in their details (email, first name and last name) on the website. Users are redirected to "Thanks for Subscribing" page upon successful completion. When user hovers the cursor over the "Subscribe" button, it changes gradually from light orange background with grey text to a red background with white text and returns back to the original state when cursor is removed from button. On smaller screens the Subscribe text on button changes to the Pen Square Font Awesome icon.
 *	**Footer** - consists of links to The Kinks’ social media channels (Facebook, Twitter and YouTube) and legal documentation on privacy policy, terms & conditions for website usage and Frequently Asked Questions for Store help. When user hovers the cursor over the social media channel icons, the icons gradually increase in size to 45px from medium blue to a light blue colour and returns back to its original state when the cursor is removed from the button. Similarly, when the user hovers the cursor over the footer text links such as Privacy Policy, the link changes from medium blue to a lighter blue colour, but no size change and returns to original state when cursor is removed. The hover effects have been achieved using `:hover` extension for styling the buttons in style.css.
-*   **Font** - The style of the "[Fjalla One]" font makes letters appear tall and thin especially when in uppercase. This font style works well with The Kinks' brand and has been used as the chosen font to maintain the style of the brand across the website.
+*   **Website Icon** - the chosen website icon is a guitar, because The Kinks influenced 1960s rock music greatly through their guitar sounds.
+*   **Font** - The font style [Fjalla One], makes letters appear tall and thin especially when in uppercase. This font style works well with The Kinks' brand and has been used as the chosen font to maintain the style of the brand across the website.
 
 ### 2.1.2 [About] Section:
 *	**Embedded Video** - A YouTube embedded video, visible and responsive across all screen sizes and is the only video present on this website. The video gives an overview on the biography of The Kinks including interview with some of the band members and their team. The length of the video is approximately just under nine minutes.
@@ -71,7 +72,7 @@ The Kinks' merchandise are organised in terms of their item type (CDs, T-Shirts,
 *	**Buy Now Button** -  Users are redirected to merchandise page to purchase sellected item. When the user hovers the cursor over the button, it changes gradually from white to a lighter green colour and returns back to the original state when cursor is removed from button.
 
 ## 2.2 Potential Features to implement in the future:
-*	**News Feed** - As the music band’s social media channels become more established, their recent news feed could also be added to appear on one side of the website's home page.
+*	**News Feed** - Recent news feed on The Kinks could also be added to appear on one side of the website's home page to give users the opportunity to view information posted on their social media in real time.
 
 
 ## 3. Technologies Used
@@ -88,7 +89,7 @@ The Kinks' merchandise are organised in terms of their item type (CDs, T-Shirts,
 ## 4. Testing
 This section discusses the results from testing the website and its features. Tests were carried out on key components of the website and on various device screen sizes and browsers.
 
-## 4.1 Feature Testing Process
+## 4.1 Feature Testing Process:
 **Navigation Bar**
 > "Simple and easy access through navigation across the website"
 
@@ -103,6 +104,9 @@ This section discusses the results from testing the website and its features. Te
 * Clicked the "Submit" button without filling in any data and an error message about the required fields appears (Required fields: Email, First Name, Last Name, Privacy Policy checkbox)
 * Submitted the form with an invalid email address and error message appears prompting user to amend details provided for email
 * Submitted the form with all valid inputs in the required fields and ["Thanks for Subscribing"] page.
+
+**Subscribe Button (Mobile View)**
+* On [Home] page "Subscribe" button changes from the text "Subscribe" to an icon successfully.
 
 **Social Media Channels**
 * At the "Footer" of the website there are links to The Kinks' social media channels are present
@@ -146,7 +150,7 @@ This section discusses the results from testing the website and its features. Te
 * Button hover style comes into effect - changing the button to a light green background
 * Clicked "Buy Now" button and redirected to where I can actually purchase the item.
 
-## 4.2 Device Screen Size and Browser Compatibility testing
+## 4.2 Device Screen Size and Browser Compatibility Testing:
 The website has been tested on various browsers including Internet Explorer, Safari, Firefox and Google Chrome at the various screen sizes using [Browsershots.org]. This website allowed me to test each page of The Kinks' website on Linux, Windows and Mac operating systems.
 
 > "Ease of using website on mobile phones as well as desktops or other devices"
@@ -164,20 +168,20 @@ The below screen size tests were carried out assessing performance of all pages 
 | iPad | 768 x 1024 | Excellent
 | iPad Pro | 1024 x 1366 | Excellent
 
-
+Below are the test results of the website deployed on GitHub pages when tested on Browsershots.org on various browsers. Key screenshots of the `Browser Test` results can be found in a folder called Browser Tests under the assets folder.
 | Operating System | Browser | Home | About | Music |Photos| Events| Store
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | 
-| Linux | Chrome 71.0 | ✓ |  ✓  |    |    |    |    |
-| Linux | Firefox 3.0 |    |    |    |    |    |    | 
-| Linux | Firefox 61.0 |    |    |    |    |    |    | 
-| Windows | Firefox 64.0 |    |    |    |    |    |    | 
+| Linux | Chrome 71.0 | ✓ |  ✓  |  ✓   |   ✓  |  ✓   |   ✓  |
+| Linux | Firefox 3.0 |  ✓   |  ✓   |  ✓  |  ✓ |   ✓ |   ✓ |
+| Linux | Firefox 61.0 | ✓    |   ✓  |  ✓   |  ✓   |    ✓ |    ✓ | 
+| Windows | Firefox 64.0 | ✓    | ✓    |  ✓   |  ✓   |  ✓   |   ✓  | 
 | Windows | Internet Explorer 11 |  ✓  |   ✓ |    ✓|   ✓ |    ✓|    ✓|
-| Mac | Chrome 48.0 |    |    |    |    |    |    | 
-| Mac | Safari 9.1 |    |    |    |    |    |    | 
+| Mac | Chrome 48.0 | ✓    |  ✓   |  ✓   |   ✓  |   ✓  |    ✓ | 
+| Mac | Safari 9.1 |  ✓   |  ✓   |   ✓  |   ✓  |    ✓ |    ✓ | 
 
-The results of the tests above show that the website works well across key operating system browsers and therefore the website should be reliable and easy for users to explore.
+The results of the tests above show that the website works well across key operating system browsers and various screen sizes with column arrangement adjusting correctly. The website should therefore be reliable and easy for users to explore. Things to note: In Internet Explorer 11, the audio bar appears as black coloured, but the style of the audio controls border radius is still maintained.
 
-## 4.3 Interesting bugs or problems discovered during your testing
+## 4.3 Interesting bugs or problems discovered during testing:
 * Placeholders for the input forms and required input error messages were not appearing when viewing the website using Internet Explorer 11, so I had to state the color of the placeholder on the main browser types in the style.css file.
 ```sh
 :-webkit-input-placeholder {color: #4a4a4a; }
@@ -185,6 +189,7 @@ The results of the tests above show that the website works well across key opera
 :-o-placeholder {color: #4a4a4a;}
 :-ms-input-placeholder {color: #4a4a4a; }
 ```
+
 * Centering of the Store Item's price and "Buy Now" buttons in store.html were initially slightly tricky as the details of each store item differed in length. The Store item's price and the Buy Now buttons are inside a <div> with the class `order-item`. In order to center the features despite the length of the text above it, I set the position to absolute and declared ppropriate sizes for bottom and width in the style.css file.
 ```sh
 .order-item {
@@ -193,12 +198,26 @@ The results of the tests above show that the website works well across key opera
     width: 65%;
 }
 ```
-*  During the testing of the website on different browsers, the footer social media icons were not loading on Firefox or Safari browsers. In order to ensure that the social media icons appear on other types of browsers I changed the Font Awesome link in the `<head>` to the most updated version of font-awesome - Version 5.7.2 and amended the classes of the social media icons in my code. From `<i class="fa fa-facebook-square"></i>` to `<i class="fab fa-facebook-square"></i>`.
 
+*  During the testing of the website on different browsers, the footer social media icons were not loading on Firefox or Safari browsers. In order to ensure that the social media icons appear on other types of browsers I changed the Font Awesome link in the `<head>` to the most updated version of font-awesome - Version 5.7.2 and amended the classes of the social media icons in my code. For example, the code for the subscribe icon that appears on smaller screens `<i class="fa fa-pencil-square-o"></i>` has been changed to `<i class="fas fa-pen-square"></i>` in the latest version. The icons used across the website are now appearing correctly for various browser types.
+
+* In Internet Explorer 11, the audio bar style for the audio files in the Music section was bigger in size than on other browsers such as Chrome. As a result, the audio bars were overlapping and had no border radius. In order to fix this issue, I specified the width to 250px and border radius to 50px for the `musicAudio` audio controls class.
+```sh
+.musicAudio {
+   margin-bottom: 60px;
+   align-items: center;
+   text-align: center;
+   cursor: pointer;
+   width: 250px;
+   border-radius: 50px;
+}
+```
 
 
 ## 5. Deployment
 The hosting platform for The Kinks’ website is GitHub Pages, which publishes the master branch containing the most updated version of code for the website.
+This project has two branches which have been merged as the Wireframes were initially uploaded directly to GitHub, but a folder called `Initial Ideas - Wireframes` has now been created and is stored under the assets folder.
+
 The repository for this website can be cloned using the command below in terminal:
 ```sh
 $ git clone https://selinaerhabor.github.io/ucfd-milestone-project/
@@ -212,55 +231,56 @@ An appropriate range of sources have been used in order to publish some factual 
 
 ### Events - Tours
 **Sources**: 
-https://www.ents24.com/uk/tour-dates/the-kast-off-kinks
-https://kindakinks.net/tourdates.php
-https://fanart.tv/artist/17b53d9f-5c63-4a09-a593-dde4608e0db9/kinks-the/
+* https://www.ents24.com/uk/tour-dates/the-kast-off-kinks
+* https://kindakinks.net/tourdates.php
+* https://fanart.tv/artist/17b53d9f-5c63-4a09-a593-dde4608e0db9/kinks-the/
 
 ### Footer
 **Sources**:
-The links to social media channels redirect users to The Kinks' [YouTube], [Twitter] and [Facebook] accounts. 
-The information in the Privacy Policy and Terms & Conditions links in the footer were tailored from [Sunny Afternoon The Musical] 
-whilst the information in the Store Help link in the footer was tailored from [Official Merchandise Store].
+* The links to social media channels redirect users to The Kinks' Official [YouTube], [Twitter] and [Facebook] accounts. 
+* The information in the Privacy Policy and Terms & Conditions links in the footer were tailored from [Sunny Afternoon The Musical] 
+* Information in the Store Help link in the footer was tailored from [Official Merchandise Store].
 
 
-## 6.2 Media
+## 6.2 Media:
 
 ### About
 **Sources**:
 The video used in the About section is available on YouTube:
-https://www.youtube.com/embed/5FhaF0I3gv0
-https://www.allmusic.com/artist/the-kinks-mn0000100160/biography
-http://www.keno.org/classic_rock/kinks_bio.htm
-http://kastoffkinks.co.uk/
+* https://www.youtube.com/embed/5FhaF0I3gv0
+* https://www.allmusic.com/artist/the-kinks-mn0000100160/biography
+* http://www.keno.org/classic_rock/kinks_bio.htm
+* http://kastoffkinks.co.uk/
 
 ### Music
 The audio clips of The Kinks' top tracks in the Music section were sourced from their Official [YouTube] channel and those YouTube videos 
 were converted into mp3 files which have been included in the audio folder under assets.
 **Sources**: 
-http://sixtiesnumberones.blogspot.com/2010/11/1964-kinks-you-really-got-me.html
-https://www.youtube.com/user/TheKinksOfficial
-https://itunes.apple.com/ca/artist/the-kinks/1179227
+* http://sixtiesnumberones.blogspot.com/2010/11/1964-kinks-you-really-got-me.html
+* https://www.youtube.com/user/TheKinksOfficial
+* https://itunes.apple.com/ca/artist/the-kinks/1179227
 
 ### Photos
 **Sources**: 
-https://fanart.tv/artist/17b53d9f-5c63-4a09-a593-dde4608e0db9/kinks-the/#
-https://www.allmusic.com/artist/the-kinks-mn0000100160/biography
-https://www.facebook.com/TheKinksOfficial
-https://twitter.com/TheKinks
+* https://fanart.tv/artist/17b53d9f-5c63-4a09-a593-dde4608e0db9/kinks-the/#
+* https://www.allmusic.com/artist/the-kinks-mn0000100160/biography
+* https://www.facebook.com/TheKinksOfficial
+* https://twitter.com/TheKinks
 
 ### Store
 **Source**: 
-https://thekinks.backstreetmerch.com/
+* https://thekinks.backstreetmerch.com/
+
+### Home & Extras
+* Website Icon - https://fontawesome.com/icons?d=gallery&q=guitar
+* https://fontawesome.com/icons/pen-square?style=solid
+* https://fontawesome.com/icons/cart-arrow-down?style=solid
 
 ### Footer
-Facebook Icon - https://us.mullenlowe.com/wp-content/uploads/2014/04/face.png
-Twitter Icon - https://upload.wikimedia.org/wikipedia/de/thumb/9/9f/Twitter_bird_logo_2012.svg/1200px-Twitter_bird_logo_2012.svg.png
-YouTube Icon - https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Youtube_icon.svg/1024px-Youtube_icon.svg.png
+* Facebook Icon - https://us.mullenlowe.com/wp-content/uploads/2014/04/face.png
+* Twitter Icon - https://upload.wikimedia.org/wikipedia/de/thumb/9/9f/Twitter_bird_logo_2012.svg/1200px-Twitter_bird_logo_2012.svg.png
+* YouTube Icon - https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Youtube_icon.svg/1024px-Youtube_icon.svg.png
 
-
-## 6.3 Acknowledgements
-I received inspiration for this project from The Kinks’ Official Social Media channels: [YouTube], [Twitter] and [Facebook] and aimed to create 
-a website that also complements the content posted on these channels.
 
 [//]: # (Below are the reference links used in the body of the README file)
 [here]: <https://selinaerhabor.github.io/ucfd-milestone-project/>
@@ -284,6 +304,7 @@ a website that also complements the content posted on these channels.
 [Tube2mp3]: <https://www.tube2mp3.com/>
 [itunes]: <https://itunes.apple.com/ca/artist/the-kinks/1179227>
 [Font Awesome]: <https://fontawesome.com/>
+[Fjalla One]: <https://fonts.google.com/specimen/Fjalla+One?selection.family=Fjalla+One>
 [Sunny Afternoon The Musical]: <https://sunnyafternoonthemusical.com/>
 [JQuery]: <https://jquery.com/download/>
 [Twitter]: <https://twitter.com/TheKinks>

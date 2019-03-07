@@ -321,6 +321,8 @@ html, body {
    align-items: center;
    text-align: center;
    cursor: pointer;
+   width: 250px;
+   border-radius: 50px;
 }
 
 
@@ -343,10 +345,6 @@ html, body {
     font-weight: lighter;
 }
 
-:-webkit-input-placeholder { }
-:-moz-placeholder {}
-:-o-placeholder {color: #4a4a4a;}
-:-ms-input-placeholder {color: #4a4a4a; }
 
 /*---------------------------------------------------photos.html body Settings*/
 .background-photos {
