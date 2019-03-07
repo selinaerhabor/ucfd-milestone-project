@@ -90,6 +90,91 @@ html, body {
 }
 
 
+/*-----------------------------------------------------Navigation Bar Settings*/
+nav {
+    background-color: transparent;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.navbar {
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border: 0;
+}
+
+
+.navbar .navbar-brand {
+    font-weight: bold;
+    color: white;
+}
+
+.active {
+    font-weight: bold;
+    color: white;
+    text-decoration: underline;
+}
+
+.nav-tab {
+    color: lightgray;
+    -webkit-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+    -o-transition: color 0.3s;
+    transition: color 0.3s;
+}
+
+.nav-tab:hover {
+    font-weight: bold;
+    color: white;
+    text-decoration: underline;
+}
+
+.navbar .navbar-brand:hover {
+    color: white;
+}
+
+.navbar-default .navbar-nav a {
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: white;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+}
+
+.sr-only {
+    background-color: white;
+}
+
+.icon-bar {
+    background-color: white;
+}
+
+
+
 /*----------------------------------------------------index.html body Settings*/
 
 .background-container {
@@ -130,15 +215,6 @@ html, body {
     border-color: gray; 
 }
 
-.fa-pencil-square-o {
-    font-size: 32px;
-    align-items: center;
-}
-
-.img-square {
-    align-items: center;
-}
-
 .jumbotron {  
     align-items: center;
     text-align: center;
@@ -160,10 +236,7 @@ html, body {
     text-align: center;
 }
 
-.callout-form {
-    background-color: white;
-   padding: 40px;
-}
+/*-----------------------------------------------subscribed.html body Settings*/
 
 .completed {
     background-color: lightblue;
@@ -259,6 +332,8 @@ html, body {
     text-align: center;
 }
 
+/*Smaller screen view about.html*/
+
 .quote {
     font-size: 12px;
     font-weight: lighter;
@@ -297,11 +372,6 @@ html, body {
 
 .boxLink:hover {
     background-color: darkgray;
-}
-
-.musicCover {
-    align-items: center;
-    margin: auto;
 }
 
 .musicBar {
@@ -417,10 +487,6 @@ html, body {
     text-align: center;
 }
 
-.dropdown-menu {
-    margin-top: 7px;
-}
-
 #form-link{
     -webkit-transition: color 0.3s;
     -moz-transition: color 0.3s;
@@ -437,7 +503,19 @@ html, body {
 }
 
 
+/*---Allows the input placeholders and required error messages to appear across 
+different browsers on the form and when user tries to submit empty form--*/ 
+
+:-webkit-input-placeholder {color: #4a4a4a; }
+:-moz-placeholder {color: #4a4a4a; }
+:-o-placeholder {color: #4a4a4a;}
+:-ms-input-placeholder {color: #4a4a4a; }
+
+
+/*------------------------------------------event-submitted.html body Settings*/
 .callout-form {
+    background-color: white;
+    padding: 40px;
     border-radius: 10px;
     margin: 30px;
     align-items: center;
@@ -456,18 +534,6 @@ html, body {
 #return-events:hover {
     background-color: lightblue;
 }
-
-.fa-home {
-    margin-top: 0px;
-}
-
-/*---Allows Placeholder and required error messages to appear on 
-across different browsers when user tries to submit empty form--*/ 
-
-:-webkit-input-placeholder {color: #4a4a4a; }
-:-moz-placeholder {color: #4a4a4a; }
-:-o-placeholder {color: #4a4a4a;}
-:-ms-input-placeholder {color: #4a4a4a; }
 
 
 /*----------------------------------------------------store.html body Settings*/
@@ -533,115 +599,6 @@ across different browsers when user tries to submit empty form--*/
 }
 
 
-/*-----------------------------------------------------Navigation Bar Settings*/
-nav {
-    background-color: transparent;
-}
-
-.header-style {
-    height: 50px;
-}
-
-.uppercase {
-    text-transform: uppercase;
-}
-
-.navbar {
-    margin-bottom: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1;
-    background-color: rgba(0, 0, 0, 0.25);
-    border-radius: 0;
-    border: 0;
-}
-
-.navbar-default .navbar-collapse {
-    border-color: transparent;
-}
-
-.navbar-default .navbar-toggle {
-    border: 0;
-}
-
-
-.navbar .navbar-brand {
-    font-weight: bold;
-    color: white;
-}
-
-.active {
-    font-weight: bold;
-    color: white;
-    text-decoration: underline;
-}
-
-.nav-tab {
-    color: lightgray;
-    -webkit-transition: color 0.3s;
-    -moz-transition: color 0.3s;
-    -o-transition: color 0.3s;
-    transition: color 0.3s;
-}
-
-.nav-tab:hover {
-    font-weight: bold;
-    color: white;
-    text-decoration: underline;
-}
-
-.navbar .navbar-brand:hover {
-    color: white;
-}
-
-.navbar-default .navbar-nav a {
-    font-weight: bold;
-}
-
-.navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>.active>a:focus,
-.navbar-default .navbar-nav>.active>a:hover {
-    color: white;
-    background-color: transparent;
-}
-
-.navbar-default .navbar-nav>li>a:focus,
-.navbar-default .navbar-nav>li>a:hover {
-    color: white;
-}
-
-.navbar-right {
-    margin-right: 0px;
-    text-align: center;
-}
-
-.navbar-btn {
-    font-weight: bold;
-    border-radius: 5px;
-    background-color: #e9967a;
-    color: lightslategray;
-    width: 75px;
-    -webkit-transition: background-color 0.3s, border-color 0.3s;
-    -moz-transition: background-color 0.3s, border-color 0.3s;
-    -o-transition: background-color 0.3s, border-color 0.3s;
-    transition: background-color 0.3s, border-color 0.3s;
-}
-
-.navbar-btn:hover {
-    background-color: red;
-    border-color: #df4929;
-    color: white;
-}
-
-.sr-only {
-    background-color: white;
-}
-
-.icon-bar {
-    background-color: white;
-}
 
 /*------------------------------------------------------------Footer Settings*/
 
@@ -683,9 +640,6 @@ nav {
     margin-bottom: 0;
 }
 
-.fa-sign-in {
-    font-size: 17px;
-}
 
 .icon {
     width: 75px;
@@ -697,11 +651,11 @@ nav {
     transition: font-size 0.5s, color 1.5s;
 }
 
-#a5 {
-    transition-timing-function: ease-in-out;
-}
-
 .icon:hover {
     font-size: 45px;
     color: lightblue;
+}
+
+#link {
+    transition-timing-function: ease-in-out;
 }

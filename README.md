@@ -29,7 +29,7 @@ Firstly, I gathered users’ opinions on what they feel a 1960s band website sho
 > "Ease to send requests for booking to perform at weddings/other parties"
 > "Ease of using website on mobile phones as well as desktops or other devices"
 
-I created sketches of different website layouts and design ideas that would be suitable for the band’s website (see Initial Ideas-Wireframes folder). These sketches were based on meeting the project requirements and the needs of users. The sketches were then developed further to produce wireframes focusing on the different pages/sections of the website.
+I created sketches of different website layouts and design ideas that would be suitable for the band’s website (see Initial Ideas-Wireframes folder). These sketches were based on meeting the project requirements and the needs of users. The sketches were then developed further to produce wireframes focusing on the different pages/sections of the website to give an idea of the key features that should be included in the website and their layout.
 
 ## 2. Features
 My project focused on meeting the needs of users’ for the website, so the user stories were taken into account during building the features and 
@@ -76,6 +76,7 @@ The Kinks' merchandise are organised in terms of their item type (CDs, T-Shirts,
 
 
 ## 3. Technologies Used
+*   [Cloud 9] - The Integrated Development Enviroment (IDE) for building the website.
 *	[HTML] - Used for the structure and format of the entire website.
 *	[CSS] - For styling the website and maintaining its responsiveness across various screen sizes.
 *	[Bootstrap (3.3.7)] - Used for grid form and assistance in styling.
@@ -200,7 +201,7 @@ The results of the tests above show that the website works well across key opera
 }
 ```
 
-*  During the testing of the website on different browsers, the footer social media icons were not loading on Firefox or Safari browsers. In order to ensure that the social media icons appear on other types of browsers I changed the Font Awesome link in the `<head>` to the most updated version of font-awesome - Version 5.7.2 and amended the classes of the social media icons in my code. For example, the code for the subscribe icon that appears on smaller screens `<i class="fa fa-pencil-square-o"></i>` has been changed to `<i class="fas fa-pen-square"></i>` in the latest version. The icons used across the website are now appearing correctly for various browser types.
+*  During the testing of the website on different browsers, the footer social media icons were not loading on Firefox or Safari browsers. In order to ensure that the social media icons appear on other types of browsers I changed the Font Awesome link in the `<head>` to the most updated version of font-awesome - Version 5.7.2 and amended the classes of the social media icons in my code. For example, the code for the subscribe icon that appears on smaller screens `<i class="fa fa-pencil-square-o"></i>` has now been changed to `<i class="fas fa-pen"></i>`. The icons used across the website are now appearing correctly for various browser types.
 
 * In Internet Explorer 11, the audio bar style for the audio files in the Music section was bigger in size than on other browsers such as Chrome. As a result, the audio bars were overlapping and had no border radius. In order to fix this issue, I specified the width to 250px and border radius to 50px for the `musicAudio` audio controls class.
 ```sh
@@ -217,6 +218,7 @@ The results of the tests above show that the website works well across key opera
 
 ## 5. Deployment
 The hosting platform for The Kinks’ website is GitHub Pages, which publishes the master branch containing the most updated version of code for the website.
+To deploy the website to GitHub pages, I amended my GitHub Repository settings for this website by changing the source under GitHub pages from `None` to `master branch` to allow the `git push` command in my IDE (Cloud 9) terminal to deploy the website successfully to GitHub pages.
 This project has two branches which have been merged as the Wireframes were initially uploaded directly to GitHub, but a folder called `Initial Ideas - Wireframes` has now been created and is stored under the assets folder.
 
 The repository for this website can be cloned using the command below in terminal:
@@ -269,12 +271,14 @@ were converted into mp3 files which have been included in the audio folder under
 * https://twitter.com/TheKinks
 
 ### Store
-**Source**: 
+**SourceS**: 
 * https://thekinks.backstreetmerch.com/
+* https://www.amazon.co.uk/Kinks-Deluxe/dp/B004E9OLZ8
+* https://www.amazon.co.uk/Essential-Kinks/dp/B00MA7GABO
 
 ### Home & Extras
 * Website Icon - https://fontawesome.com/icons?d=gallery&q=guitar
-* https://fontawesome.com/icons/pen-square?style=solid
+* https://fontawesome.com/icons/pen?style=solid
 * https://fontawesome.com/icons/cart-arrow-down?style=solid
 
 ### Footer
@@ -288,6 +292,7 @@ were converted into mp3 files which have been included in the audio folder under
 [HTML]: <https://html.com/> 
 [CSS]: <https://https://en.wikipedia.org/wiki/Cascading_Style_Sheets> 
 [Bootstrap (3.3.7)]: <https://getbootstrap.com/docs/3.3/components/> 
+[Cloud 9]: <https://docs.c9.io/docs>
 [AllMusic]: <https://www.allmusic.com/artist/the-kinks-mn0000100160/biography>
 [Keno]: <http://www.keno.org/classic_rock/kinks_bio.htm>
 [Kastoffkinks]: <http://kastoffkinks.co.uk/>
