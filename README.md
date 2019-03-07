@@ -64,7 +64,7 @@ components of the website.
 *	**More Music Feature** - redirects users to Apple itunes store where they can browse more on The Kinks' music and possibly make purchases. When user hovers the cursor over the "More Music?" button, it changes gradually from white background with blue text to a darker grey background with light blue text and returns back to the original state when cursor is removed from button.
 
 ### 2.1.4 [Photos] Section:
-*	**Every Photo is a hyperlink** - All photos when clicked reveal an enlarged version of itself in a new tab so that the user can keep track of where they are on the website. This was done by using  `target="_blank"` inside their img tags.
+*	**Every Photo is a hyperlink** - All photos when clicked reveal an enlarged version of itself in a new tab so that the user can keep track of where they are on the website. This was done by using  `target="_blank"` inside the `img` tags.
 *	**Three Columns Layout** - Photos have been organised into sections (1960s & 1970s, 1980s & 1990s, 2000-Present). When viewing the Photos section on desktops (i.e. devices with screen widths of 1200px or larger), the photos are arranged in three columns. When viewing on smaller screen sizes, the photos are arranged in one column but their sections are still separating them as user scrolls through. 
 
 ### 2.1.5 [Events] Section:
@@ -197,7 +197,7 @@ The results of the tests above show that the website works well across key opera
 :-o-placeholder {color: #4a4a4a;}
 :-ms-input-placeholder {color: #4a4a4a; }
 ```
-* Initially, I had planned to include the font awesome "fas fa-user" icon with the dropdown options for venue capacity. I tried using the <i> tags and then unicode in the code, but the icons still were not appearing. I have added the text "people" to give a sense of the size measurement for venue capacity and removed the code for the icon.
+* Initially, I had planned to include the font awesome "fas fa-user" icon with the dropdown options for venue capacity. I tried using the `i` tags and then unicode in the code, but the icons still were not appearing. I have added the text "people" to give a sense of the size measurement for venue capacity and removed the code for the icon.
 
 * Centering of the Store Item's price and "Buy Now" buttons in store.html were initially slightly tricky as the details of each store item differed in length. The Store item's price and the Buy Now buttons are inside a `div` with the class `order-item`. In order to center the features despite the length of the text above it, I set the position to absolute and declared ppropriate sizes for bottom and width in the style.css file.
 ```sh
@@ -235,7 +235,7 @@ $ git clone https://selinaerhabor.github.io/ucfd-milestone-project/
 
 ## 6. Credits
 
-##### Software Developer: Selina Erhabor
+#### Software Developer: Selina Erhabor
 
 ## 6.1 Content:
 An appropriate range of sources have been used in order to publish some factual information about the 1960s Rock Band, The Kinks.
