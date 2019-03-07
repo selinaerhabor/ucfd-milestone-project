@@ -163,20 +163,23 @@ The website has been tested on various browsers including Internet Explorer, Saf
 
 > "Ease of using website on mobile phones as well as desktops or other devices"
 
-The below screen size tests were carried out assessing performance of all pages of the website using Google Chrome 72.0 (Windows):
+* The below screen size tests were carried out assessing performance of all pages of the website using Google Chrome 72.0 (Windows):
+
 Device | Screen Size (Weight x Height) | Responsiveness 
 ------ | ------ | ------
-Galaxy S5 | 360 x 640 | Excellent
-Pixel 2 | 411 x 731 | Excellent
-Pixel 2 XL | 411 x 823 | Excellent
-iPhone 5 SE | 320 x 568 | Excellent
-iPhone 6/7/8 | 375 x 667 | Excellent
-iPhone 6/7/8 Plus | 414 x 736 | Excellent
-iPhone X | 375 x 812 | Excellent
-iPad | 768 x 1024 | Excellent
-iPad Pro | 1024 x 1366 | Excellent
+Galaxy S5 | 360 x 640 | ✓
+Pixel 2 | 411 x 731 | ✓
+Pixel 2 XL | 411 x 823 | ✓
+iPhone 5 SE | 320 x 568 | ✓
+iPhone 6/7/8 | 375 x 667 | ✓
+iPhone 6/7/8 Plus | 414 x 736 | ✓
+iPhone X | 375 x 812 | ✓
+iPad | 768 x 1024 | ✓
+iPad Pro | 1024 x 1366 | ✓
 
-Below are the test results of the website deployed on GitHub pages when tested on Browsershots.org on various browsers. Key screenshots of the `Browser Test` results can be found in a folder called Browser Tests under the assets folder.
+* Below are the test results of the website deployed on GitHub pages when tested on Browsershots.org on various browsers. Key screenshots of the `Browser Test` results can be found in a folder called Browser Tests under the assets folder.
+* Key: ✓ - Website loads successfully
+
 Operating System | Browser | Home | About | Music |Photos| Events| Store
 ---- | ---- | ---- | ---- | ---- | ---- | ---- | ----  
 Linux | Chrome 71.0 | ✓ |  ✓  |  ✓   |   ✓  |  ✓   |   ✓  |
