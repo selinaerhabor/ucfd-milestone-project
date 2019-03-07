@@ -21,12 +21,19 @@ The Kinks' Main Requirements for the Site:
 ## 1.1 User Stories
 Firstly, I gathered users’ opinions on what they feel a 1960s band website should showcase. From the ease of navigation to the band’s merchandise to old fashioned photos, I collected several user stories discussing potential features that should be included on the website... 
 > "Simple and easy access through navigation across the website"
+
 > "Old fashioned photos – black and white style"
+
 > "1960s Culture/dressing/outfit/wears"
+
 > "Seeing obsolete/old musical instruments and equipment"
+
 > "Seeing how the band relates to audience, introduction speeches/stage performances"
+
 > "Ease to buy The Kinks’ merchandise"
+
 > "Ease to send requests for booking to perform at weddings/other parties"
+
 > "Ease of using website on mobile phones as well as desktops or other devices"
 
 I created sketches of different website layouts and design ideas that would be suitable for the band’s website (see Initial Ideas-Wireframes folder). These sketches were based on meeting the project requirements and the needs of users. The sketches were then developed further to produce wireframes focusing on the different pages/sections of the website to give an idea of the key features that should be included in the website and their layout.
@@ -67,8 +74,8 @@ components of the website.
 *	**Submit Button** -  Users are redirected to "Thanks for completing our Events Form" page when they successfully submit the Events form. When user hovers the cursor over the Submit button, it changes gradually from a lighter green to a darker green colour and returns back to the original state when cursor is removed from button.
 
 ### 2.1.6 [Store] Section:
-*	**Thumbnail Layout Arrangement** - 
-The Kinks' merchandise are organised in terms of their item type (CDs, T-Shirts, Tote Bag, Mugs and Accessories). This layout is visible on both large and smaller screen sizes and number of items displayed on one row decreases to two items per row and then one item per row on a smaller screen size (sm) or extra small screen (xs) respectively.
+*   **Store Tab** - includes a trolley cart icon to signal to users that the Store tab is where they can find The Kinks merchandise to buy.
+*	**Thumbnail Layout Arrangement** - The Kinks' merchandise are organised in terms of their item type (CDs, T-Shirts, Tote Bag, Mugs and Accessories). This layout is visible on both large and smaller screen sizes and number of items displayed on one row decreases to two items per row and then one item per row on a smaller screen size (sm) or extra small screen (xs) respectively.
 *	**Buy Now Button** -  Users are redirected to merchandise page to purchase sellected item. When the user hovers the cursor over the button, it changes gradually from white to a lighter green colour and returns back to the original state when cursor is removed from button.
 
 ## 2.2 Potential Features to implement in the future:
@@ -144,7 +151,7 @@ This section discusses the results from testing the website and its features. Te
 * Page loads bigger size of picture in a new tab 
 * Picture quality is clear and showcases The Kinks' outfits, musical instruments and photo styles over the years.
 
-**Buy Now Button**
+**Buy Now Buttons**
 > "Ease to buy The Kinks’ merchandise"
 
 * On [Store] Page, place cursor over "Buy Now" button
@@ -157,28 +164,28 @@ The website has been tested on various browsers including Internet Explorer, Saf
 > "Ease of using website on mobile phones as well as desktops or other devices"
 
 The below screen size tests were carried out assessing performance of all pages of the website using Google Chrome 72.0 (Windows):
-| Device | Screen Size (Weight x Height) | Responsiveness |
-| ------ | ------ | ------ |
-| Galaxy S5 | 360 x 640 | Excellent
-| Pixel 2 | 411 x 731 | Excellent
-| Pixel 2 XL | 411 x 823 | Excellent
-| iPhone 5 SE | 320 x 568 | Excellent
-| iPhone 6/7/8 | 375 x 667 | Excellent
-| iPhone 6/7/8 Plus | 414 x 736 | Excellent
-| iPhone X | 375 x 812 | Excellent
-| iPad | 768 x 1024 | Excellent
-| iPad Pro | 1024 x 1366 | Excellent
+Device | Screen Size (Weight x Height) | Responsiveness 
+------ | ------ | ------
+Galaxy S5 | 360 x 640 | Excellent
+Pixel 2 | 411 x 731 | Excellent
+Pixel 2 XL | 411 x 823 | Excellent
+iPhone 5 SE | 320 x 568 | Excellent
+iPhone 6/7/8 | 375 x 667 | Excellent
+iPhone 6/7/8 Plus | 414 x 736 | Excellent
+iPhone X | 375 x 812 | Excellent
+iPad | 768 x 1024 | Excellent
+iPad Pro | 1024 x 1366 | Excellent
 
 Below are the test results of the website deployed on GitHub pages when tested on Browsershots.org on various browsers. Key screenshots of the `Browser Test` results can be found in a folder called Browser Tests under the assets folder.
-| Operating System | Browser | Home | About | Music |Photos| Events| Store
-| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | 
-| Linux | Chrome 71.0 | ✓ |  ✓  |  ✓   |   ✓  |  ✓   |   ✓  |
-| Linux | Firefox 3.0 |  ✓   |  ✓   |  ✓  |  ✓ |   ✓ |   ✓ |
-| Linux | Firefox 61.0 | ✓    |   ✓  |  ✓   |  ✓   |    ✓ |    ✓ | 
-| Windows | Firefox 64.0 | ✓    | ✓    |  ✓   |  ✓   |  ✓   |   ✓  | 
-| Windows | Internet Explorer 11 |  ✓  |   ✓ |    ✓|   ✓ |    ✓|    ✓|
-| Mac | Chrome 48.0 | ✓    |  ✓   |  ✓   |   ✓  |   ✓  |    ✓ | 
-| Mac | Safari 9.1 |  ✓   |  ✓   |   ✓  |   ✓  |    ✓ |    ✓ | 
+Operating System | Browser | Home | About | Music |Photos| Events| Store
+---- | ---- | ---- | ---- | ---- | ---- | ---- | ----  
+Linux | Chrome 71.0 | ✓ |  ✓  |  ✓   |   ✓  |  ✓   |   ✓  |
+Linux | Firefox 3.0 |  ✓   |  ✓   |  ✓  |  ✓ |   ✓ |   ✓ |
+Linux | Firefox 61.0 | ✓    |   ✓  |  ✓   |  ✓   |    ✓ |    ✓ | 
+Windows | Firefox 64.0 | ✓    | ✓    |  ✓   |  ✓   |  ✓   |   ✓  | 
+Windows | Internet Explorer 11 |  ✓  |   ✓ |    ✓|   ✓ |    ✓|    ✓|
+Mac | Chrome 48.0 | ✓    |  ✓   |  ✓   |   ✓  |   ✓  |    ✓ | 
+Mac | Safari 9.1 |  ✓   |  ✓   |   ✓  |   ✓  |    ✓ |    ✓ |
 
 The results of the tests above show that the website works well across key operating system browsers and various screen sizes with column arrangement adjusting correctly. The website should therefore be reliable and easy for users to explore. Things to note: In Internet Explorer 11, the audio bar appears as black coloured, but the style of the audio controls border radius is still maintained.
 
@@ -190,9 +197,9 @@ The results of the tests above show that the website works well across key opera
 :-o-placeholder {color: #4a4a4a;}
 :-ms-input-placeholder {color: #4a4a4a; }
 ```
-* Initially I had planned to include icons with the dropdown option for venue capacity, I tried using the <i> tags and then unicode in the code, but the icons still were not appearing. I have added the text "people" to give a sense of the size measurement for venue capacity and removed the code for the icon.
+* Initially, I had planned to include the font awesome "fas fa-user" icon with the dropdown options for venue capacity. I tried using the <i> tags and then unicode in the code, but the icons still were not appearing. I have added the text "people" to give a sense of the size measurement for venue capacity and removed the code for the icon.
 
-* Centering of the Store Item's price and "Buy Now" buttons in store.html were initially slightly tricky as the details of each store item differed in length. The Store item's price and the Buy Now buttons are inside a <div> with the class `order-item`. In order to center the features despite the length of the text above it, I set the position to absolute and declared ppropriate sizes for bottom and width in the style.css file.
+* Centering of the Store Item's price and "Buy Now" buttons in store.html were initially slightly tricky as the details of each store item differed in length. The Store item's price and the Buy Now buttons are inside a `div` with the class `order-item`. In order to center the features despite the length of the text above it, I set the position to absolute and declared ppropriate sizes for bottom and width in the style.css file.
 ```sh
 .order-item {
     position: absolute;
@@ -200,8 +207,7 @@ The results of the tests above show that the website works well across key opera
     width: 65%;
 }
 ```
-
-*  During the testing of the website on different browsers, the footer social media icons were not loading on Firefox or Safari browsers. In order to ensure that the social media icons appear on other types of browsers I changed the Font Awesome link in the `<head>` to the most updated version of font-awesome - Version 5.7.2 and amended the classes of the social media icons in my code. For example, the code for the subscribe icon that appears on smaller screens `<i class="fa fa-pencil-square-o"></i>` has now been changed to `<i class="fas fa-pen"></i>`. The icons used across the website are now appearing correctly for various browser types.
+* During the testing of the website on different browsers, the footer social media icons were not loading on Firefox or Safari browsers. In order to ensure that the social media icons appear on other types of browsers I changed the Font Awesome link in the `<head>` to the most updated version of font-awesome - Version 5.7.2 and amended the classes of the social media icons in my code. For example, the code for the subscribe icon that appears on smaller screens `<i class="fa fa-pencil-square-o"></i>` has now been changed to `<i class="fas fa-pen"></i>`. The icons used across the website are now appearing correctly for various browser types.
 
 * In Internet Explorer 11, the audio bar style for the audio files in the Music section was bigger in size than on other browsers such as Chrome. As a result, the audio bars were overlapping and had no border radius. In order to fix this issue, I specified the width to 250px and border radius to 50px for the `musicAudio` audio controls class.
 ```sh
@@ -229,6 +235,8 @@ $ git clone https://selinaerhabor.github.io/ucfd-milestone-project/
 
 ## 6. Credits
 
+##### Software Developer: Selina Erhabor
+
 ## 6.1 Content:
 An appropriate range of sources have been used in order to publish some factual information about the 1960s Rock Band, The Kinks.
 
@@ -249,19 +257,19 @@ An appropriate range of sources have been used in order to publish some factual 
 
 ### About
 **Sources**:
-The video used in the About section is available on YouTube:
-* https://www.youtube.com/embed/5FhaF0I3gv0
+* The video used in the About section is available on YouTube: https://www.youtube.com/embed/5FhaF0I3gv0
 * https://www.allmusic.com/artist/the-kinks-mn0000100160/biography
 * http://www.keno.org/classic_rock/kinks_bio.htm
 * http://kastoffkinks.co.uk/
 
 ### Music
-The audio clips of The Kinks' top tracks in the Music section were sourced from their Official [YouTube] channel and those YouTube videos 
-were converted into mp3 files which have been included in the audio folder under assets.
 **Sources**: 
 * http://sixtiesnumberones.blogspot.com/2010/11/1964-kinks-you-really-got-me.html
 * https://www.youtube.com/user/TheKinksOfficial
 * https://itunes.apple.com/ca/artist/the-kinks/1179227
+
+The audio clips of The Kinks' top tracks in the Music section were sourced from their Official [YouTube] channel and those YouTube videos 
+were converted into mp3 files which have been included in the audio folder under assets.
 
 ### Photos
 **Sources**: 
@@ -271,20 +279,22 @@ were converted into mp3 files which have been included in the audio folder under
 * https://twitter.com/TheKinks
 
 ### Store
-**SourceS**: 
+**Sources**: 
 * https://thekinks.backstreetmerch.com/
 * https://www.amazon.co.uk/Kinks-Deluxe/dp/B004E9OLZ8
 * https://www.amazon.co.uk/Essential-Kinks/dp/B00MA7GABO
 
 ### Home & Extras
+**Sources**:
 * Website Icon - https://fontawesome.com/icons?d=gallery&q=guitar
-* https://fontawesome.com/icons/pen?style=solid
-* https://fontawesome.com/icons/cart-arrow-down?style=solid
+* Subscribe Icon - https://fontawesome.com/icons/pen?style=solid
+* Store Icon - https://fontawesome.com/icons/cart-arrow-down?style=solid
 
 ### Footer
-* Facebook Icon - https://us.mullenlowe.com/wp-content/uploads/2014/04/face.png
-* Twitter Icon - https://upload.wikimedia.org/wikipedia/de/thumb/9/9f/Twitter_bird_logo_2012.svg/1200px-Twitter_bird_logo_2012.svg.png
-* YouTube Icon - https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Youtube_icon.svg/1024px-Youtube_icon.svg.png
+**Sources**:
+* Facebook Icon - https://fontawesome.com/icons/facebook-square?style=brands
+* Twitter Icon - https://fontawesome.com/icons/twitter-square?style=brands
+* YouTube Icon - https://fontawesome.com/icons/youtube-square?style=brands
 
 
 [//]: # (Below are the reference links used in the body of the README file)
