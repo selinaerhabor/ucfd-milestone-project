@@ -1,4 +1,4 @@
-# UCFD Milestone Project: The Kinks' Website
+# User Centric Frontend Development Project: The Kinks' Website
 
 This is a website created for the 1960s Rock Band called The Kinks to showcase their work and music influence. Formed in Muswell Hill, London, 
 UK in 1963, The Kinks are believed to be one of the most influential rock bands of the 1960s.
@@ -12,10 +12,10 @@ A live demo of The Kinks’ website can be viewed [here]
 ## 1. User Experience Design (UX)
 The primary target audience of this website are fans and potential fans of the rock band who are interested in viewing clips of the band and the band’s work.
 
-The Kinks' Main Requirements for the Site: 
-* Photos of the band members
-* A video clip
-* Audio clips
+The Kinks' Main Requirements for the Website: 
+* Display photos of the band members
+* Display a video clip
+* Display audio clips
 * Showcase their music and increase awareness of their availability to perform at events
 * Provide links to their social media pages to improve their social media presence
 
@@ -38,10 +38,12 @@ Firstly, I gathered users’ opinions on what they feel a 1960s band website sho
 
 > "Ease of using website on mobile phones as well as desktops or other devices"
 
-I created sketches of different website layouts and design ideas that would be suitable for the band’s website (see Initial Ideas-Wireframes folder). These sketches were based on meeting the project requirements and the needs of users. The sketches were then developed further to produce wireframes focusing on the different pages/sections of the website to give an idea of the key features that should be included in the website and their layout.
+I created sketches of different website layouts and design ideas that would be suitable for the band’s website (see Initial Ideas - Wireframes folder). These sketches were based on meeting the project requirements and the needs of users. The sketches were then developed further to produce wireframes focusing on the different pages/sections of the website to give an idea of the key features that should be included in the website and their layout.
+
+
 
 ## 2. Features
-My project focused on meeting the needs of users’ for the website, so the user stories were taken into account during building the features and 
+My project focused on meeting the needs of users’ for the website, so the user stories were taken into account when building the features and 
 components of the website.
 
 ## 2.1 Existing Features
@@ -49,13 +51,13 @@ components of the website.
 ### 2.1.1 [Home] Page and Standard Features:
 *	**Navigation Bar** - allows users to navigate through the website. This navigation bar is available on all the pages of the website and also on all forms of screen sizes. On smaller screen sizes the navigation bar is collapsed/minimised to save space on smaller screen sizes. When clicked, the burger icon on the right top end of the screen will then expand the list of the different pages of the website vertically downwards. 
 *	**Subscribe Features** - users are welcomed to subscribe to The Kinks' Newsletter if they would like to. Clicking the "Subscribe" button opens up a form which allows users to fill in their details (email, first name and last name) on the website. Users are redirected to "Thanks for Subscribing" page upon successful completion. When user hovers the cursor over the "Subscribe" button, it changes gradually from light orange background with grey text to a red background with white text and returns back to the original state when cursor is removed from button. On smaller screens the Subscribe text on button changes to the Pen Square Font Awesome icon.
-*	**Footer** - consists of links to The Kinks’ social media channels (Facebook, Twitter and YouTube) and legal documentation on privacy policy, terms & conditions for website usage and Frequently Asked Questions for Store help. When user hovers the cursor over the social media channel icons, the icons gradually increase in size to 45px from medium blue to a light blue colour and returns back to its original state when the cursor is removed from the button. Similarly, when the user hovers the cursor over the footer text links such as Privacy Policy, the link changes from medium blue to a lighter blue colour, but no size change and returns to original state when cursor is removed. The hover effects have been achieved using `:hover` extension for styling the buttons in style.css.
-*   **Website Icon** - the chosen website icon is a guitar, because The Kinks influenced 1960s rock music greatly through their guitar sounds.
-*   **Font** - The font style [Fjalla One], makes letters appear tall and thin especially when in uppercase. This font style works well with The Kinks' brand and has been used as the chosen font to maintain the style of the brand across the website.
+*	**Footer** - consists of links to The Kinks’ social media channels (Facebook, Twitter and YouTube) and legal documentation on privacy policy, terms & conditions for website usage and Frequently Asked Questions for Store help. The footer background is a cropped out section of the index.html background image, in order to maintain colour and style of the page. When user hovers the cursor over the social media channel icons, the icons gradually increase in size to 45px from medium blue to a light blue colour and returns back to its original state when the cursor is removed from the button. Similarly, when the user hovers the cursor over the footer text links such as Privacy Policy, the link changes from medium blue to a lighter blue colour, but no size change and returns to original state when cursor is removed. The hover effects have been achieved using `:hover` extension for styling the buttons in style.css.
+*   **Website Icon** - the chosen website icon is of a guitar. The Kinks influenced 1960s rock music greatly through their guitar sounds and this is the reasoning behind the choice of icon.
+*   **Font** - The Google font style [Fjalla One], makes letters appear tall and thin especially when in uppercase. This font style works well with The Kinks' brand and has been used as the chosen font to maintain the style of the brand across this website.
 
 ### 2.1.2 [About] Section:
-*	**Embedded Video** - A YouTube embedded video, visible and responsive across all screen sizes and is the only video present on this website. The video gives an overview on the biography of The Kinks including interview with some of the band members and their team. The length of the video is approximately just under nine minutes.
-*	**Summary Text** - The text below the video summarises how The Kinks were formed and different band members.
+*	**Embedded Video** - A YouTube embedded video, visible and responsive across all screen sizes and is the only video present on this website. The video gives an overview on the biography of The Kinks including interview with some of the band members and their 'behind-the-scenes' team. The length of the video is just under nine minutes.
+*	**Summary Text** - The text below the video summarises how The Kinks were formed and the different band members.
 *   **Thumbnail Layout Arrangement** - Each thumbnail presented brief information for each member of the band. The thumbnail arrangement has been organised in a pyramid style effect, with the main/long-serving members positioned at the top of the hierachy. This layout is visible on desktop screen sizes (screen widths of 1200px or larger).
 *	**Blockquote style** - The Blockquote style displays the band members in order of service with the main/long-serving members at the top. Visible only on small screen sizes (screen widths less than 1200px).
 
@@ -63,25 +65,27 @@ components of the website.
 *	**Audio Bar** - equipped with play button, pause button, progress slider, volume control and download options. Allows the user to play the audio files.
 *	**Blockquote style** - Visible only on small screen sizes (screen widths less than 1200px). Displays song title, track cover and audio bar for each song using the blockquote style.
 *	**Song Title becomes link on smaller screens** - On smaller screen sizes, users can click on the song title to open up an enlarged image of the music cover (in a new tab) as the image has been downsized to save space on smaller screens.
-*	**More Music Feature** - redirects users to Apple itunes store where they can browse more on The Kinks' music and possibly make purchases. When user hovers the cursor over the "More Music?" button, it changes gradually from white background with blue text to a darker grey background with light blue text and returns back to the original state when cursor is removed from button.
+*	**More Music Button** - redirects users to Apple itunes store where they can browse more on The Kinks' music and make purchases. When the user hovers the cursor over the "More Music?" button, it changes gradually from white background with blue text to a darker grey background with light blue text and returns back to the original state when cursor is removed from button.
 
 ### 2.1.4 [Photos] Section:
 *	**Every Photo is a hyperlink** - All photos when clicked reveal an enlarged version of itself in a new tab so that the user can keep track of where they are on the website. This was done by using  `target="_blank"` inside the `img` tags.
-*	**Three Columns Layout** - Photos have been organised into sections (1960s & 1970s, 1980s & 1990s, 2000-Present). When viewing the Photos section on desktops (i.e. devices with screen widths of 1200px or larger), the photos are arranged in three columns. When viewing on smaller screen sizes, the photos are arranged in one column but their sections are still separating them as user scrolls through. 
+*	**Three Columns Layout** - Photos have been organised into sections (1960s & 1970s, 1980s & 1990s, 2000-Present). When viewing the Photos section on desktops (medium sized screen width), the photos are arranged into three columns. When viewing on smaller screen sizes, the photos are arranged into one column, but their sections are still separating them as the user scrolls through (as intended). 
 
 ### 2.1.5 [Events] Section:
-*	**Upcoming Tours** - Displays six upcoming tour dates Dave Davies or Kast off Kinks will be performing across US and UK. 
+*	**Upcoming Tours** - Displays six upcoming tour dates for Dave Davies and Kast off Kinks are performing across US and UK. 
 *	**Buy Tickets Button** - Users are redirected to where they can purchase their tickets via "Buy Tickets" button. When user hovers the cursor over the button, it changes gradually from white to an orange colour and returns back to white when cursor is removed from button.
-*	**Events Form** - Users can fill in details of the event they would like The Kinks to perform at.
+*	**Events Form** - Users can fill in details of their event which they would like The Kinks to perform at.
 *	**Submit Button** -  Users are redirected to "Thanks for completing our Events Form" page when they successfully submit the Events form. When user hovers the cursor over the Submit button, it changes gradually from a lighter green to a darker green colour and returns back to the original state when cursor is removed from button.
 
 ### 2.1.6 [Store] Section:
 *   **Store Tab** - includes a trolley cart icon to signal to users that the Store tab is where they can find The Kinks merchandise to buy.
 *	**Thumbnail Layout Arrangement** - The Kinks' merchandise are organised in terms of their item type (CDs, T-Shirts, Tote Bag, Mugs and Accessories). This layout is visible on both large and smaller screen sizes and number of items displayed on one row decreases to two items per row and then one item per row on a smaller screen size (sm) or extra small screen (xs) respectively.
-*	**Buy Now Button** -  Users are redirected to merchandise page to purchase sellected item. When the user hovers the cursor over the button, it changes gradually from white to a lighter green colour and returns back to the original state when cursor is removed from button.
+*	**Buy Now Button** -  Users are redirected to merchandise page to purchase selected item. When the user hovers the cursor over the button, it changes gradually from white to a lighter green colour and returns back to the original state when cursor is removed from button.
+
 
 ## 2.2 Potential Features to implement in the future:
-*	**News Feed** - Recent news feed on The Kinks could also be added to appear on one side of the website's home page to give users the opportunity to view information posted on their social media in real time.
+*	**News Feed** - Recent news feed on The Kinks could also be added to appear on one side of the website's home page to give users the opportunity to view information posted on the band's social media channels in real time.
+
 
 
 ## 3. Technologies Used
@@ -89,7 +93,7 @@ components of the website.
 *	[HTML] - Used for the structure and format of the entire website.
 *	[CSS] - For styling the website and maintaining its responsiveness across various screen sizes.
 *	[Bootstrap (3.3.7)] - Used for grid form and assistance in styling.
-*	[JQuery] - Used to ensure modal forms appear on the screen when the specified button is clicked by the user.
+*	[JQuery] - Used to ensure the modal windows appear on the screen when the buttons and links on the pages are clicked by the user.
 *	[Tube2mp3] - Used for converting YouTube videos into MP3 audio files which were easily imported into the website.
 *	[Font Awesome] - Used for displaying the social logos and vector icons present on the website.
 *	[Browsershots.org] - For checking browser compatibility and cross platform browser testing.
@@ -101,7 +105,7 @@ components of the website.
 ## 4. Testing
 This section discusses the results from testing the website and its features. Tests were carried out on key components of the website and on various device screen sizes and browsers.
 
-## 4.1 Feature Testing Process:
+## 4.1 Process of Testing Features:
 **Navigation Bar**
 > "Simple and easy access through navigation across the website"
 
@@ -121,13 +125,13 @@ This section discusses the results from testing the website and its features. Te
 * On [Home] page "Subscribe" button changes from the text "Subscribe" to an icon successfully.
 
 **Social Media Channels**
-* At the "Footer" of the website there are links to The Kinks' social media channels are present
+* At the "Footer" of the website there are links to The Kinks' social media channels
 * Clicked on the "Facebook" icon and a new tab opens loading the official Facebook page of The Kinks
 * Process was repeated for "Twitter" and "YouTube" icons at website footer
 
 **Footer Text Links**
 * At the "Footer" of the website there are text links with information on Privacy Policy, Terms & Conditions and Store Help
-* Clicked on the "Privacy Policy" link and the information appears in a modal form in the centre of the screen 
+* Clicked on the "Privacy Policy" link and the information appears in a modal window in the centre of the screen 
 * Process was repeated for "Terms & Conditions" and "Store Help" icons
 
 **Events Request Form**
@@ -142,37 +146,38 @@ This section discusses the results from testing the website and its features. Te
 **Video**
 > "Seeing how the band relates to audience, introduction speeches/stage performances"
 
-* On [About] Page, click play button on video
+* On [About] Page, clicked the play button on the video
 * Video begins to play whilst on the page 
 * Video quality is clear and showcases some members of The Kinks' and their performances.
 
 **Photos**
 > "Old fashioned photos – black and white style"
+
 > "1960s Culture/dressing/outfit/wears"
+
 > "Seeing obsolete/old musical instruments and equipment"
 
-* On [Photos] Page, click on a picture
+* On [Photos] Page, clicked on a picture
 * Page loads bigger size of picture in a new tab 
 * Picture quality is clear and showcases The Kinks' outfits, musical instruments and photo styles over the years.
+* Process was repeated to ensure all 22 photos had been tested.
 
 **Buy Now Buttons**
 > "Ease to buy The Kinks’ merchandise"
 
-* On [Store] Page, place cursor over "Buy Now" button
+* On [Store] Page, placed cursor over the "Buy Now" button
 * Button hover style comes into effect - changing the button to a light green background
-* Clicked "Buy Now" button and redirected to where I can actually purchase the item.
+* Clicked "Buy Now" button and was redirected to where I can actually purchase the item (as intended).
 
 ## 4.2 HTML and CSS Validation Results:
-Below are the links to the result pages for HTML and CSS Validation service. 
+Below are the links to the result pages for HTML and CSS Validator for the code. 
 
-* HTML code has passed with no errors returned. See [Result - W3C HTML Validation]
-* CSS code has passed with no errors returned. See [Result - W3C CSS Validation]
-
-
+* HTML code for the website has passed with no errors returned. (See screenshot in Browser Tests folder)
+* CSS code for the website has passed with no errors returned. (See screenshot in Browser Tests folder)
 
 
 ## 4.3 Device Screen Size and Browser Compatibility Test Results:
-The website has been tested on various browsers including Internet Explorer, Safari, Firefox and Google Chrome at the various screen sizes using [Browsershots.org]. This website allowed me to test each page of The Kinks' website on Linux, Windows and Mac operating systems.
+The website has been tested on various browsers including Internet Explorer, Safari, Firefox and Google Chrome at the various screen sizes using [Browsershots.org]. This allowed me to test each page of The Kinks' website on Linux, Windows and Mac operating systems.
 
 > "Ease of using website on mobile phones as well as desktops or other devices"
 
@@ -206,7 +211,7 @@ Mac | Chrome 48.0 | ✓    |  ✓   |  ✓   |   ✓  |   ✓  |    ✓ |
 Mac | Safari 9.1 |  ✓   |  ✓   |   ✓  |   ✓  |    ✓ |    ✓ |
 
 
-Overall, the results of the tests above and feedback from users gives enough information that the website works well across key operating system browsers and various screen sizes with column arrangement adjusting correctly. The website should therefore be reliable and easy for users to explore. Things to note: In Internet Explorer 11, the audio bar appears as black coloured, but the style of the audio controls border radius is still maintained.
+Overall, the results of the tests above and feedback from users suggests that the website works well across key operating system browsers and various screen sizes with column arrangement adjusting correctly. The website should therefore be reliable and easy for users to explore. Things to note: In Internet Explorer 11, the audio bar appears as black coloured, but the style of the audio controls border radius is still maintained.
 
 
 ## 4.4 Responses from users who tried out the live website:
@@ -221,7 +226,7 @@ I asked a group of people to visit and explore The Kinks' website. The responses
 > "Looks great"
 
 
-## 4.3 Interesting bugs or problems discovered during testing:
+## 4.5 Interesting bugs or problems discovered during testing:
 * Placeholders for the input forms and required input error messages were not appearing when viewing the website using Internet Explorer 11, so I had to state the color of the placeholder on the main browser types in the style.css file.
 ```sh
 :-webkit-input-placeholder {color: #4a4a4a; }
@@ -231,7 +236,7 @@ I asked a group of people to visit and explore The Kinks' website. The responses
 ```
 * Initially, I had planned to include the font awesome "fas fa-user" icon with the dropdown options for venue capacity. I tried using the `i` tags and then unicode in the code, but the icons still were not appearing. I have added the text "people" to give a sense of the size measurement for venue capacity and removed the code for the icon.
 
-* Centering of the Store Item's price and "Buy Now" buttons in store.html were initially slightly tricky as the details of each store item differed in length. The Store item's price and the Buy Now buttons are inside a `div` with the class `order-item`. In order to center the features despite the length of the text above it, I set the position to absolute and declared ppropriate sizes for bottom and width in the style.css file.
+* Centering of the store item's price and "Buy Now" buttons in store.html were initially slightly tricky as the details of each store item differed in length. The store item's price and the Buy Now buttons are inside a `div` with the class `order-item`. In order to center the features despite the length of the text above it, I set the position to absolute and declared appropriate sizes for bottom and width in the style.css file.
 ```sh
 .order-item {
     position: absolute;
@@ -241,9 +246,9 @@ I asked a group of people to visit and explore The Kinks' website. The responses
 ```
 * During the testing of the website on different browsers, the footer social media icons were not loading on Firefox or Safari browsers. In order to ensure that the social media icons appear on other types of browsers I changed the Font Awesome link in the `<head>` to the most updated version of font-awesome - Version 5.7.2 and amended the classes of the social media icons in my code. For example, the code for the subscribe icon that appears on smaller screens `<i class="fa fa-pencil-square-o"></i>` has now been changed to `<i class="fas fa-pen"></i>`. The icons used across the website are now appearing correctly for various browser types.
 
-* In Internet Explorer 11, the audio bar style for the audio files in the Music section was bigger in size than on other browsers such as Chrome. As a result, the audio bars were overlapping and had no border radius. In order to fix this issue, I specified the width to 250px and border radius to 50px for the `musicAudio` audio controls class.
+* In Internet Explorer 11, the audio bar style for the audio files in the Music section was bigger in size than on other browsers such as Chrome. As a result, the audio bars were overlapping and had no border radius. In order to fix this issue, I specified the width to 250px and border radius to 50px for the `music-audio` audio controls class.
 ```sh
-.musicAudio {
+.music-audio {
    margin-bottom: 60px;
    align-items: center;
    text-align: center;
@@ -256,21 +261,43 @@ I asked a group of people to visit and explore The Kinks' website. The responses
 
 ## 5. Deployment
 
-## 5.1 Deployment Process and running code locally:
+## 5.1 Deployment Process:
 The hosting platform for The Kinks’ website is GitHub Pages, which publishes the master branch containing the most updated version of code for the website.
-To deploy the website to GitHub pages, I amended my GitHub Repository settings for this website by changing the source under GitHub pages from `None` to `master branch` to allow the `git push` command in my IDE (Cloud 9) terminal to deploy the website successfully to GitHub pages.
-This project has two branches which have been merged as the Wireframes were initially uploaded directly to GitHub, but a folder called `Initial Ideas - Wireframes` has now been created and is stored under the assets folder.
+To deploy the website to GitHub pages, I created a Repository where the code will be stored via the GitHub website.
 
-The repository for this website can be cloned using the command below in terminal:
+I connected the GitHub repository to my Cloud9 workspace via terminal by clicking on the `Clone or Download` button which appears on the GitHub repository `Code` tab and copied the HTTPS link of the repository to paste it in my Cloud9 workspace terminal by typing the below:
+```sh
+$ git init
+$ git remote add origin https://github.com/selinaerhabor/ucfd-milestone-project.git
+```
+
+I adjusted my GitHub Repository settings for this website by changing the source under GitHub pages from `None` to `master branch`. I then copied my GitHub Pages link `https://selinaerhabor.github.io/ucfd-milestone-project/` into my README.md file to allow easy access to the live website. In order to push the latest code from Cloud 9 IDE to display on GitHub pages, I used the below code:
+```sh
+$ git status
+$ git add (placed file name here) OR $ git add .
+$ git commit -m "(placed comment on why version was updated here)"
+$ git push
+```
+
+This project has two branches which were merged as the Wireframes were initially uploaded to the GitHub repository directly via GitHub website, but a folder called `Initial Ideas - Wireframes` has now been created and is stored under the assets folder.
+
+## 5.2  Running the code locally:
+The repository for this website can be cloned using the command below in Cloud9 workspace terminal:
 ```sh
 $ git clone https://selinaerhabor.github.io/ucfd-milestone-project/
 ```
 
-## 5.2 Discussion of differences between development code and deployed code:
-
-
-
-
+## 5.3 Discussion on the differences between the Wireframes and the deployed Code Version:
+*  The "Home" tab was added to the navigation bar as not all users may be familiar with the idea of clicking the navbar-brand (THE KINKS) website logo to head back to the home page (index.html).
+*  Previously, no feedback was given to users after entering their details to subscribe to the website and users would just see the page refresh and clear inputs from the form. This led me to create ["Thanks for Subscribing"] and ["Thanks for completing our Events form"] pages which, give feedback to the user suggesting that their details have been successfully submitted.
+*  The Thumbnails used in the About page were initially wider, but due to overlapping that was occuring at ~1200px screen width, the thumbnails were reduced.
+*  The video clip was chosen to be embedded in the About page as the video is on the life and work of The Kinks and fits well in this section which contains their biographies.
+*  To make better use of the space of the page, the brief members under the About page are displayed along the same row instead of leaving large spaces present if positioned one thumbnail per row just to continue the style of the inverted pyramid thumbnail arrangement.
+*  In order to keep the structure of the content tidy on all screen sizes, when viewing on smaller screens the Music and About pages present content using blockquotes. This structure has avoided issues of overlapping and poorly presented information.
+*  On the Photos page, padding of 5px is now separating each of the photos displayed expressing more clearly to users that each of the photos can be clicked on to reveal the photo in a larger format.
+*  On the Events page, more inputs have been added to the Events form. Text area has been provided towards the end of the form for users to include any extra details regarding their event, "File Input" has also been included to allow users to upload venue pictures and a required "privacy policy" checkbox agreement has been included as it is important the user understands and are satisfied with how their details will be used.
+*  On the Footer, the YouTube social media icon is not supported on other browsers. In the latest Font Awesome version (v5.7.2), the YouTube social media icon differs from the type I initially planned to use. However, this new icon is being supported across different browsers and matches the play button of the YouTube video embedded towards the top of the About page.
+    
 
 
 ## 6. Credits
@@ -297,7 +324,7 @@ An appropriate range of sources have been used in order to publish some factual 
 
 ### About
 **Sources**:
-* The code for displaying the YouTube video (https://www.youtube.com/embed/5FhaF0I3gv0) used in the About section is taken from the Embed code share option: `<iframe width="560" height="315" src="https://www.youtube.com/embed/5FhaF0I3gv0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+* The code for displaying the YouTube video (https://www.youtube.com/embed/5FhaF0I3gv0) used in the About section is taken from the YouTube's embed code share option: `<iframe width="560" height="315" src="https://www.youtube.com/embed/5FhaF0I3gv0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
 * https://www.allmusic.com/artist/the-kinks-mn0000100160/biography
 * http://www.keno.org/classic_rock/kinks_bio.htm
 * http://kastoffkinks.co.uk/
@@ -365,8 +392,6 @@ were converted into mp3 files which have been included in the audio folder under
 [JQuery]: <https://jquery.com/download/>
 [W3C HTML Validator]: <https://validator.w3.org/>
 [W3C CSS Validator]: <http://jigsaw.w3.org/css-validator/>
-[Result - W3C HTML Validation]: <https://validator.w3.org/nu/?doc=https%3A%2F%2Fselinaerhabor.github.io%2Fucfd-milestone-project%2F>
-[Result - W3C CSS Validation]: <http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fselinaerhabor.github.io%2Fucfd-milestone-project%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en>
 [Twitter]: <https://twitter.com/TheKinks>
 [Facebook]: <https://www.facebook.com/TheKinksOfficial>
 [YouTube]: <https://www.youtube.com/user/TheKinksOfficial>
