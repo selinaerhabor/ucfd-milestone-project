@@ -178,7 +178,7 @@ nav {
 /*----------------------------------------------------index.html body Settings*/
 
 .background-container {
-    background: url("../../assets/images/TheKinksIndex.jpg") no-repeat center center fixed;
+    background: url("../../assets/images/thekinksindex.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -352,7 +352,7 @@ nav {
     padding-bottom: 35px;
 }
 
-.boxLink {
+.box-link {
     height: 75px;
     width: 150px;
     background-color: white;
@@ -361,32 +361,33 @@ nav {
     border-radius: 50px;
     padding-top: 5px;
     cursor: pointer;
+    display: inline-block;
     -webkit-transition: background-color 0.3s, color 0.3s;
     -moz-transition: background-color 0.3s, color 0.3s;
     -o-transition: background-color 0.3s, color 0.3s;
     transition: background-color 0.3s, color 0.3s;
     align-items: center;
     text-align: center;
-    margin: auto;
+    margin-top: 40px;
 }
 
-.boxLink:hover {
+.box-link:hover {
     background-color: darkgray;
 }
 
-.musicBar {
+.music-bar {
     width: 250px;
     margin-bottom: 40px;
 }
 
-.musicTitle {
+.music-title {
     align-items: center;
     text-transform: uppercase;
     margin-top: 15px;
     margin-bottom: 10px;
 }
 
-.musicAudio {
+.music-audio {
    margin-bottom: 60px;
    align-items: center;
    text-align: center;
@@ -398,14 +399,14 @@ nav {
 
 /*Smaller screen view music.html*/
 
-.songTitle {
+.song-title {
     -webkit-transition: color 0.3s; 
     -moz-transition: color 0.3s;
     -o-transition: color 0.3s; 
     transition: color 0.3s;
 }
 
-.songTitle:hover {
+.song-title:hover {
     color: slategray;
     border-color: gray;
 }
@@ -415,6 +416,10 @@ nav {
     font-weight: lighter;
 }
 
+.img-square {
+    height: 100px;
+    width: 100px;
+}
 
 /*---------------------------------------------------photos.html body Settings*/
 .background-photos {
@@ -431,6 +436,10 @@ nav {
 
 .photo {
     margin-bottom: 5px;
+}
+
+.photo-enlarged {
+    width: 200px;
 }
 
 
@@ -487,14 +496,14 @@ nav {
     text-align: center;
 }
 
-#form-link{
+.form-link{
     -webkit-transition: color 0.3s;
     -moz-transition: color 0.3s;
     -o-transition: color 0.3s;
     transition: color 0.3s;
 }
 
-#form-link:hover {
+.form-link:hover {
     color: blue;
 }
 
@@ -522,17 +531,35 @@ different browsers on the form and when user tries to submit empty form--*/
     text-align: center;
 }
 
-#return-events {
+.return-events {
     margin-top: 85px;
     padding: 10px;
-    -webkit-transition: background-color 0.3s; 
-    -moz-transition: background-color 0.3s;
-    -o-transition: background-color 0.3s; 
-    transition: background-color 0.3s;
+    display: block;
+    border-radius: 10px;
+    background-color: lightgray;
+    -webkit-transition: background-color ease-in-out 0.3s; 
+    -moz-transition: background-color ease-in-out 0.3s;
+    -o-transition: background-color ease-in-out 0.3s; 
+    transition: background-color ease-in-out 0.3s;
 }
 
-#return-events:hover {
+
+.return-events:hover {
     background-color: lightblue;
+}
+
+
+/*Modified bootstrap style to stop blocking return-btn-lg font-size*/
+.jumbotron #return-btn-lg {
+    margin-bottom: 0;
+    font-size: 18px;
+    
+}
+
+/*Modified bootstrap style to stop blocking return-btn-sm font-size*/
+.jumbotron #return-btn-sm {
+    margin-bottom: 0;
+    font-size: 14px;
 }
 
 
@@ -563,11 +590,14 @@ different browsers on the form and when user tries to submit empty form--*/
 
 
 .heading-item {
-    text-decoration: bold;
     text-align: center;
     align-items: center;
     font-size: 25px;
     margin-top: 15px;
+}
+
+.item {
+    width: 160px;
 }
 
 
@@ -645,10 +675,10 @@ different browsers on the form and when user tries to submit empty form--*/
     width: 75px;
     font-size: 40px;
     padding: 15px;
-    -webkit-transition: font-size 0.5s, color 1.5s;
-    -moz-transition: font-size 0.5s, color 1.5s;
-    -o-transition: font-size 0.5s, color 1.5s;
-    transition: font-size 0.5s, color 1.5s;
+    -webkit-transition: font-size 0.5s, color 1s;
+    -moz-transition: font-size 0.5s, color 1s;
+    -o-transition: font-size 0.5s, color 1s;
+    transition: font-size 0.5s, color 1s;
 }
 
 .icon:hover {
@@ -656,6 +686,6 @@ different browsers on the form and when user tries to submit empty form--*/
     color: lightblue;
 }
 
-#link {
+.link {
     transition-timing-function: ease-in-out;
 }
