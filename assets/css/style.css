@@ -264,7 +264,7 @@ nav {
     padding: 10px;
 }
 
-.briefMembers {
+.brief-members {
     padding-bottom: 25px;
     align-items: center;
     text-align: center;
@@ -368,7 +368,6 @@ nav {
     transition: background-color 0.3s, color 0.3s;
     align-items: center;
     text-align: center;
-    margin-top: 40px;
 }
 
 .box-link:hover {
