@@ -45,6 +45,7 @@
     </header>
     <!--NAVIGATION BAR-->
 
+    <!--EVENTS PAGE BACKGROUND SETTINGS-->
     <div class="container-fluid tours-container">
       <div class="row">
         <div class="col-xs-12">
@@ -102,10 +103,10 @@
                 <div class="col-xs-12">
                   <div class="feature">
                     <div class="col-xs-6">
-                      <a class="btn btn-sm btn-default" href="https://www1.ticketmaster.com/dave-davies-of-the-kinks-collingswood-new-jersey-04-09-2019/event/0200553CCBFAB540" target="_blank" id="link">Buy Tickets</a>
+                      <a class="btn btn-sm btn-default link" href="https://www1.ticketmaster.com/dave-davies-of-the-kinks-collingswood-new-jersey-04-09-2019/event/0200553CCBFAB540" target="_blank">Buy Tickets</a>
                     </div>
                     <div class="col-xs-6">
-                      <a class="btn btn-sm btn-default" href="https://tickets.tupelohall.com/eventperformances.asp?evt=609" target="_blank" id="link">Buy Tickets</a>
+                      <a class="btn btn-sm btn-default link" href="https://tickets.tupelohall.com/eventperformances.asp?evt=609" target="_blank">Buy Tickets</a>
                     </div>
                   </div>
                 </div>
@@ -164,10 +165,10 @@
                 <div class="col-xs-12">
                   <div class="feature">
                     <div class="col-xs-6">
-                      <a class="btn btn-sm btn-default" href="https://www.ents24.com/cheltenham-events/bacon-theatre/the-kast-off-kinks/1073916793" target="_blank" id="link">Buy Tickets</a>
+                      <a class="btn btn-sm btn-default link" href="https://www.ents24.com/cheltenham-events/bacon-theatre/the-kast-off-kinks/1073916793" target="_blank">Buy Tickets</a>
                     </div>
                     <div class="col-xs-6">
-                      <a class="btn btn-sm btn-default" href="https://www.ents24.com/minehead-events/the-regal-theatre/the-kast-off-kinks/5486658" target="_blank" id="link">Buy Tickets</a>
+                      <a class="btn btn-sm btn-default link" href="https://www.ents24.com/minehead-events/the-regal-theatre/the-kast-off-kinks/5486658" target="_blank">Buy Tickets</a>
                     </div>
                   </div>
                 </div>
@@ -225,10 +226,10 @@
                 <div class="col-xs-12">
                   <div class="feature">
                     <div class="col-xs-6">
-                      <a class="btn btn-sm btn-default" href="https://www.ents24.com/redruth-events/regal-theatre-cornwall-1/the-kast-off-kinks/5370844" target="_blank" id="link">Buy Tickets</a>
+                      <a class="btn btn-sm btn-default link" href="https://www.ents24.com/redruth-events/regal-theatre-cornwall-1/the-kast-off-kinks/5370844" target="_blank">Buy Tickets</a>
                     </div>
                     <div class="col-xs-6">
-                      <a class="btn btn-sm btn-default" href="https://www.ents24.com/witham-events/witham-public-hall/the-kast-off-kinks/1073918265" target="_blank" id="link">Buy Tickets</a>
+                      <a class="btn btn-sm btn-default link" href="https://www.ents24.com/witham-events/witham-public-hall/the-kast-off-kinks/1073918265" target="_blank">Buy Tickets</a>
                     </div>
                   </div>
                 </div>
@@ -247,16 +248,14 @@
                 <h2 class="text-uppercase">Want The Kinks at your event?</h2>
                   <div class="center-form">
                     <form method="GET" action="event-submitted.html">
-                      <p>
-                        <h5>Please complete the online form below</h5>
-                      </p>
+                      <p>Please complete the online form below</p>
                         <div class="form-group">
-                          <label for="firstName">First Name</label>
-                            <input type="text" class="form-control" id="firstName" placeholder="First Name" required/>
+                          <label for="first-name">First Name</label>
+                            <input type="text" class="form-control" id="first-name" placeholder="First Name" required/>
                         </div>
                         <div class="form-group">
-                          <label for="lastName">Last Name</label>
-                            <input type="text" class="form-control" id="LastName" placeholder="Last Name" required/>
+                          <label for="last-name">Last Name</label>
+                            <input type="text" class="form-control" id="last-name" placeholder="Last Name" required/>
                         </div>
                         <div class="form-group">
                           <label for="phone">Phone Number</label>
@@ -269,11 +268,11 @@
                         <h5>Your Event Details:</h5>
                           <div class="form-group">
                             <label for="country">Country</label>
-                              <input type="country" class="form-control" id="country" placeholder="Country" required/>
+                              <input type="text" class="form-control" id="country" placeholder="Country" required/>
                           </div>
                           <small>Please select your options below</small>
                             <div class="form-group">
-                              <select placeholder="Event Type" required/>
+                              <select>
                                 <option value="Select Event Type" class="select-option">Event Type</option>
                                 <option value="Awards Ceremony">Awards Ceremony</option>
                                 <option value="Birthday Celebration">Birthday</option>
@@ -281,7 +280,7 @@
                                 <option value="Wedding/Engagement Party">Wedding/Engagement</option>
                                 <option value="Other">Other</option>
                               </select>
-                              <select required/>
+                              <select>
                                 <option value="Select Venue Capacity" class="select-option">Venue Capacity</option>
                                 <option value="0-49">Up to 49 people</option>
                                 <option value="50-99">50-99 people</option>
@@ -290,7 +289,7 @@
                                 <option value="300-399">300-399 people</option>
                                 <option value="400+">400+ people</option>
                               </select>
-                              <select required/>
+                              <select>
                                 <option value="Select Event Duration" class="select-option">Event Duration</option>
                                 <option value="0-2 hours">0-2 hours</option>
                                 <option value="2-4 hours">2-4 hours</option>
@@ -299,19 +298,19 @@
                               </select>
                             </div>
                             <div class="form-group">
-                              <label for="textarea">Any Further Details</label>
+                              <label for="text-area">Any Further Details</label>
                               <div>
-                                <textarea class="form-control" rows="3" placeholder="If you selected 'Other' for Event Type please include further details here"></textarea>
+                                <textarea class="form-control" rows="3" id="text-area" placeholder="If you selected 'Other' for Event Type please include further details here"></textarea>
                               </div>
                             </div>
                             <div class="form-group">
-                              <label for="InputFile">File input</label>
-                                <input type="file" class="form-control" id="InputFile" >
+                              <label for="input-file">File input</label>
+                                <input type="file" class="form-control" id="input-file" >
                                   <p class="help-block"><small>Please upload here any relevant documents.</small></p>
                             </div>
                             <div class="checkbox">
                               <label>
-                                <input type="checkbox" required/> <small>I have read and understood the <a id="form-link" data-toggle="modal" data-target="#privacy-policy" href="#privacy-policy"><u>Privacy Policy</u></a> and <a id="form-link" data-toggle="modal" data-target="#terms-conditions" href="#terms-conditions"><u>Terms & Conditions</u></a></small>
+                                <input type="checkbox" required/> <small>I have read and understood the <a class="form-link" data-toggle="modal" data-target="#privacy-policy" href="#privacy-policy"><u>Privacy Policy</u></a> and <a class="form-link" data-toggle="modal" data-target="#terms-conditions" href="#terms-conditions"><u>Terms & Conditions</u></a></small>
                               </label>
                             </div>
                             <div class="bottom-of-form">
@@ -325,41 +324,40 @@
       </div>
       <!-- /EVENT REQUEST FORM -->
     </div>
+    <!--/EVENTS PAGE BACKGROUND SETTINGS-->
     
     <!--FOOTER-->  
     <footer class="container-fluid bottom">
-      <div class="row">
-        <div class="col-xs-12">
-          <h5 class="strong">Follow Us</h5>
-            <a class="icon" id="link" href="https://www.facebook.com/TheKinksOfficial" target=_blank><i class="fab fa-facebook-square"></i></a>
-            <a class="icon" id="link" href="https://www.twitter.com/TheKinks" target=_blank><i class="fab fa-twitter-square"></i></a>
-            <a class="icon" id="link" href="https://www.youtube.com/TheKinksOfficial" target=_blank><i class="fab fa-youtube-square"></i></a>
-              <div class="important-info">
-                <a id="link" data-toggle="modal" data-target="#privacy-policy" href="#privacy-policy">Privacy Policy</a>
-              </div>
-              <div class="important-info">
-                <a id="link" data-toggle="modal" data-target="#terms-conditions" href="#terms-conditions">Terms & Conditions</a>
-              </div>
-              <div class="important-info">
-                <a id="link" data-toggle="modal" data-target="#store-help" href="#store-help">Store Help</a>
-              </div>
-              <div class="copyright-info">&copy; 2018</div>
+        <div class="row">
+          <div class="col-xs-12">
+            <h5 class="strong">Follow Us</h5>
+              <a class="icon link" href="https://www.facebook.com/TheKinksOfficial" target=_blank><i class="fab fa-facebook-square"></i></a>
+              <a class="icon link" href="https://www.twitter.com/TheKinks" target=_blank><i class="fab fa-twitter-square"></i></a>
+              <a class="icon link" href="https://www.youtube.com/TheKinksOfficial" target=_blank><i class="fab fa-youtube-square"></i></a>
+                <div class="important-info">
+                  <a class="link" data-toggle="modal" data-target="#privacy-policy" href="#privacy-policy">Privacy Policy</a>
+                </div>
+                <div class="important-info">
+                  <a class="link" data-toggle="modal" data-target="#terms-conditions" href="#terms-conditions">Terms & Conditions</a>
+                </div>
+                <div class="important-info">
+                  <a class="link" data-toggle="modal" data-target="#store-help" href="#store-help">Store Help</a>
+                </div>
+                <div class="copyright-info">&copy; 2018</div>
+          </div>
         </div>
-      </div>
-    </footer>
+      </footer>
     <!--/FOOTER-->  
   
     <!--FOOTER TEXT LINKS-->
-    <div class="modal fade" id="privacy-policy" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal fade" id="privacy-policy" tabindex="-1" role="dialog" aria-labelledby="modal-one">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">×</span>
             </button>
-            <h3 class="modal-title" id="myModalLabel">
-              Our Privacy Policy:
-            </h3>
+            <h3 class="modal-title" id="modal-one">Our Privacy Policy:</h3>
           </div>
           <div class="modal-body">
             <p><small>Effective from January 23, 2018</small></p>
@@ -378,22 +376,20 @@
         </div>
       </div>
     </div>
-    <div class="modal fade" id="terms-conditions" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal fade" id="terms-conditions" tabindex="-1" role="dialog" aria-labelledby="modal-two">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close" >
               <span aria-hidden="true">×</span>
             </button>
-              <h3 class="modal-title" id="myModalLabel">
-                Terms & Conditions:
-              </h3>
+              <h3 class="modal-title" id="modal-two">Terms & Conditions:</h3>
           </div>
           <div class="modal-body">
             <p><small>Effective from January 23, 2018</small></p>
               <div>
                 <h4>1.1 Use of Website:</h4>
-                  You may not use the Site in any improper or unlawful manner or in breach of any legislation or license that applies to you.</p>
+                  You may not use the Site in any improper or unlawful manner or in breach of any legislation or license that applies to you.
                 <h4>1.2 Except as expressly permitted, you agree that when using the Site you will not:</h4>
                   (a) publish, post, upload, store, distribute or disseminate any unlawful, defamatory, infringing, obscene, harmful, 
                   confidential, libelous, hateful, or otherwise illegal material or information or anything which might constitute a 
@@ -413,49 +409,45 @@
         </div>
       </div>
     </div>
-    <div class="modal fade" id="store-help" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close" >
-              <span aria-hidden="true">×</span>
-            </button>
-              <h3 class="modal-title" id="myModalLabel">
-                Store Help
-              </h3>
-          </div>
-          <div class="modal-body">
-            <h4>FAQs:</h4>
-              <h5><u>HOW CAN I TRACK MY ORDERS & PAYMENT?</u></h5>
-                <p>After logging into your account, the status of your checkout history can be found under Order History. 
-                For orders via registered postage, a tracking number (article tracking number) will be given to you after the 
-                receipt given from GB Post.</p>
-              <h5><u>HOW DO I CANCEL MY ORDERS BEFORE I MAKE A PAYMENT?</u></h5>
-                <p>After logging into your account, go to your Shopping Cart. Here, you will be able to make payment or cancel 
-                your order.</p>
-              <h5><u>HOW LONG WILL IT TAKE FOR MY ORDER TO ARRIVE AFTER I MAKE PAYMENT?</u></h5>
-                <p>For customers within United Kingdom, you should expect to receive your orders within five (5) to seven (7) working days upon payment verification depending on the volume of orders received.
-                For customers outside United Kingdom, you should expect to receive your orders within ten (10) to fifteen (15) working days upon payment verification depending on the volume of orders received
-                If you experience delays in receiving your order, contact us immediately and we will help to confirm the status of your order.</p>
-              <h5><u>WHO CAN I CONTACT FOR RETURNS & REFUNDS?</u></h5>
-                <p>
-                  <p>
-                    Gate B, St George`s House
-                    Cape Road
-                    Warwick, CV34 5DJ
-                    United Kingdom
-                  </p>
-                  <p>Tel: +44 (0) 19 26 83 97 770</p>
-                </p>
-              <h5><u>WHAT ARE THE PAYMENT METHODS AVAILABLE?</u></h5>
-                <p>At the moment, we only accept Credit/Debit cards and Paypal payments.</p>
-              <h5><u>CONTACT US:</u></h5>
-                <p>Email: help@thekinks.com</p>
-                <p>Tel: +44 (0) 32 16 78 89 012</p>
+    <div class="modal fade" id="store-help" tabindex="-1" role="dialog" aria-labelledby="modal-three">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close" >
+                <span aria-hidden="true">×</span>
+              </button>
+                <h3 class="modal-title" id="modal-three">Store Help</h3>
+            </div>
+            <div class="modal-body">
+              <h4>FAQs:</h4>
+                <h5><u>HOW CAN I TRACK MY ORDERS & PAYMENT?</u></h5>
+                  <p>After logging into your account, the status of your checkout history can be found under Order History. 
+                  For orders via registered postage, a tracking number (article tracking number) will be given to you after the 
+                  receipt given from GB Post.</p>
+                <h5><u>HOW DO I CANCEL MY ORDERS BEFORE I MAKE A PAYMENT?</u></h5>
+                  <p>After logging into your account, go to your Shopping Cart. Here, you will be able to make payment or cancel 
+                  your order.</p>
+                <h5><u>HOW LONG WILL IT TAKE FOR MY ORDER TO ARRIVE AFTER I MAKE PAYMENT?</u></h5>
+                  <p>For customers within United Kingdom, you should expect to receive your orders within five (5) to seven (7) working days upon payment verification depending on the volume of orders received.
+                  For customers outside United Kingdom, you should expect to receive your orders within ten (10) to fifteen (15) working days upon payment verification depending on the volume of orders received
+                  If you experience delays in receiving your order, contact us immediately and we will help to confirm the status of your order.</p>
+                <h5><u>WHO CAN I CONTACT FOR RETURNS & REFUNDS?</u></h5>
+                    <p>
+                      Gate B, St George`s House
+                      Cape Road
+                      Warwick, CV34 5DJ
+                      United Kingdom
+                    </p>
+                    <p>Tel: +44 (0) 19 26 83 97 770</p>
+                <h5><u>WHAT ARE THE PAYMENT METHODS AVAILABLE?</u></h5>
+                  <p>At the moment, we only accept Credit/Debit cards and Paypal payments.</p>
+                <h5><u>CONTACT US:</u></h5>
+                  <p>Email: help@thekinks.com</p>
+                  <p>Tel: +44 (0) 32 16 78 89 012</p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
     <!--/FOOTER TEXT LINKS-->
     
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" 
