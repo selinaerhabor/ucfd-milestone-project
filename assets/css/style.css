@@ -177,7 +177,7 @@ nav {
 
 /*----------------------------------------------------index.html body Settings*/
 
-.background-container {
+.background-index {
     background: url("../../assets/images/thekinksindex.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -245,7 +245,7 @@ nav {
 
 
 /*----------------------------------------------------about.html body Settings*/
-.about {
+.background-about {
     background-color: lightgray;
     background-size: cover;
     -webkit-background-size: cover;
@@ -443,7 +443,7 @@ nav {
 
 
 /*---------------------------------------------------events.html body Settings*/
-.tours-container {
+.background-events {
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -525,7 +525,7 @@ different browsers on the form and when user tries to submit empty form--*/
     background-color: white;
     padding: 40px;
     border-radius: 10px;
-    margin: 30px;
+    margin: 40px;
     align-items: center;
     text-align: center;
 }
@@ -550,7 +550,7 @@ different browsers on the form and when user tries to submit empty form--*/
 
 /*Modified bootstrap style to stop blocking return-btn-lg font-size*/
 .jumbotron #return-btn-lg {
-    margin-bottom: 0;
+    margin-bottom: 40px;
     font-size: 18px;
     
 }
