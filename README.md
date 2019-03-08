@@ -5,7 +5,9 @@ UK in 1963, The Kinks are believed to be one of the most influential rock bands 
 
 A live demo of The Kinks’ website can be viewed [here]
 
-Main Website Pages: [Home], [About], [Music], [Photos], [Events] and [Store].
+**Main Website Pages:** [Home], [About], [Music], [Photos], [Events] and [Store].
+
+**Other Pages:** ["Thanks for Subscribing"] and ["Thanks for completing our Events form"].
 
 ## 1. User Experience Design (UX)
 The primary target audience of this website are fans and potential fans of the rock band who are interested in viewing clips of the band and the band’s work.
@@ -91,6 +93,8 @@ components of the website.
 *	[Tube2mp3] - Used for converting YouTube videos into MP3 audio files which were easily imported into the website.
 *	[Font Awesome] - Used for displaying the social logos and vector icons present on the website.
 *	[Browsershots.org] - For checking browser compatibility and cross platform browser testing.
+*	[W3C HTML Validator] - Used to check that no errors were present in the HTML code before final deployment.
+*	[W3C CSS Validator] - Used to check that no errors were present in the CSS code before final deployment.
 
 
 
@@ -158,14 +162,23 @@ This section discusses the results from testing the website and its features. Te
 * Button hover style comes into effect - changing the button to a light green background
 * Clicked "Buy Now" button and redirected to where I can actually purchase the item.
 
-## 4.2 Device Screen Size and Browser Compatibility Test Results:
+## 4.2 HTML and CSS Validation Results:
+Below are the links to the result pages for HTML and CSS Validation service. 
+
+* HTML code has passed with no errors returned. See [Result - W3C HTML Validation]
+* CSS code has passed with no errors returned. See [Result - W3C CSS Validation]
+
+
+
+
+## 4.3 Device Screen Size and Browser Compatibility Test Results:
 The website has been tested on various browsers including Internet Explorer, Safari, Firefox and Google Chrome at the various screen sizes using [Browsershots.org]. This website allowed me to test each page of The Kinks' website on Linux, Windows and Mac operating systems.
 
 > "Ease of using website on mobile phones as well as desktops or other devices"
 
 * The below screen size tests were carried out assessing performance of all pages of the website using Google Chrome 72.0 (Windows):
 
-Device | Screen Size (Weight x Height) | Home | About | Music |Photos| Events| Store
+Device | Screen Size (Width x Height) | Home | About | Music |Photos| Events| Store
 ---- | ---- | ---- | ---- | ---- | ---- | ---- | ----  
 Galaxy S5 | 360 x 640 | ✓ |  ✓  |  ✓   |   ✓  |  ✓   |   ✓  |
 Pixel 2 | 411 x 731 | ✓  |  ✓   |  ✓  |  ✓ |   ✓ |   ✓ |
@@ -176,8 +189,10 @@ iPhone 6/7/8 Plus | 414 x 736 | ✓ | ✓    |  ✓   |  ✓   |  ✓   |   ✓ 
 iPhone X | 375 x 812 | ✓ | ✓    |  ✓   |  ✓   |  ✓   |   ✓  | 
 iPad | 768 x 1024 | ✓ | ✓    |  ✓   |  ✓   |  ✓   |   ✓  | 
 iPad Pro | 1024 x 1366 | ✓ | ✓    |  ✓   |  ✓   |  ✓   |   ✓  | 
+Sony Bravia Television 4K |5280 width (55")|✓ | ✓    |  ✓   |  ✓   |  ✓   |   ✓  | 
 
-* Below are the test results of the website deployed on GitHub pages when tested on Browsershots.org on various browsers. Key screenshots of the `Browser Test` results can be found in a folder called Browser Tests under the assets folder.
+
+* Below are the test results of the website deployed on GitHub pages when tested on Browsershots.org on various browsers. Key screenshots of the Browser Test results can be found in a folder called `Browser Tests` under the `assets` folder.
 * Key: ✓ - Website loads successfully
 
 Operating System | Browser | Home | About | Music |Photos| Events| Store
@@ -190,7 +205,21 @@ Windows | Internet Explorer 11 |  ✓  |   ✓ |    ✓|   ✓ |    ✓|    ✓|
 Mac | Chrome 48.0 | ✓    |  ✓   |  ✓   |   ✓  |   ✓  |    ✓ | 
 Mac | Safari 9.1 |  ✓   |  ✓   |   ✓  |   ✓  |    ✓ |    ✓ |
 
-The results of the tests above show that the website works well across key operating system browsers and various screen sizes with column arrangement adjusting correctly. The website should therefore be reliable and easy for users to explore. Things to note: In Internet Explorer 11, the audio bar appears as black coloured, but the style of the audio controls border radius is still maintained.
+
+Overall, the results of the tests above and feedback from users gives enough information that the website works well across key operating system browsers and various screen sizes with column arrangement adjusting correctly. The website should therefore be reliable and easy for users to explore. Things to note: In Internet Explorer 11, the audio bar appears as black coloured, but the style of the audio controls border radius is still maintained.
+
+
+## 4.4 Responses from users who tried out the live website:
+I asked a group of people to visit and explore The Kinks' website. The responses from users were very positive, with emphasis on the website having good aesthetics and looked visually appealing. The responses show success in meeting the user requirements initially set out in the design brief and discussed in the user stories (see 1.1 User Stories). Below are a few of the feedback received from the users:
+
+> "Works well on my phone"
+
+> "The website looks good, I've been able to go through all the tabs easily"
+
+> "Impressive"
+
+> "Looks great"
+
 
 ## 4.3 Interesting bugs or problems discovered during testing:
 * Placeholders for the input forms and required input error messages were not appearing when viewing the website using Internet Explorer 11, so I had to state the color of the placeholder on the main browser types in the style.css file.
@@ -226,6 +255,8 @@ The results of the tests above show that the website works well across key opera
 
 
 ## 5. Deployment
+
+## 5.1 Deployment Process and running code locally:
 The hosting platform for The Kinks’ website is GitHub Pages, which publishes the master branch containing the most updated version of code for the website.
 To deploy the website to GitHub pages, I amended my GitHub Repository settings for this website by changing the source under GitHub pages from `None` to `master branch` to allow the `git push` command in my IDE (Cloud 9) terminal to deploy the website successfully to GitHub pages.
 This project has two branches which have been merged as the Wireframes were initially uploaded directly to GitHub, but a folder called `Initial Ideas - Wireframes` has now been created and is stored under the assets folder.
@@ -234,6 +265,12 @@ The repository for this website can be cloned using the command below in termina
 ```sh
 $ git clone https://selinaerhabor.github.io/ucfd-milestone-project/
 ```
+
+## 5.2 Discussion of differences between development code and deployed code:
+
+
+
+
 
 
 ## 6. Credits
@@ -260,7 +297,7 @@ An appropriate range of sources have been used in order to publish some factual 
 
 ### About
 **Sources**:
-* The video used in the About section is available on YouTube: https://www.youtube.com/embed/5FhaF0I3gv0
+* The code for displaying the YouTube video (https://www.youtube.com/embed/5FhaF0I3gv0) used in the About section is taken from the Embed code share option: `<iframe width="560" height="315" src="https://www.youtube.com/embed/5FhaF0I3gv0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
 * https://www.allmusic.com/artist/the-kinks-mn0000100160/biography
 * http://www.keno.org/classic_rock/kinks_bio.htm
 * http://kastoffkinks.co.uk/
@@ -326,6 +363,10 @@ were converted into mp3 files which have been included in the audio folder under
 [Fjalla One]: <https://fonts.google.com/specimen/Fjalla+One?selection.family=Fjalla+One>
 [Sunny Afternoon The Musical]: <https://sunnyafternoonthemusical.com/>
 [JQuery]: <https://jquery.com/download/>
+[W3C HTML Validator]: <https://validator.w3.org/>
+[W3C CSS Validator]: <http://jigsaw.w3.org/css-validator/>
+[Result - W3C HTML Validation]: <https://validator.w3.org/nu/?doc=https%3A%2F%2Fselinaerhabor.github.io%2Fucfd-milestone-project%2F>
+[Result - W3C CSS Validation]: <http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fselinaerhabor.github.io%2Fucfd-milestone-project%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en>
 [Twitter]: <https://twitter.com/TheKinks>
 [Facebook]: <https://www.facebook.com/TheKinksOfficial>
 [YouTube]: <https://www.youtube.com/user/TheKinksOfficial>
