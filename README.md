@@ -302,8 +302,6 @@ $ git clone https://selinaerhabor.github.io/ucfd-milestone-project/
 
 ## 6. Credits
 
-#### Software Developer: Selina Erhabor
-
 ## 6.1 Content:
 An appropriate range of sources have been used in order to publish some factual information about the 1960s Rock Band, The Kinks.
 
